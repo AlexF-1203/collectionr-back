@@ -1,6 +1,6 @@
 # Web Framework
 
-Django==5.0.1
+Django==4.2.9
 djangorestframework==3.14.0
 django-cors-headers==4.3.1
 
