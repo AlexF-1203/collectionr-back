@@ -55,3 +55,5 @@ class CollectionSerializer(serializers.ModelSerializer):
             **validated_data
         )
         return collection
+
+# ceci est un commentaire
