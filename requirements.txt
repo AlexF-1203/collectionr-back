@@ -1,6 +1,6 @@
 # Web Framework
 
-Django==5.0.1
+Django==4.2.9
 djangorestframework==3.14.0
 django-cors-headers==4.3.1
 
@@ -65,3 +65,6 @@ whitenoise==6.6.0
 
 celery==5.3.6
 redis==5.0.1
+
+# Pokemon TCG SDK
+pokemontcgsdk==3.4.0

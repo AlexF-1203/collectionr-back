@@ -1,6 +1,8 @@
+from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.contrib.auth.models import User
 from djmoney.models.fields import MoneyField
+
 
 class Card(models.Model):
     RARITY_CHOICES = [
@@ -52,3 +54,12 @@ class Collection(models.Model):
 
     def __str__(self):
         return f"{self.user.username}'s {self.card.name} x{self.quantity}"
+
+# Create your models here.
+
+class User(AbstractUser):
+    # Ajoutez des champs personnalisés si nécessaire
+    profile_picture = models.ImageField(upload_to='profiles/', null=True, blank=True)
+    # test
+    class Meta:
+        db_table = 'auth_user'

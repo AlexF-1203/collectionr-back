@@ -2,8 +2,8 @@ from rest_framework import viewsets, permissions
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from django.db.models import Sum
-from .models import Card, Collection
-from .serializers import CardSerializer, CollectionSerializer
+from .models import Card, Collection, User
+from .serializers import CardSerializer, CollectionSerializer, UserSerializer
 
 class CardViewSet(viewsets.ModelViewSet):
     queryset = Card.objects.all()
@@ -57,3 +57,17 @@ class CollectionViewSet(viewsets.ModelViewSet):
                 for item in cards_by_rarity
             }
         })
+
+# Create your views here.
+class UserViewSet(viewsets.ModelViewSet):
+    queryset = User.objects.all()
+    serializer_class = UserSerializer
+
+    def get_permissions(self):
+        if self.action in ['list', 'retrieve', 'destroy']:
+            self.permission_classes = [IsAdminUser]
+        elif self.action == 'create':  # Pour l'inscription
+            self.permission_classes = [permissions.AllowAny]
+        else:
+            self.permission_classes = [permissions.IsAuthenticated]  # Pour les autres actions
+        return super().get_permissions()
