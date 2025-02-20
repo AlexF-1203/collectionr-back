@@ -2,6 +2,7 @@ from django.contrib.auth.models import AbstractUser
 from django.db import models
 from django.contrib.auth.models import User
 from djmoney.models.fields import MoneyField
+from django.conf import settings
 
 
 class Card(models.Model):
@@ -33,7 +34,7 @@ class Card(models.Model):
         return f"{self.name} ({self.set_name} #{self.number})"
 
 class Collection(models.Model):
-    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     card = models.ForeignKey(Card, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
     condition = models.CharField(max_length=20, choices=[
