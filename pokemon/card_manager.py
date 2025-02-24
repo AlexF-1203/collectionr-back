@@ -29,19 +29,33 @@ class PokemonCardManager:
         """
         try:
             card = Card.find(card_id)
+            
+            # Récupération du prix si disponible
+            prices = {}
+            if hasattr(card, 'tcgplayer') and hasattr(card.tcgplayer, 'prices'):
+                prices = card.tcgplayer.prices
+            
+            # Récupération de la date de sortie du set
+            release_date = None
+            if hasattr(card, 'set') and hasattr(card.set, 'releaseDate'):
+                release_date = card.set.releaseDate
+            
             return {
                 'id': card.id,
                 'set': card.set.id,
+                'set_name': card.set.name,
                 'name': card.name,
                 'supertype': card.supertype,
-                'subtypes': card.subtypes,
-                'types': card.types,
+                'subtypes': card.subtypes if hasattr(card, 'subtypes') else [],
+                'types': card.types if hasattr(card, 'types') else [],
                 'number': card.number,
-                'rarity': card.rarity,
+                'rarity': card.rarity if hasattr(card, 'rarity') else None,
                 'images': {
                     'small': card.images.small,
                     'large': card.images.large
-                }
+                },
+                'prices': prices,
+                'release_date': release_date
             }
         except Exception as e:
             print(f"Erreur lors de l'extraction de la carte {card_id}: {str(e)}")
@@ -57,7 +71,12 @@ class PokemonCardManager:
         """
         try:
             cards = Card.where(q=f'set.id:{set_id}')
-            return [self.extract_card_info(card.id) for card in cards]
+            result = []
+            for card in cards:
+                card_info = self.extract_card_info(card.id)
+                if card_info:
+                    result.append(card_info)
+            return result
         except Exception as e:
             print(f"Erreur lors de la récupération du set {set_id}: {str(e)}")
             return []
@@ -68,6 +87,7 @@ class PokemonCardManager:
         Args:
             set_ids: Liste des identifiants de sets
         """
+        self.cards_data = []  # Réinitialisation pour éviter les doublons
         for set_id in set_ids:
             cards = self.get_set_cards(set_id)
             self.cards_data.extend(cards)
@@ -83,4 +103,4 @@ class PokemonCardManager:
             filename = f'pokemon_cards_seed_{timestamp}.json'
             
         with open(filename, 'w', encoding='utf-8') as f:
-            json.dump(self.cards_data, f, indent=2) 
+            json.dump(self.cards_data, f, indent=2)

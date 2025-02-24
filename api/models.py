@@ -1,66 +1,10 @@
-from django.contrib.auth.models import AbstractUser
-from django.db import models
-from django.contrib.auth.models import User
-from djmoney.models.fields import MoneyField
-from django.conf import settings
+# Ce fichier est maintenu pour la compatibilité avec le code existant
+# Il importe tous les modèles depuis le package models
 
+from .models.user import User
+from .models.card import Card
+from .models.collection import Collection
+from .models.set import Set
+from .models.favorites import Favorites
 
-class Card(models.Model):
-    RARITY_CHOICES = [
-        ('COMMON', 'Common'),
-        ('UNCOMMON', 'Uncommon'),
-        ('RARE', 'Rare'),
-        ('HOLORARE', 'Holo Rare'),
-        ('ULTRARARE', 'Ultra Rare'),
-        ('SECRETRARE', 'Secret Rare'),
-    ]
-
-    name = models.CharField(max_length=100)
-    set_name = models.CharField(max_length=100)
-    number = models.CharField(max_length=20)
-    rarity = models.CharField(max_length=20, choices=RARITY_CHOICES)
-    image_url = models.URLField()
-    price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
-    description = models.TextField(blank=True)
-    release_date = models.DateField()
-    created_at = models.DateTimeField(auto_now_add=True)
-    updated_at = models.DateTimeField(auto_now=True)
-
-    class Meta:
-        unique_together = ['set_name', 'number']
-        ordering = ['-created_at']
-
-    def __str__(self):
-        return f"{self.name} ({self.set_name} #{self.number})"
-
-class Collection(models.Model):
-    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
-    card = models.ForeignKey(Card, on_delete=models.CASCADE)
-    quantity = models.PositiveIntegerField(default=1)
-    condition = models.CharField(max_length=20, choices=[
-        ('MINT', 'Mint'),
-        ('NM', 'Near Mint'),
-        ('EX', 'Excellent'),
-        ('GD', 'Good'),
-        ('LP', 'Lightly Played'),
-        ('PL', 'Played'),
-        ('POOR', 'Poor'),
-    ])
-    is_foil = models.BooleanField(default=False)
-    acquired_date = models.DateField(auto_now_add=True)
-    notes = models.TextField(blank=True)
-
-    class Meta:
-        ordering = ['-acquired_date']
-
-    def __str__(self):
-        return f"{self.user.username}'s {self.card.name} x{self.quantity}"
-
-# Create your models here.
-
-class User(AbstractUser):
-    # Ajoutez des champs personnalisés si nécessaire
-    profile_picture = models.ImageField(upload_to='profiles/', null=True, blank=True)
-    # test
-    class Meta:
-        db_table = 'auth_user'
+__all__ = ['User', 'Card', 'Collection', 'Set', 'Favorites']
