@@ -7,7 +7,7 @@ from rest_framework_simplejwt.authentication import JWTAuthentication
 from rest_framework.pagination import PageNumberPagination
 
 class PokemonPagination(PageNumberPagination):
-    page_size = 5  # Nombre de cartes par page
+    page_size = 5 
     page_size_query_param = 'page_size'
     max_page_size = 20
 
@@ -20,7 +20,6 @@ class PokemonCardView(APIView):
         try:
             manager = PokemonCardManager()
             if not manager.cards_data:
-                # Chargez les données depuis le fichier seed
                 import json
                 import os
                 seed_path = os.path.join(os.path.dirname(__file__), '..', 'seeds', 'pokemon_cards_seed.json')
