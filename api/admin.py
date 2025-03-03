@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import User, Collection, Card, Set, Favorites
+from .models import User, Collection, Card, Set, Favorites, CardPrice
 
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
@@ -26,5 +26,10 @@ class SetAdmin(admin.ModelAdmin):
 class FavoritesAdmin(admin.ModelAdmin): 
     list_display = ('user', 'card', 'created_at')
     search_fields = ('user__username', 'card')
+
+@admin.register(CardPrice)
+class CardPriceAdmin(admin.ModelAdmin):
+    list_display = ('card', 'avg1', 'avg7', 'avg30', 'daily_price')
+    search_fields = ('card__name', 'card__set_name')
 
 

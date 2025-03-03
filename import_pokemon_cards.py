@@ -13,7 +13,7 @@ sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 django.setup()
 
-from api.models import Card
+from api.models import Card, CardPrice
 from django.utils import timezone
 from djmoney.money import Money
 
@@ -52,16 +52,43 @@ def get_cards_from_set(set_id):
                     'large': card.images.large
                 }
             }
-            prices = {}
+            
+            # Récupération des prix TCGPlayer
             if hasattr(card, 'tcgplayer') and hasattr(card.tcgplayer, 'prices'):
+                prices_dict = {}
                 for price_type, price_obj in card.tcgplayer.prices.__dict__.items():
                     if price_obj is not None:
                         if hasattr(price_obj, '__dict__'):
-                            prices[price_type] = price_obj.__dict__
+                            formatted_price_dict = {}
+                            for key, value in price_obj.__dict__.items():
+                                if isinstance(value, (int, float)):
+                                    formatted_price_dict[key] = round(float(value), 2)
+                                else:
+                                    formatted_price_dict[key] = value
+                            prices_dict[price_type] = formatted_price_dict
                         else:
-                            prices[price_type] = price_obj
+                            if isinstance(price_obj, (int, float)):
+                                prices_dict[price_type] = round(float(price_obj), 2)
+                            else:
+                                prices_dict[price_type] = price_obj
+                card_data['prices'] = prices_dict
+
+            # Récupération des données cardmarket
+            if hasattr(card, 'cardmarket') and hasattr(card.cardmarket, 'prices'):
+                cardmarket_prices = {}
+                for price_key, price_value in card.cardmarket.prices.__dict__.items():
+                    if price_value is not None:
+                        if isinstance(price_value, (int, float)):
+                            cardmarket_prices[price_key] = round(float(price_value), 2)
+                        else:
+                            cardmarket_prices[price_key] = price_value
+
+                card_data['cardmarket'] = {
+                    'url': card.cardmarket.url,
+                    'updatedAt': card.cardmarket.updatedAt,
+                    'prices': cardmarket_prices
+                }
             
-            card_data['prices'] = prices
             if hasattr(card.set, 'releaseDate'):
                 card_data['release_date'] = card.set.releaseDate
             
@@ -183,6 +210,38 @@ def import_cards_to_db(cards_data, clear_existing=False):
                 }
             )
             
+            # Récupération des prix avg1, avg7, avg30 depuis cardmarket
+            cardmarket_data = card_data.get('cardmarket', {})
+            if cardmarket_data and 'prices' in cardmarket_data:
+                prices = cardmarket_data['prices']
+                avg1 = round(float(prices.get('avg1', 0) or 0), 2)
+                avg7 = round(float(prices.get('avg7', 0) or 0), 2)
+                avg30 = round(float(prices.get('avg30', 0) or 0), 2)
+                print(f"Prix trouvés pour {name}: avg1={avg1:.2f}, avg7={avg7:.2f}, avg30={avg30:.2f}")
+            else:
+                print(f"Pas de données cardmarket pour {name}, utilisation de variations sur le prix de base")
+                base_price = price
+                variation_percent = 0.15
+                avg1 = round(base_price * (1 + random.uniform(-variation_percent/3, variation_percent/3)), 2)
+                avg7 = round(base_price * (1 + random.uniform(-variation_percent/2, variation_percent/2)), 2)
+                avg30 = round(base_price * (1 + random.uniform(-variation_percent, variation_percent)), 2)
+
+            # Créer ou mettre à jour CardPrice avec les valeurs trouvées
+            card_price, price_created = CardPrice.objects.update_or_create(
+                card=card,
+                defaults={
+                    'avg1': avg1,
+                    'avg7': avg7,
+                    'avg30': avg30,
+                    'daily_price': {}  # Sera calculé automatiquement par calculate_daily_price
+                }
+            )
+
+            if price_created:
+                print(f"✓ Prix créé pour: {name} ({set_name} #{number})")
+            else:
+                print(f"✓ Prix mis à jour pour: {name} ({set_name} #{number})")
+
             if created:
                 created_count += 1
                 print(f"✓ Créée: {name} ({set_name} #{number})")
