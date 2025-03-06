@@ -21,7 +21,6 @@ class Card(models.Model):
     rarity = models.CharField(max_length=20, choices=RARITY_CHOICES)
     image_url = models.URLField()
     price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
-    # Réfléchir à un algorithme d'interpolation linéaire pour déterminer la cote d'une carte
     description = models.TextField(blank=True)
     release_date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
@@ -60,9 +59,9 @@ class CardPrice(models.Model):
         
         # Créer des points de contrôle supplémentaires
         control_points = []
-        control_points.append((1, avg1))  # Jour 1
-        control_points.append((7, avg7))  # Jour 7
-        control_points.append((30, avg30))  # Jour 30
+        control_points.append((1, avg1))
+        control_points.append((7, avg7))
+        control_points.append((30, avg30))
         
         # Ajouter des points de contrôle intermédiaires pour les fluctuations si nécessaire
         if should_fluctuate:
