@@ -1,5 +1,4 @@
 """
-Script pour importer des cartes Pokémon directement dans la DB.
 Utilisation: python import_pokemon_cards.py
 """
 import os
@@ -53,7 +52,6 @@ def get_cards_from_set(set_id):
                 }
             }
             
-            # Récupération des prix TCGPlayer
             if hasattr(card, 'tcgplayer') and hasattr(card.tcgplayer, 'prices'):
                 prices_dict = {}
                 for price_type, price_obj in card.tcgplayer.prices.__dict__.items():
@@ -73,7 +71,6 @@ def get_cards_from_set(set_id):
                                 prices_dict[price_type] = price_obj
                 card_data['prices'] = prices_dict
 
-            # Récupération des données cardmarket
             if hasattr(card, 'cardmarket') and hasattr(card.cardmarket, 'prices'):
                 cardmarket_prices = {}
                 for price_key, price_value in card.cardmarket.prices.__dict__.items():
@@ -210,7 +207,6 @@ def import_cards_to_db(cards_data, clear_existing=False):
                 }
             )
             
-            # Récupération des prix avg1, avg7, avg30 depuis cardmarket
             cardmarket_data = card_data.get('cardmarket', {})
             if cardmarket_data and 'prices' in cardmarket_data:
                 prices = cardmarket_data['prices']
@@ -226,14 +222,13 @@ def import_cards_to_db(cards_data, clear_existing=False):
                 avg7 = round(base_price * (1 + random.uniform(-variation_percent/2, variation_percent/2)), 2)
                 avg30 = round(base_price * (1 + random.uniform(-variation_percent, variation_percent)), 2)
 
-            # Créer ou mettre à jour CardPrice avec les valeurs trouvées
             card_price, price_created = CardPrice.objects.update_or_create(
                 card=card,
                 defaults={
                     'avg1': avg1,
                     'avg7': avg7,
                     'avg30': avg30,
-                    'daily_price': {}  # Sera calculé automatiquement par calculate_daily_price
+                    'daily_price': {}
                 }
             )
 

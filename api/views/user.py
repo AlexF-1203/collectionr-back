@@ -1,5 +1,5 @@
 from rest_framework import viewsets, permissions, status
-from rest_framework.permissions import IsAdminUser, IsAuthenticated
+from rest_framework.permissions import IsAdminUser, IsAuthenticated, AllowAny
 from rest_framework.decorators import action
 from rest_framework.response import Response
 from api.models import User, Collection, Card, Favorites, Set
@@ -16,6 +16,9 @@ class UserViewSet(viewsets.ModelViewSet):
     """
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    
+    # Définir la permission par défaut comme AllowAny pour résoudre le problème OPTIONS
+    permission_classes = [AllowAny]
 
     def get_permissions(self):
         """
@@ -24,13 +27,31 @@ class UserViewSet(viewsets.ModelViewSet):
         - create: tout le monde (inscription)
         - autres: utilisateur authentifié
         """
+        logger.info(f"Action demandée: {self.action}")
+        
         if self.action in ['list', 'retrieve', 'destroy']:
             self.permission_classes = [IsAdminUser]
         elif self.action == 'create':  # Pour l'inscription
-            self.permission_classes = [permissions.AllowAny]
+            self.permission_classes = [AllowAny]
         else:
-            self.permission_classes = [permissions.IsAuthenticated]  # Pour les autres actions
+            self.permission_classes = [IsAuthenticated]  # Pour les autres actions
+            
+        logger.info(f"Permissions appliquées: {self.permission_classes}")
         return super().get_permissions()
+        
+    def create(self, request, *args, **kwargs):
+        """
+        Créer un nouvel utilisateur et journaliser l'opération
+        """
+        logger.info(f"Tentative de création d'utilisateur avec les données: {request.data}")
+        try:
+            return super().create(request, *args, **kwargs)
+        except Exception as e:
+            logger.error(f"Erreur lors de la création de l'utilisateur: {str(e)}")
+            return Response(
+                {"detail": f"Erreur lors de la création de l'utilisateur: {str(e)}"},
+                status=status.HTTP_400_BAD_REQUEST
+            )
     
     @action(detail=False, methods=['get'], permission_classes=[IsAuthenticated])
     def profile(self, request):

@@ -10,27 +10,21 @@ import django
 import argparse
 from datetime import datetime
 
-# Configurer Django pour être utilisé en dehors d'un projet
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'core.settings')
 django.setup()
 
-# Importer les modèles après avoir configuré Django
 from api.models import Set, User
 from django.utils import timezone
 
-# Importer le SDK Pokémon TCG API
 from pokemontcgsdk import Set as PokemonSet, RestClient
 
-# Vérifier si la clé API est configurée
 API_KEY = os.getenv('POKEMON_TCG_API_KEY')
 if not API_KEY:
     print("Attention: La clé API Pokémon TCG n'est pas configurée.")
     print("Vous pouvez l'obtenir sur https://dev.pokemontcg.io/ et la définir avec:")
     print("export POKEMON_TCG_API_KEY=votre_clé_api")
-    # On continue sans clé API, l'API limitera les requêtes
 
-# Configurer l'API
 RestClient.configure(API_KEY)
 
 def get_pokemon_sets():
@@ -45,11 +39,10 @@ def get_pokemon_sets():
         pokemon_sets = PokemonSet.all()
         
         for set_data in pokemon_sets:
-            # Extraction des informations pertinentes
             set_info = {
                 'title': set_data.name,
                 'code': set_data.id,
-                'tcg': 'pokemon', # Type de jeu de cartes à collectionner
+                'tcg': 'pokemon',
                 'release_date': set_data.releaseDate if hasattr(set_data, 'releaseDate') else None,
                 'total_cards': set_data.printedTotal if hasattr(set_data, 'printedTotal') else 0,
                 'image_url': set_data.images.logo if hasattr(set_data, 'images') and hasattr(set_data.images, 'logo') else '',
@@ -71,7 +64,6 @@ def import_sets_to_db(sets_data, user_id=None, clear_existing=False):
         user_id: ID de l'utilisateur (None = tous les utilisateurs)
         clear_existing: Supprimer les sets existants
     """
-    # Déterminer quels utilisateurs doivent recevoir les sets
     users = []
     if user_id:
         try:
@@ -84,8 +76,7 @@ def import_sets_to_db(sets_data, user_id=None, clear_existing=False):
     else:
         users = User.objects.all()
         print(f"Importation des sets pour tous les utilisateurs ({users.count()})")
-    
-    # Nettoyer les sets existants si demandé
+
     if clear_existing:
         if user_id:
             print(f"Suppression des sets existants pour l'utilisateur {user_id}...")
@@ -97,25 +88,21 @@ def import_sets_to_db(sets_data, user_id=None, clear_existing=False):
             Set.objects.all().delete()
         print(f"✓ {count} sets supprimés")
     
-    # Compteurs pour le suivi
     created_count = 0
     updated_count = 0
     error_count = 0
     
-    # Pour chaque utilisateur, importer les sets
     for user in users:
         print(f"Traitement des sets pour {user.username}...")
         
         for set_data in sets_data:
             try:
-                # Récupérer les données de base
                 title = set_data.get('title', 'Unknown Set')
                 code = set_data.get('code', '')
                 tcg = set_data.get('tcg', 'pokemon')
                 total_cards = set_data.get('total_cards', 0)
                 image_url = set_data.get('image_url', '')
                 
-                # Traiter la date de sortie
                 release_date = None
                 if 'release_date' in set_data and set_data['release_date']:
                     try:
@@ -124,8 +111,7 @@ def import_sets_to_db(sets_data, user_id=None, clear_existing=False):
                         release_date = timezone.now().date()
                 else:
                     release_date = timezone.now().date()
-                
-                # Créer ou mettre à jour le set pour cet utilisateur
+
                 set_obj, created = Set.objects.update_or_create(
                     user=user,
                     code=code,
@@ -162,8 +148,7 @@ def main():
     parser.add_argument('--json', type=str, help='Chemin du fichier JSON à utiliser au lieu de l\'API')
     
     args = parser.parse_args()
-    
-    # Récupérer les données des sets
+
     if args.json:
         try:
             with open(args.json, 'r', encoding='utf-8') as f:
@@ -174,8 +159,7 @@ def main():
             return
     else:
         sets_data = get_pokemon_sets()
-    
-    # Sauvegarder en JSON pour référence future
+
     output_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'seeds')
     if not os.path.exists(output_dir):
         os.makedirs(output_dir)
@@ -187,8 +171,7 @@ def main():
         json.dump(sets_data, f, indent=2)
     
     print(f"✓ Données JSON sauvegardées")
-    
-    # Importer dans la base de données
+
     import_sets_to_db(sets_data, args.user, args.clear)
 
 if __name__ == "__main__":
