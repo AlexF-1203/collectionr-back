@@ -6,7 +6,4 @@ class ApiConfig(AppConfig):
     name = "api"
     
     def ready(self):
-        """
-        Importe les signaux au démarrage de l'application
-        """
         import api.signals

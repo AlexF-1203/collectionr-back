@@ -1,6 +1,7 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 from .views import CardViewSet, CollectionViewSet, UserViewSet, SetViewSet, FavoritesViewSet
+from .views.user import LogoutView
 
 router = DefaultRouter()
 router.register(r'cards', CardViewSet)
@@ -13,4 +14,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('user/profile/', UserViewSet.as_view({'get': 'profile'}), name='user-profile'),
     path('user/profile/data/', UserViewSet.as_view({'get': 'profile_data'}), name='user-profile-data'),
+    path('logout/', LogoutView.as_view(), name='logout'),
 ]

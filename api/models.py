@@ -1,6 +1,3 @@
-# Ce fichier est maintenu pour la compatibilité avec le code existant
-# Il importe tous les modèles depuis le package models
-
 from .models.user import User
 from .models.card import Card
 from .models.collection import Collection
