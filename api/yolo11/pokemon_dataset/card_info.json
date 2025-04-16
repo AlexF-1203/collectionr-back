@@ -1,0 +1,3482 @@
+{
+  "train_0.png": {
+    "name": "Cherubi",
+    "set_name": "Brilliant Stars",
+    "number": "12",
+    "rarity": "Common"
+  },
+  "train_1.png": {
+    "name": "Flapple",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV013",
+    "rarity": "Rare Shiny"
+  },
+  "train_2.png": {
+    "name": "Naganadel & Guzzlord-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "158",
+    "rarity": "Rare Holo GX"
+  },
+  "train_3.png": {
+    "name": "Koffing",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV076",
+    "rarity": "Rare Shiny"
+  },
+  "train_4.png": {
+    "name": "Charizard & Braixen-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "22",
+    "rarity": "Rare Holo GX"
+  },
+  "train_5.png": {
+    "name": "Magma Basin",
+    "set_name": "Brilliant Stars",
+    "number": "144",
+    "rarity": "Uncommon"
+  },
+  "train_6.png": {
+    "name": "Blastoise & Piplup-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "215",
+    "rarity": "Rare Ultra"
+  },
+  "train_7.png": {
+    "name": "Cynthia's Ambition",
+    "set_name": "Brilliant Stars",
+    "number": "178",
+    "rarity": "Rare Rainbow"
+  },
+  "train_8.png": {
+    "name": "Lanturn",
+    "set_name": "Cosmic Eclipse",
+    "number": "72",
+    "rarity": "Rare"
+  },
+  "train_9.png": {
+    "name": "Ultra Necrozma",
+    "set_name": "Cosmic Eclipse",
+    "number": "164",
+    "rarity": "Rare Holo"
+  },
+  "train_10.png": {
+    "name": "Dusclops",
+    "set_name": "Cosmic Eclipse",
+    "number": "84",
+    "rarity": "Uncommon"
+  },
+  "train_11.png": {
+    "name": "Duraludon",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV092",
+    "rarity": "Rare Shiny"
+  },
+  "train_12.png": {
+    "name": "Rowlet",
+    "set_name": "Cosmic Eclipse",
+    "number": "18",
+    "rarity": "Common"
+  },
+  "train_13.png": {
+    "name": "Onix",
+    "set_name": "Cosmic Eclipse",
+    "number": "105",
+    "rarity": "Common"
+  },
+  "train_14.png": {
+    "name": "Pancham",
+    "set_name": "Cosmic Eclipse",
+    "number": "119",
+    "rarity": "Common"
+  },
+  "train_15.png": {
+    "name": "Duskull",
+    "set_name": "Brilliant Stars",
+    "number": "60",
+    "rarity": "Common"
+  },
+  "train_16.png": {
+    "name": "Double Turbo Energy",
+    "set_name": "Brilliant Stars",
+    "number": "151",
+    "rarity": "Uncommon"
+  },
+  "train_17.png": {
+    "name": "Vibrava",
+    "set_name": "Cosmic Eclipse",
+    "number": "109",
+    "rarity": "Uncommon"
+  },
+  "train_18.png": {
+    "name": "Breloom",
+    "set_name": "Brilliant Stars",
+    "number": "4",
+    "rarity": "Rare"
+  },
+  "train_19.png": {
+    "name": "Alolan Persian-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "129",
+    "rarity": "Rare Holo GX"
+  },
+  "train_20.png": {
+    "name": "Flygon-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "256",
+    "rarity": "Rare Rainbow"
+  },
+  "train_21.png": {
+    "name": "Sinistea",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV052",
+    "rarity": "Rare Shiny"
+  },
+  "train_22.png": {
+    "name": "Dracozolt",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV045",
+    "rarity": "Rare Shiny"
+  },
+  "train_23.png": {
+    "name": "Weavile",
+    "set_name": "Cosmic Eclipse",
+    "number": "44",
+    "rarity": "Rare"
+  },
+  "train_24.png": {
+    "name": "Reshiram & Zekrom-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "222",
+    "rarity": "Rare Ultra"
+  },
+  "train_25.png": {
+    "name": "Lillipup",
+    "set_name": "Cosmic Eclipse",
+    "number": "174",
+    "rarity": "Common"
+  },
+  "train_26.png": {
+    "name": "Dusknoir",
+    "set_name": "Cosmic Eclipse",
+    "number": "85",
+    "rarity": "Rare Holo"
+  },
+  "train_27.png": {
+    "name": "Dartrix",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV002",
+    "rarity": "Rare Shiny"
+  },
+  "train_28.png": {
+    "name": "Rosa",
+    "set_name": "Cosmic Eclipse",
+    "number": "236",
+    "rarity": "Rare Ultra"
+  },
+  "train_29.png": {
+    "name": "Phantump",
+    "set_name": "Cosmic Eclipse",
+    "number": "93",
+    "rarity": "Common"
+  },
+  "train_30.png": {
+    "name": "Stonjourner",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV075",
+    "rarity": "Rare Shiny"
+  },
+  "train_31.png": {
+    "name": "Venusaur & Snivy-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "1",
+    "rarity": "Rare Holo GX"
+  },
+  "train_32.png": {
+    "name": "Alolan Sandslash",
+    "set_name": "Cosmic Eclipse",
+    "number": "138",
+    "rarity": "Rare"
+  },
+  "train_33.png": {
+    "name": "Toxtricity VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV113",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_34.png": {
+    "name": "Sunflora",
+    "set_name": "Cosmic Eclipse",
+    "number": "8",
+    "rarity": "Rare"
+  },
+  "train_35.png": {
+    "name": "Drampa",
+    "set_name": "Cosmic Eclipse",
+    "number": "159",
+    "rarity": "Rare"
+  },
+  "train_36.png": {
+    "name": "Cleansing Gloves",
+    "set_name": "Brilliant Stars",
+    "number": "136",
+    "rarity": "Uncommon"
+  },
+  "train_37.png": {
+    "name": "Galarian Runerigus",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV066",
+    "rarity": "Rare Shiny"
+  },
+  "train_38.png": {
+    "name": "Alolan Persian-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "219",
+    "rarity": "Rare Ultra"
+  },
+  "train_39.png": {
+    "name": "Druddigon",
+    "set_name": "Brilliant Stars",
+    "number": "113",
+    "rarity": "Rare"
+  },
+  "train_40.png": {
+    "name": "Reshiram & Zekrom-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "157",
+    "rarity": "Rare Holo GX"
+  },
+  "train_41.png": {
+    "name": "Kindler",
+    "set_name": "Brilliant Stars",
+    "number": "179",
+    "rarity": "Rare Rainbow"
+  },
+  "train_42.png": {
+    "name": "Psyduck",
+    "set_name": "Cosmic Eclipse",
+    "number": "40",
+    "rarity": "Common"
+  },
+  "train_43.png": {
+    "name": "Erika",
+    "set_name": "Cosmic Eclipse",
+    "number": "191",
+    "rarity": "Uncommon"
+  },
+  "train_44.png": {
+    "name": "Chaotic Swell",
+    "set_name": "Cosmic Eclipse",
+    "number": "187",
+    "rarity": "Uncommon"
+  },
+  "train_45.png": {
+    "name": "Yamper",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV039",
+    "rarity": "Rare Shiny"
+  },
+  "train_46.png": {
+    "name": "Magnemite",
+    "set_name": "Cosmic Eclipse",
+    "number": "242",
+    "rarity": "Rare Secret"
+  },
+  "train_47.png": {
+    "name": "Axew",
+    "set_name": "Brilliant Stars",
+    "number": "110",
+    "rarity": "Common"
+  },
+  "train_48.png": {
+    "name": "Koffing",
+    "set_name": "Cosmic Eclipse",
+    "number": "76",
+    "rarity": "Common"
+  },
+  "train_49.png": {
+    "name": "Black Kyurem",
+    "set_name": "Cosmic Eclipse",
+    "number": "61",
+    "rarity": "Rare Holo"
+  },
+  "train_50.png": {
+    "name": "Flygon V",
+    "set_name": "Brilliant Stars",
+    "number": "106",
+    "rarity": "Rare Holo V"
+  },
+  "train_51.png": {
+    "name": "Arceus & Dialga & Palkia-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "220",
+    "rarity": "Rare Ultra"
+  },
+  "train_52.png": {
+    "name": "Starly",
+    "set_name": "Brilliant Stars",
+    "number": "117",
+    "rarity": "Common"
+  },
+  "train_53.png": {
+    "name": "Sunkern",
+    "set_name": "Cosmic Eclipse",
+    "number": "7",
+    "rarity": "Common"
+  },
+  "train_54.png": {
+    "name": "Wailmer",
+    "set_name": "Cosmic Eclipse",
+    "number": "45",
+    "rarity": "Common"
+  },
+  "train_55.png": {
+    "name": "Shroomish",
+    "set_name": "Brilliant Stars",
+    "number": "3",
+    "rarity": "Common"
+  },
+  "train_56.png": {
+    "name": "Swanna",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV096",
+    "rarity": "Rare Shiny"
+  },
+  "train_57.png": {
+    "name": "Eldegoss",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV011",
+    "rarity": "Rare Shiny"
+  },
+  "train_58.png": {
+    "name": "Litleo",
+    "set_name": "Cosmic Eclipse",
+    "number": "36",
+    "rarity": "Common"
+  },
+  "train_59.png": {
+    "name": "Corviknight",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV089",
+    "rarity": "Rare Shiny"
+  },
+  "train_60.png": {
+    "name": "Blastoise & Piplup-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "214",
+    "rarity": "Rare Ultra"
+  },
+  "train_61.png": {
+    "name": "Bellelba & Brycen-Man",
+    "set_name": "Cosmic Eclipse",
+    "number": "186",
+    "rarity": "Uncommon"
+  },
+  "train_62.png": {
+    "name": "Wishiwashi-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "63",
+    "rarity": "Rare Holo GX"
+  },
+  "train_63.png": {
+    "name": "Galarian Linoone",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV079",
+    "rarity": "Rare Shiny"
+  },
+  "train_64.png": {
+    "name": "Monferno",
+    "set_name": "Brilliant Stars",
+    "number": "25",
+    "rarity": "Uncommon"
+  },
+  "train_65.png": {
+    "name": "Steelix",
+    "set_name": "Cosmic Eclipse",
+    "number": "247",
+    "rarity": "Rare Secret"
+  },
+  "train_66.png": {
+    "name": "Morpeko V",
+    "set_name": "Brilliant Stars",
+    "number": "95",
+    "rarity": "Rare Holo V"
+  },
+  "train_67.png": {
+    "name": "Tangrowth",
+    "set_name": "Cosmic Eclipse",
+    "number": "6",
+    "rarity": "Uncommon"
+  },
+  "train_68.png": {
+    "name": "Bunnelby",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV097",
+    "rarity": "Rare Shiny"
+  },
+  "train_69.png": {
+    "name": "Raboot",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV016",
+    "rarity": "Rare Shiny"
+  },
+  "train_70.png": {
+    "name": "Charizard V",
+    "set_name": "Brilliant Stars",
+    "number": "17",
+    "rarity": "Rare Holo V"
+  },
+  "train_71.png": {
+    "name": "Thievul",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV082",
+    "rarity": "Rare Shiny"
+  },
+  "train_72.png": {
+    "name": "Palpitoad",
+    "set_name": "Cosmic Eclipse",
+    "number": "116",
+    "rarity": "Common"
+  },
+  "train_73.png": {
+    "name": "Flab\u00e9b\u00e9",
+    "set_name": "Cosmic Eclipse",
+    "number": "150",
+    "rarity": "Common"
+  },
+  "train_74.png": {
+    "name": "Charizard VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "18",
+    "rarity": "Rare Holo VSTAR"
+  },
+  "train_75.png": {
+    "name": "Togedemaru",
+    "set_name": "Cosmic Eclipse",
+    "number": "74",
+    "rarity": "Common"
+  },
+  "train_76.png": {
+    "name": "Blacephalon",
+    "set_name": "Cosmic Eclipse",
+    "number": "104",
+    "rarity": "Rare Holo"
+  },
+  "train_77.png": {
+    "name": "Whimsicott",
+    "set_name": "Cosmic Eclipse",
+    "number": "148",
+    "rarity": "Rare"
+  },
+  "train_78.png": {
+    "name": "Sobble",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV025",
+    "rarity": "Rare Shiny"
+  },
+  "train_79.png": {
+    "name": "Alolan Muk",
+    "set_name": "Cosmic Eclipse",
+    "number": "131",
+    "rarity": "Rare"
+  },
+  "train_80.png": {
+    "name": "Galarian Zapdos V",
+    "set_name": "Brilliant Stars",
+    "number": "182",
+    "rarity": "Rare Secret"
+  },
+  "train_81.png": {
+    "name": "Morpeko",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV044",
+    "rarity": "Rare Shiny"
+  },
+  "train_82.png": {
+    "name": "Wishiwashi",
+    "set_name": "Cosmic Eclipse",
+    "number": "240",
+    "rarity": "Rare Secret"
+  },
+  "train_83.png": {
+    "name": "Chimchar",
+    "set_name": "Brilliant Stars",
+    "number": "24",
+    "rarity": "Common"
+  },
+  "train_84.png": {
+    "name": "Raikou V",
+    "set_name": "Brilliant Stars",
+    "number": "48",
+    "rarity": "Rare Holo V"
+  },
+  "train_85.png": {
+    "name": "Absol",
+    "set_name": "Cosmic Eclipse",
+    "number": "133",
+    "rarity": "Uncommon"
+  },
+  "train_86.png": {
+    "name": "Cottonee",
+    "set_name": "Cosmic Eclipse",
+    "number": "147",
+    "rarity": "Common"
+  },
+  "train_87.png": {
+    "name": "Wailord",
+    "set_name": "Cosmic Eclipse",
+    "number": "46",
+    "rarity": "Rare"
+  },
+  "train_88.png": {
+    "name": "Weavile",
+    "set_name": "Brilliant Stars",
+    "number": "87",
+    "rarity": "Uncommon"
+  },
+  "train_89.png": {
+    "name": "Professor Oak's Setup",
+    "set_name": "Cosmic Eclipse",
+    "number": "201",
+    "rarity": "Uncommon"
+  },
+  "train_90.png": {
+    "name": "Excadrill",
+    "set_name": "Cosmic Eclipse",
+    "number": "115",
+    "rarity": "Rare Holo"
+  },
+  "train_91.png": {
+    "name": "Jangmo-o",
+    "set_name": "Cosmic Eclipse",
+    "number": "161",
+    "rarity": "Common"
+  },
+  "train_92.png": {
+    "name": "Milcery",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV057",
+    "rarity": "Rare Shiny"
+  },
+  "train_93.png": {
+    "name": "Lillie's Full Force",
+    "set_name": "Cosmic Eclipse",
+    "number": "230",
+    "rarity": "Rare Ultra"
+  },
+  "train_94.png": {
+    "name": "Galarian Corsola",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV049",
+    "rarity": "Rare Shiny"
+  },
+  "train_95.png": {
+    "name": "Galarian Farfetch'd",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV063",
+    "rarity": "Rare Shiny"
+  },
+  "train_96.png": {
+    "name": "Golett",
+    "set_name": "Brilliant Stars",
+    "number": "82",
+    "rarity": "Common"
+  },
+  "train_97.png": {
+    "name": "Haxorus",
+    "set_name": "Brilliant Stars",
+    "number": "112",
+    "rarity": "Rare"
+  },
+  "train_98.png": {
+    "name": "Dreepy",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV060",
+    "rarity": "Rare Shiny"
+  },
+  "train_99.png": {
+    "name": "Duskull",
+    "set_name": "Cosmic Eclipse",
+    "number": "83",
+    "rarity": "Common"
+  },
+  "train_100.png": {
+    "name": "Grimer",
+    "set_name": "Brilliant Stars",
+    "number": "84",
+    "rarity": "Common"
+  },
+  "train_101.png": {
+    "name": "Silvally-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "184",
+    "rarity": "Rare Holo GX"
+  },
+  "train_102.png": {
+    "name": "Crawdaunt",
+    "set_name": "Brilliant Stars",
+    "number": "33",
+    "rarity": "Uncommon"
+  },
+  "train_103.png": {
+    "name": "Pikachu V",
+    "set_name": "Brilliant Stars",
+    "number": "157",
+    "rarity": "Rare Ultra"
+  },
+  "train_104.png": {
+    "name": "Zarude V",
+    "set_name": "Brilliant Stars",
+    "number": "16",
+    "rarity": "Rare Holo V"
+  },
+  "train_105.png": {
+    "name": "Arrokuda",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV031",
+    "rarity": "Rare Shiny"
+  },
+  "train_106.png": {
+    "name": "Honchkrow V",
+    "set_name": "Brilliant Stars",
+    "number": "162",
+    "rarity": "Rare Ultra"
+  },
+  "train_107.png": {
+    "name": "Appletun",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV014",
+    "rarity": "Rare Shiny"
+  },
+  "train_108.png": {
+    "name": "Lapras",
+    "set_name": "Brilliant Stars",
+    "number": "31",
+    "rarity": "Rare"
+  },
+  "train_109.png": {
+    "name": "Rillaboom",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV006",
+    "rarity": "Rare Shiny"
+  },
+  "train_110.png": {
+    "name": "Cinccino",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV094",
+    "rarity": "Rare Shiny"
+  },
+  "train_111.png": {
+    "name": "Dedenne",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV051",
+    "rarity": "Rare Shiny"
+  },
+  "train_112.png": {
+    "name": "Phione",
+    "set_name": "Cosmic Eclipse",
+    "number": "57",
+    "rarity": "Rare"
+  },
+  "train_113.png": {
+    "name": "Crabominable",
+    "set_name": "Cosmic Eclipse",
+    "number": "122",
+    "rarity": "Rare"
+  },
+  "train_114.png": {
+    "name": "Toxtricity",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV042",
+    "rarity": "Rare Shiny"
+  },
+  "train_115.png": {
+    "name": "Flygon",
+    "set_name": "Brilliant Stars",
+    "number": "76",
+    "rarity": "Rare"
+  },
+  "train_116.png": {
+    "name": "Zamazenta V",
+    "set_name": "Brilliant Stars",
+    "number": "163",
+    "rarity": "Rare Ultra"
+  },
+  "train_117.png": {
+    "name": "Azurill",
+    "set_name": "Cosmic Eclipse",
+    "number": "146",
+    "rarity": "Common"
+  },
+  "train_118.png": {
+    "name": "Solgaleo & Lunala-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "254",
+    "rarity": "Rare Rainbow"
+  },
+  "train_119.png": {
+    "name": "Kommo-o",
+    "set_name": "Cosmic Eclipse",
+    "number": "163",
+    "rarity": "Rare Holo"
+  },
+  "train_120.png": {
+    "name": "Mega Lopunny & Jigglypuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "165",
+    "rarity": "Rare Holo GX"
+  },
+  "train_121.png": {
+    "name": "Blipbug",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV007",
+    "rarity": "Rare Shiny"
+  },
+  "train_122.png": {
+    "name": "Fresh Water Set",
+    "set_name": "Brilliant Stars",
+    "number": "139",
+    "rarity": "Uncommon"
+  },
+  "train_123.png": {
+    "name": "Blastoise & Piplup-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "38",
+    "rarity": "Rare Holo GX"
+  },
+  "train_124.png": {
+    "name": "Arctozolt",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV046",
+    "rarity": "Rare Shiny"
+  },
+  "train_125.png": {
+    "name": "Electabuzz",
+    "set_name": "Brilliant Stars",
+    "number": "46",
+    "rarity": "Common"
+  },
+  "train_126.png": {
+    "name": "Polteageist",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV053",
+    "rarity": "Rare Shiny"
+  },
+  "train_127.png": {
+    "name": "Woobat",
+    "set_name": "Cosmic Eclipse",
+    "number": "87",
+    "rarity": "Common"
+  },
+  "train_128.png": {
+    "name": "Dusknoir",
+    "set_name": "Brilliant Stars",
+    "number": "62",
+    "rarity": "Rare Holo"
+  },
+  "train_129.png": {
+    "name": "Solgaleo",
+    "set_name": "Cosmic Eclipse",
+    "number": "142",
+    "rarity": "Rare Holo"
+  },
+  "train_130.png": {
+    "name": "Luxio",
+    "set_name": "Brilliant Stars",
+    "number": "50",
+    "rarity": "Uncommon"
+  },
+  "train_131.png": {
+    "name": "Roller Skater",
+    "set_name": "Cosmic Eclipse",
+    "number": "203",
+    "rarity": "Uncommon"
+  },
+  "train_132.png": {
+    "name": "Steelix",
+    "set_name": "Cosmic Eclipse",
+    "number": "139",
+    "rarity": "Rare Holo"
+  },
+  "train_133.png": {
+    "name": "Golurk",
+    "set_name": "Cosmic Eclipse",
+    "number": "90",
+    "rarity": "Rare"
+  },
+  "train_134.png": {
+    "name": "Reshiram & Zekrom-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "259",
+    "rarity": "Rare Rainbow"
+  },
+  "train_135.png": {
+    "name": "Caf\u00e9 Master",
+    "set_name": "Brilliant Stars",
+    "number": "133",
+    "rarity": "Uncommon"
+  },
+  "train_136.png": {
+    "name": "Pikachu",
+    "set_name": "Cosmic Eclipse",
+    "number": "66",
+    "rarity": "Common"
+  },
+  "train_137.png": {
+    "name": "Weavile",
+    "set_name": "Cosmic Eclipse",
+    "number": "238",
+    "rarity": "Rare Secret"
+  },
+  "train_138.png": {
+    "name": "Natu",
+    "set_name": "Cosmic Eclipse",
+    "number": "78",
+    "rarity": "Common"
+  },
+  "train_139.png": {
+    "name": "Eevee",
+    "set_name": "Cosmic Eclipse",
+    "number": "166",
+    "rarity": "Common"
+  },
+  "train_140.png": {
+    "name": "Mega Lopunny & Jigglypuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "261",
+    "rarity": "Rare Rainbow"
+  },
+  "train_141.png": {
+    "name": "Rapidash",
+    "set_name": "Cosmic Eclipse",
+    "number": "24",
+    "rarity": "Uncommon"
+  },
+  "train_142.png": {
+    "name": "Oricorio-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "255",
+    "rarity": "Rare Rainbow"
+  },
+  "train_143.png": {
+    "name": "Greedent",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV100",
+    "rarity": "Rare Shiny"
+  },
+  "train_144.png": {
+    "name": "Alolan Grimer",
+    "set_name": "Cosmic Eclipse",
+    "number": "130",
+    "rarity": "Common"
+  },
+  "train_145.png": {
+    "name": "Eternatus V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV121",
+    "rarity": "Rare Secret"
+  },
+  "train_146.png": {
+    "name": "Dusclops",
+    "set_name": "Brilliant Stars",
+    "number": "61",
+    "rarity": "Uncommon"
+  },
+  "train_147.png": {
+    "name": "Simisear V",
+    "set_name": "Brilliant Stars",
+    "number": "27",
+    "rarity": "Rare Holo V"
+  },
+  "train_148.png": {
+    "name": "Rockruff",
+    "set_name": "Cosmic Eclipse",
+    "number": "123",
+    "rarity": "Common"
+  },
+  "train_149.png": {
+    "name": "Farfetch'd",
+    "set_name": "Brilliant Stars",
+    "number": "115",
+    "rarity": "Common"
+  },
+  "train_150.png": {
+    "name": "Honchkrow V",
+    "set_name": "Brilliant Stars",
+    "number": "161",
+    "rarity": "Rare Ultra"
+  },
+  "train_151.png": {
+    "name": "Bidoof",
+    "set_name": "Brilliant Stars",
+    "number": "120",
+    "rarity": "Common"
+  },
+  "train_152.png": {
+    "name": "Sigilyph",
+    "set_name": "Brilliant Stars",
+    "number": "66",
+    "rarity": "Uncommon"
+  },
+  "train_153.png": {
+    "name": "Heracross",
+    "set_name": "Cosmic Eclipse",
+    "number": "9",
+    "rarity": "Uncommon"
+  },
+  "train_154.png": {
+    "name": "Shaymin V",
+    "set_name": "Brilliant Stars",
+    "number": "13",
+    "rarity": "Rare Holo V"
+  },
+  "train_155.png": {
+    "name": "Swanna",
+    "set_name": "Cosmic Eclipse",
+    "number": "60",
+    "rarity": "Rare"
+  },
+  "train_156.png": {
+    "name": "Beartic",
+    "set_name": "Brilliant Stars",
+    "number": "43",
+    "rarity": "Uncommon"
+  },
+  "train_157.png": {
+    "name": "Suicune",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV022",
+    "rarity": "Rare Shiny"
+  },
+  "train_158.png": {
+    "name": "Barraskewda",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV032",
+    "rarity": "Rare Shiny"
+  },
+  "train_159.png": {
+    "name": "Alcremie",
+    "set_name": "Brilliant Stars",
+    "number": "71",
+    "rarity": "Rare"
+  },
+  "train_160.png": {
+    "name": "Charizard & Braixen-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "212",
+    "rarity": "Rare Ultra"
+  },
+  "train_161.png": {
+    "name": "Flab\u00e9b\u00e9",
+    "set_name": "Cosmic Eclipse",
+    "number": "149",
+    "rarity": "Common"
+  },
+  "train_162.png": {
+    "name": "Galarian Cursola",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV050",
+    "rarity": "Rare Shiny"
+  },
+  "train_163.png": {
+    "name": "Tepig",
+    "set_name": "Cosmic Eclipse",
+    "number": "31",
+    "rarity": "Common"
+  },
+  "train_164.png": {
+    "name": "Lumineon V",
+    "set_name": "Brilliant Stars",
+    "number": "156",
+    "rarity": "Rare Ultra"
+  },
+  "train_165.png": {
+    "name": "Cheren's Care",
+    "set_name": "Brilliant Stars",
+    "number": "177",
+    "rarity": "Rare Rainbow"
+  },
+  "train_166.png": {
+    "name": "Mimikyu V",
+    "set_name": "Brilliant Stars",
+    "number": "68",
+    "rarity": "Rare Holo V"
+  },
+  "train_167.png": {
+    "name": "Lapras V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV110",
+    "rarity": "Rare Holo V"
+  },
+  "train_168.png": {
+    "name": "Heatran",
+    "set_name": "Brilliant Stars",
+    "number": "100",
+    "rarity": "Rare"
+  },
+  "train_169.png": {
+    "name": "Galarian Ponyta",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV047",
+    "rarity": "Rare Shiny"
+  },
+  "train_170.png": {
+    "name": "Volcarona-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "35",
+    "rarity": "Rare Holo GX"
+  },
+  "train_171.png": {
+    "name": "Will",
+    "set_name": "Cosmic Eclipse",
+    "number": "208",
+    "rarity": "Uncommon"
+  },
+  "train_172.png": {
+    "name": "Flygon V",
+    "set_name": "Brilliant Stars",
+    "number": "164",
+    "rarity": "Rare Ultra"
+  },
+  "train_173.png": {
+    "name": "Mimikyu VMAX",
+    "set_name": "Brilliant Stars",
+    "number": "69",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_174.png": {
+    "name": "Kyogre",
+    "set_name": "Cosmic Eclipse",
+    "number": "53",
+    "rarity": "Rare"
+  },
+  "train_175.png": {
+    "name": "Skwovet",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV099",
+    "rarity": "Rare Shiny"
+  },
+  "train_176.png": {
+    "name": "Solgaleo & Lunala-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "75",
+    "rarity": "Rare Holo GX"
+  },
+  "train_177.png": {
+    "name": "Klink",
+    "set_name": "Brilliant Stars",
+    "number": "102",
+    "rarity": "Common"
+  },
+  "train_178.png": {
+    "name": "Carvanha",
+    "set_name": "Cosmic Eclipse",
+    "number": "132",
+    "rarity": "Common"
+  },
+  "train_179.png": {
+    "name": "Alolan Meowth",
+    "set_name": "Cosmic Eclipse",
+    "number": "128",
+    "rarity": "Common"
+  },
+  "train_180.png": {
+    "name": "Spheal",
+    "set_name": "Cosmic Eclipse",
+    "number": "50",
+    "rarity": "Common"
+  },
+  "train_181.png": {
+    "name": "Kindler",
+    "set_name": "Brilliant Stars",
+    "number": "170",
+    "rarity": "Rare Ultra"
+  },
+  "train_182.png": {
+    "name": "Bibarel",
+    "set_name": "Brilliant Stars",
+    "number": "121",
+    "rarity": "Rare Holo"
+  },
+  "train_183.png": {
+    "name": "Piplup",
+    "set_name": "Cosmic Eclipse",
+    "number": "54",
+    "rarity": "Common"
+  },
+  "train_184.png": {
+    "name": "Drakloak",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV061",
+    "rarity": "Rare Shiny"
+  },
+  "train_185.png": {
+    "name": "Excadrill",
+    "set_name": "Cosmic Eclipse",
+    "number": "246",
+    "rarity": "Rare Secret"
+  },
+  "train_186.png": {
+    "name": "Kricketune",
+    "set_name": "Cosmic Eclipse",
+    "number": "14",
+    "rarity": "Uncommon"
+  },
+  "train_187.png": {
+    "name": "Roxie",
+    "set_name": "Cosmic Eclipse",
+    "number": "205",
+    "rarity": "Uncommon"
+  },
+  "train_188.png": {
+    "name": "Lillie's Pok\u00e9 Doll",
+    "set_name": "Cosmic Eclipse",
+    "number": "267",
+    "rarity": "Rare Secret"
+  },
+  "train_189.png": {
+    "name": "Tag Call",
+    "set_name": "Cosmic Eclipse",
+    "number": "206",
+    "rarity": "Uncommon"
+  },
+  "train_190.png": {
+    "name": "Team Yell's Cheer",
+    "set_name": "Brilliant Stars",
+    "number": "149",
+    "rarity": "Uncommon"
+  },
+  "train_191.png": {
+    "name": "Empoleon",
+    "set_name": "Cosmic Eclipse",
+    "number": "56",
+    "rarity": "Rare"
+  },
+  "train_192.png": {
+    "name": "Liepard",
+    "set_name": "Brilliant Stars",
+    "number": "91",
+    "rarity": "Rare"
+  },
+  "train_193.png": {
+    "name": "Mega Lopunny & Jigglypuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "225",
+    "rarity": "Rare Ultra"
+  },
+  "train_194.png": {
+    "name": "Morgrem",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV084",
+    "rarity": "Rare Shiny"
+  },
+  "train_195.png": {
+    "name": "Hitmontop",
+    "set_name": "Brilliant Stars",
+    "number": "72",
+    "rarity": "Uncommon"
+  },
+  "train_196.png": {
+    "name": "Gloom",
+    "set_name": "Cosmic Eclipse",
+    "number": "3",
+    "rarity": "Uncommon"
+  },
+  "train_197.png": {
+    "name": "Vibrava",
+    "set_name": "Brilliant Stars",
+    "number": "75",
+    "rarity": "Uncommon"
+  },
+  "train_198.png": {
+    "name": "Eevee",
+    "set_name": "Cosmic Eclipse",
+    "number": "167",
+    "rarity": "Common"
+  },
+  "train_199.png": {
+    "name": "Ditto V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV118",
+    "rarity": "Rare Holo V"
+  },
+  "train_200.png": {
+    "name": "Herdier",
+    "set_name": "Cosmic Eclipse",
+    "number": "175",
+    "rarity": "Uncommon"
+  },
+  "train_201.png": {
+    "name": "Snorunt",
+    "set_name": "Brilliant Stars",
+    "number": "34",
+    "rarity": "Common"
+  },
+  "train_202.png": {
+    "name": "Eiscue",
+    "set_name": "Brilliant Stars",
+    "number": "44",
+    "rarity": "Rare"
+  },
+  "train_203.png": {
+    "name": "Claydol",
+    "set_name": "Brilliant Stars",
+    "number": "59",
+    "rarity": "Uncommon"
+  },
+  "train_204.png": {
+    "name": "Blunder Policy",
+    "set_name": "Brilliant Stars",
+    "number": "131",
+    "rarity": "Uncommon"
+  },
+  "train_205.png": {
+    "name": "Arceus VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "184",
+    "rarity": "Rare Secret"
+  },
+  "train_206.png": {
+    "name": "Fraxure",
+    "set_name": "Brilliant Stars",
+    "number": "111",
+    "rarity": "Uncommon"
+  },
+  "train_207.png": {
+    "name": "Rowlet",
+    "set_name": "Cosmic Eclipse",
+    "number": "17",
+    "rarity": "Common"
+  },
+  "train_208.png": {
+    "name": "Boss's Orders",
+    "set_name": "Brilliant Stars",
+    "number": "132",
+    "rarity": "Rare Holo"
+  },
+  "train_209.png": {
+    "name": "Centiskorch VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV109",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_210.png": {
+    "name": "Throh",
+    "set_name": "Brilliant Stars",
+    "number": "80",
+    "rarity": "Common"
+  },
+  "train_211.png": {
+    "name": "Grimmsnarl V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV116",
+    "rarity": "Rare Holo V"
+  },
+  "train_212.png": {
+    "name": "Toxel",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV041",
+    "rarity": "Rare Shiny"
+  },
+  "train_213.png": {
+    "name": "Guzzlord",
+    "set_name": "Cosmic Eclipse",
+    "number": "136",
+    "rarity": "Rare Holo"
+  },
+  "train_214.png": {
+    "name": "Togedemaru",
+    "set_name": "Cosmic Eclipse",
+    "number": "73",
+    "rarity": "Uncommon"
+  },
+  "train_215.png": {
+    "name": "Lana's Fishing Rod",
+    "set_name": "Cosmic Eclipse",
+    "number": "195",
+    "rarity": "Uncommon"
+  },
+  "train_216.png": {
+    "name": "Riolu",
+    "set_name": "Brilliant Stars",
+    "number": "78",
+    "rarity": "Common"
+  },
+  "train_217.png": {
+    "name": "Hatterene",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV056",
+    "rarity": "Rare Shiny"
+  },
+  "train_218.png": {
+    "name": "Staraptor",
+    "set_name": "Brilliant Stars",
+    "number": "119",
+    "rarity": "Rare"
+  },
+  "train_219.png": {
+    "name": "Baltoy",
+    "set_name": "Brilliant Stars",
+    "number": "58",
+    "rarity": "Common"
+  },
+  "train_220.png": {
+    "name": "Gossifleur",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV010",
+    "rarity": "Rare Shiny"
+  },
+  "train_221.png": {
+    "name": "Magnemite",
+    "set_name": "Cosmic Eclipse",
+    "number": "68",
+    "rarity": "Common"
+  },
+  "train_222.png": {
+    "name": "Galarian Stunfisk",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV088",
+    "rarity": "Rare Shiny"
+  },
+  "train_223.png": {
+    "name": "Mimikyu",
+    "set_name": "Cosmic Eclipse",
+    "number": "245",
+    "rarity": "Rare Secret"
+  },
+  "train_224.png": {
+    "name": "Boltund",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV040",
+    "rarity": "Rare Shiny"
+  },
+  "train_225.png": {
+    "name": "Ralts",
+    "set_name": "Cosmic Eclipse",
+    "number": "80",
+    "rarity": "Common"
+  },
+  "train_226.png": {
+    "name": "Grimmsnarl",
+    "set_name": "Brilliant Stars",
+    "number": "94",
+    "rarity": "Rare"
+  },
+  "train_227.png": {
+    "name": "Vaporeon",
+    "set_name": "Cosmic Eclipse",
+    "number": "42",
+    "rarity": "Uncommon"
+  },
+  "train_228.png": {
+    "name": "Probopass",
+    "set_name": "Brilliant Stars",
+    "number": "99",
+    "rarity": "Uncommon"
+  },
+  "train_229.png": {
+    "name": "Prinplup",
+    "set_name": "Cosmic Eclipse",
+    "number": "55",
+    "rarity": "Uncommon"
+  },
+  "train_230.png": {
+    "name": "Raichu V",
+    "set_name": "Brilliant Stars",
+    "number": "45",
+    "rarity": "Rare Holo V"
+  },
+  "train_231.png": {
+    "name": "Charizard VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "174",
+    "rarity": "Rare Rainbow"
+  },
+  "train_232.png": {
+    "name": "Acerola's Premonition",
+    "set_name": "Brilliant Stars",
+    "number": "129",
+    "rarity": "Uncommon"
+  },
+  "train_233.png": {
+    "name": "Arceus & Dialga & Palkia-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "258",
+    "rarity": "Rare Rainbow"
+  },
+  "train_234.png": {
+    "name": "Trevenant",
+    "set_name": "Cosmic Eclipse",
+    "number": "94",
+    "rarity": "Rare"
+  },
+  "train_235.png": {
+    "name": "Drampa V",
+    "set_name": "Brilliant Stars",
+    "number": "128",
+    "rarity": "Rare Holo V"
+  },
+  "train_236.png": {
+    "name": "Thwackey",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV005",
+    "rarity": "Rare Shiny"
+  },
+  "train_237.png": {
+    "name": "Alolan Persian-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "257",
+    "rarity": "Rare Rainbow"
+  },
+  "train_238.png": {
+    "name": "Magmortar",
+    "set_name": "Brilliant Stars",
+    "number": "20",
+    "rarity": "Rare"
+  },
+  "train_239.png": {
+    "name": "Kingler VMAX",
+    "set_name": "Brilliant Stars",
+    "number": "29",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_240.png": {
+    "name": "Mallow & Lana",
+    "set_name": "Cosmic Eclipse",
+    "number": "231",
+    "rarity": "Rare Ultra"
+  },
+  "train_241.png": {
+    "name": "Shaymin V",
+    "set_name": "Brilliant Stars",
+    "number": "152",
+    "rarity": "Rare Ultra"
+  },
+  "train_242.png": {
+    "name": "Island Challenge Amulet",
+    "set_name": "Cosmic Eclipse",
+    "number": "265",
+    "rarity": "Rare Secret"
+  },
+  "train_243.png": {
+    "name": "Drilbur",
+    "set_name": "Cosmic Eclipse",
+    "number": "114",
+    "rarity": "Common"
+  },
+  "train_244.png": {
+    "name": "Cinccino",
+    "set_name": "Brilliant Stars",
+    "number": "125",
+    "rarity": "Uncommon"
+  },
+  "train_245.png": {
+    "name": "Clay",
+    "set_name": "Cosmic Eclipse",
+    "number": "188",
+    "rarity": "Uncommon"
+  },
+  "train_246.png": {
+    "name": "Kindler",
+    "set_name": "Brilliant Stars",
+    "number": "143",
+    "rarity": "Uncommon"
+  },
+  "train_247.png": {
+    "name": "Staravia",
+    "set_name": "Brilliant Stars",
+    "number": "118",
+    "rarity": "Uncommon"
+  },
+  "train_248.png": {
+    "name": "Impidimp",
+    "set_name": "Brilliant Stars",
+    "number": "92",
+    "rarity": "Common"
+  },
+  "train_249.png": {
+    "name": "Sneasel",
+    "set_name": "Cosmic Eclipse",
+    "number": "43",
+    "rarity": "Common"
+  },
+  "train_250.png": {
+    "name": "Flareon",
+    "set_name": "Cosmic Eclipse",
+    "number": "25",
+    "rarity": "Uncommon"
+  },
+  "train_251.png": {
+    "name": "Volcarona-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "213",
+    "rarity": "Rare Ultra"
+  },
+  "train_252.png": {
+    "name": "Lunala",
+    "set_name": "Cosmic Eclipse",
+    "number": "102",
+    "rarity": "Rare Holo"
+  },
+  "train_253.png": {
+    "name": "Type: Null",
+    "set_name": "Cosmic Eclipse",
+    "number": "183",
+    "rarity": "Uncommon"
+  },
+  "train_254.png": {
+    "name": "Dewpider",
+    "set_name": "Cosmic Eclipse",
+    "number": "64",
+    "rarity": "Common"
+  },
+  "train_255.png": {
+    "name": "Buizel",
+    "set_name": "Brilliant Stars",
+    "number": "38",
+    "rarity": "Common"
+  },
+  "train_256.png": {
+    "name": "Friends in Galar",
+    "set_name": "Brilliant Stars",
+    "number": "140",
+    "rarity": "Uncommon"
+  },
+  "train_257.png": {
+    "name": "Florges",
+    "set_name": "Cosmic Eclipse",
+    "number": "152",
+    "rarity": "Rare Holo"
+  },
+  "train_258.png": {
+    "name": "Dubwool V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV120",
+    "rarity": "Rare Holo V"
+  },
+  "train_259.png": {
+    "name": "Deerling",
+    "set_name": "Cosmic Eclipse",
+    "number": "15",
+    "rarity": "Common"
+  },
+  "train_260.png": {
+    "name": "Whimsicott V",
+    "set_name": "Brilliant Stars",
+    "number": "64",
+    "rarity": "Rare Holo V"
+  },
+  "train_261.png": {
+    "name": "Venusaur & Snivy-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "210",
+    "rarity": "Rare Ultra"
+  },
+  "train_262.png": {
+    "name": "Jolteon",
+    "set_name": "Cosmic Eclipse",
+    "number": "70",
+    "rarity": "Uncommon"
+  },
+  "train_263.png": {
+    "name": "Weezing",
+    "set_name": "Cosmic Eclipse",
+    "number": "77",
+    "rarity": "Rare"
+  },
+  "train_264.png": {
+    "name": "Snorunt",
+    "set_name": "Cosmic Eclipse",
+    "number": "47",
+    "rarity": "Common"
+  },
+  "train_265.png": {
+    "name": "Helioptile",
+    "set_name": "Cosmic Eclipse",
+    "number": "179",
+    "rarity": "Common"
+  },
+  "train_266.png": {
+    "name": "Wormadam",
+    "set_name": "Brilliant Stars",
+    "number": "10",
+    "rarity": "Rare"
+  },
+  "train_267.png": {
+    "name": "Gloria",
+    "set_name": "Brilliant Stars",
+    "number": "141",
+    "rarity": "Uncommon"
+  },
+  "train_268.png": {
+    "name": "Vileplume-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "211",
+    "rarity": "Rare Ultra"
+  },
+  "train_269.png": {
+    "name": "Rookidee",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV101",
+    "rarity": "Rare Shiny"
+  },
+  "train_270.png": {
+    "name": "Probopass",
+    "set_name": "Cosmic Eclipse",
+    "number": "141",
+    "rarity": "Uncommon"
+  },
+  "train_271.png": {
+    "name": "Torkoal",
+    "set_name": "Brilliant Stars",
+    "number": "23",
+    "rarity": "Uncommon"
+  },
+  "train_272.png": {
+    "name": "Zangoose",
+    "set_name": "Cosmic Eclipse",
+    "number": "173",
+    "rarity": "Uncommon"
+  },
+  "train_273.png": {
+    "name": "Spheal",
+    "set_name": "Cosmic Eclipse",
+    "number": "49",
+    "rarity": "Common"
+  },
+  "train_274.png": {
+    "name": "Galarian Obstagoon",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV080",
+    "rarity": "Rare Shiny"
+  },
+  "train_275.png": {
+    "name": "Drizzile",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV026",
+    "rarity": "Rare Shiny"
+  },
+  "train_276.png": {
+    "name": "Castform",
+    "set_name": "Brilliant Stars",
+    "number": "116",
+    "rarity": "Common"
+  },
+  "train_277.png": {
+    "name": "Armaldo",
+    "set_name": "Cosmic Eclipse",
+    "number": "112",
+    "rarity": "Rare"
+  },
+  "train_278.png": {
+    "name": "Choice Belt",
+    "set_name": "Brilliant Stars",
+    "number": "135",
+    "rarity": "Uncommon"
+  },
+  "train_279.png": {
+    "name": "Klinklang",
+    "set_name": "Brilliant Stars",
+    "number": "104",
+    "rarity": "Rare"
+  },
+  "train_280.png": {
+    "name": "Lucario",
+    "set_name": "Brilliant Stars",
+    "number": "79",
+    "rarity": "Rare Holo"
+  },
+  "train_281.png": {
+    "name": "Hakamo-o",
+    "set_name": "Cosmic Eclipse",
+    "number": "162",
+    "rarity": "Uncommon"
+  },
+  "train_282.png": {
+    "name": "Pachirisu",
+    "set_name": "Brilliant Stars",
+    "number": "52",
+    "rarity": "Uncommon"
+  },
+  "train_283.png": {
+    "name": "Charizard V",
+    "set_name": "Brilliant Stars",
+    "number": "153",
+    "rarity": "Rare Ultra"
+  },
+  "train_284.png": {
+    "name": "Oricorio-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "217",
+    "rarity": "Rare Ultra"
+  },
+  "train_285.png": {
+    "name": "Beastite",
+    "set_name": "Cosmic Eclipse",
+    "number": "185",
+    "rarity": "Uncommon"
+  },
+  "train_286.png": {
+    "name": "Falinks",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV074",
+    "rarity": "Rare Shiny"
+  },
+  "train_287.png": {
+    "name": "Drednaw",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV029",
+    "rarity": "Rare Shiny"
+  },
+  "train_288.png": {
+    "name": "Swoobat",
+    "set_name": "Cosmic Eclipse",
+    "number": "88",
+    "rarity": "Rare"
+  },
+  "train_289.png": {
+    "name": "Magma Basin",
+    "set_name": "Brilliant Stars",
+    "number": "185",
+    "rarity": "Rare Secret"
+  },
+  "train_290.png": {
+    "name": "Scorbunny",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV015",
+    "rarity": "Rare Shiny"
+  },
+  "train_291.png": {
+    "name": "Moltres",
+    "set_name": "Brilliant Stars",
+    "number": "21",
+    "rarity": "Rare Holo"
+  },
+  "train_292.png": {
+    "name": "Sandaconda",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV071",
+    "rarity": "Rare Shiny"
+  },
+  "train_293.png": {
+    "name": "Grimmsnarl",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV085",
+    "rarity": "Rare Shiny"
+  },
+  "train_294.png": {
+    "name": "Arceus VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "176",
+    "rarity": "Rare Rainbow"
+  },
+  "train_295.png": {
+    "name": "Turtwig",
+    "set_name": "Brilliant Stars",
+    "number": "6",
+    "rarity": "Common"
+  },
+  "train_296.png": {
+    "name": "Magmar",
+    "set_name": "Brilliant Stars",
+    "number": "19",
+    "rarity": "Common"
+  },
+  "train_297.png": {
+    "name": "Torkoal",
+    "set_name": "Cosmic Eclipse",
+    "number": "237",
+    "rarity": "Rare Secret"
+  },
+  "train_298.png": {
+    "name": "Exeggutor",
+    "set_name": "Brilliant Stars",
+    "number": "2",
+    "rarity": "Uncommon"
+  },
+  "train_299.png": {
+    "name": "Floette",
+    "set_name": "Cosmic Eclipse",
+    "number": "151",
+    "rarity": "Uncommon"
+  },
+  "train_300.png": {
+    "name": "Sealeo",
+    "set_name": "Cosmic Eclipse",
+    "number": "51",
+    "rarity": "Uncommon"
+  },
+  "train_301.png": {
+    "name": "Teddiursa",
+    "set_name": "Cosmic Eclipse",
+    "number": "171",
+    "rarity": "Common"
+  },
+  "train_302.png": {
+    "name": "Cheren's Care",
+    "set_name": "Brilliant Stars",
+    "number": "134",
+    "rarity": "Uncommon"
+  },
+  "train_303.png": {
+    "name": "Magneton",
+    "set_name": "Cosmic Eclipse",
+    "number": "69",
+    "rarity": "Rare Holo"
+  },
+  "train_304.png": {
+    "name": "Chimecho",
+    "set_name": "Brilliant Stars",
+    "number": "63",
+    "rarity": "Common"
+  },
+  "train_305.png": {
+    "name": "Emboar",
+    "set_name": "Cosmic Eclipse",
+    "number": "33",
+    "rarity": "Rare"
+  },
+  "train_306.png": {
+    "name": "Piplup",
+    "set_name": "Brilliant Stars",
+    "number": "35",
+    "rarity": "Common"
+  },
+  "train_307.png": {
+    "name": "Galarian Yamask",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV065",
+    "rarity": "Rare Shiny"
+  },
+  "train_308.png": {
+    "name": "Cinderace",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV017",
+    "rarity": "Rare Shiny"
+  },
+  "train_309.png": {
+    "name": "Roller Skater",
+    "set_name": "Cosmic Eclipse",
+    "number": "235",
+    "rarity": "Rare Ultra"
+  },
+  "train_310.png": {
+    "name": "Mawile",
+    "set_name": "Cosmic Eclipse",
+    "number": "140",
+    "rarity": "Uncommon"
+  },
+  "train_311.png": {
+    "name": "Prinplup",
+    "set_name": "Brilliant Stars",
+    "number": "36",
+    "rarity": "Uncommon"
+  },
+  "train_312.png": {
+    "name": "Volcarona-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "252",
+    "rarity": "Rare Rainbow"
+  },
+  "train_313.png": {
+    "name": "Rotom",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV038",
+    "rarity": "Rare Shiny"
+  },
+  "train_314.png": {
+    "name": "Starmie",
+    "set_name": "Brilliant Stars",
+    "number": "55",
+    "rarity": "Uncommon"
+  },
+  "train_315.png": {
+    "name": "Sawsbuck",
+    "set_name": "Cosmic Eclipse",
+    "number": "16",
+    "rarity": "Rare Holo"
+  },
+  "train_316.png": {
+    "name": "Wooloo",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV103",
+    "rarity": "Rare Shiny"
+  },
+  "train_317.png": {
+    "name": "Igglybuff",
+    "set_name": "Cosmic Eclipse",
+    "number": "168",
+    "rarity": "Uncommon"
+  },
+  "train_318.png": {
+    "name": "Mewtwo",
+    "set_name": "Brilliant Stars",
+    "number": "56",
+    "rarity": "Rare"
+  },
+  "train_319.png": {
+    "name": "Pawniard",
+    "set_name": "Cosmic Eclipse",
+    "number": "134",
+    "rarity": "Common"
+  },
+  "train_320.png": {
+    "name": "Barry",
+    "set_name": "Brilliant Stars",
+    "number": "167",
+    "rarity": "Rare Ultra"
+  },
+  "train_321.png": {
+    "name": "Tropius",
+    "set_name": "Cosmic Eclipse",
+    "number": "12",
+    "rarity": "Uncommon"
+  },
+  "train_322.png": {
+    "name": "Mimikyu",
+    "set_name": "Cosmic Eclipse",
+    "number": "97",
+    "rarity": "Rare"
+  },
+  "train_323.png": {
+    "name": "Togepi & Cleffa & Igglybuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "143",
+    "rarity": "Rare Holo GX"
+  },
+  "train_324.png": {
+    "name": "Dottler",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV008",
+    "rarity": "Rare Shiny"
+  },
+  "train_325.png": {
+    "name": "Grapploct",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV073",
+    "rarity": "Rare Shiny"
+  },
+  "train_326.png": {
+    "name": "Honchkrow V",
+    "set_name": "Brilliant Stars",
+    "number": "88",
+    "rarity": "Rare Holo V"
+  },
+  "train_327.png": {
+    "name": "Hunting Gloves",
+    "set_name": "Brilliant Stars",
+    "number": "142",
+    "rarity": "Uncommon"
+  },
+  "train_328.png": {
+    "name": "Inteleon",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV027",
+    "rarity": "Rare Shiny"
+  },
+  "train_329.png": {
+    "name": "Ultra Ball",
+    "set_name": "Brilliant Stars",
+    "number": "186",
+    "rarity": "Rare Secret"
+  },
+  "train_330.png": {
+    "name": "Pignite",
+    "set_name": "Cosmic Eclipse",
+    "number": "32",
+    "rarity": "Uncommon"
+  },
+  "train_331.png": {
+    "name": "Granbull V",
+    "set_name": "Brilliant Stars",
+    "number": "159",
+    "rarity": "Rare Ultra"
+  },
+  "train_332.png": {
+    "name": "Wormadam",
+    "set_name": "Brilliant Stars",
+    "number": "98",
+    "rarity": "Rare"
+  },
+  "train_333.png": {
+    "name": "Blastoise & Piplup-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "253",
+    "rarity": "Rare Rainbow"
+  },
+  "train_334.png": {
+    "name": "Silvally-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "262",
+    "rarity": "Rare Rainbow"
+  },
+  "train_335.png": {
+    "name": "Cubchoo",
+    "set_name": "Brilliant Stars",
+    "number": "42",
+    "rarity": "Common"
+  },
+  "train_336.png": {
+    "name": "Rowlet",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV001",
+    "rarity": "Rare Shiny"
+  },
+  "train_337.png": {
+    "name": "Tag Call",
+    "set_name": "Cosmic Eclipse",
+    "number": "270",
+    "rarity": "Rare Secret"
+  },
+  "train_338.png": {
+    "name": "Lillie's Pok\u00e9 Doll",
+    "set_name": "Cosmic Eclipse",
+    "number": "197",
+    "rarity": "Uncommon"
+  },
+  "train_339.png": {
+    "name": "Gallade",
+    "set_name": "Cosmic Eclipse",
+    "number": "82",
+    "rarity": "Rare Holo"
+  },
+  "train_340.png": {
+    "name": "Togepi & Cleffa & Igglybuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "143a",
+    "rarity": "Rare Ultra"
+  },
+  "train_341.png": {
+    "name": "Decidueye",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV003",
+    "rarity": "Rare Shiny"
+  },
+  "train_342.png": {
+    "name": "Dragonium Z: Dragon Claw",
+    "set_name": "Cosmic Eclipse",
+    "number": "190",
+    "rarity": "Uncommon"
+  },
+  "train_343.png": {
+    "name": "Flygon-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "218",
+    "rarity": "Rare Ultra"
+  },
+  "train_344.png": {
+    "name": "Professor Oak's Setup",
+    "set_name": "Cosmic Eclipse",
+    "number": "233",
+    "rarity": "Rare Ultra"
+  },
+  "train_345.png": {
+    "name": "Garchomp",
+    "set_name": "Brilliant Stars",
+    "number": "109",
+    "rarity": "Rare Holo"
+  },
+  "train_346.png": {
+    "name": "Tropius",
+    "set_name": "Brilliant Stars",
+    "number": "5",
+    "rarity": "Uncommon"
+  },
+  "train_347.png": {
+    "name": "Nosepass",
+    "set_name": "Brilliant Stars",
+    "number": "73",
+    "rarity": "Common"
+  },
+  "train_348.png": {
+    "name": "Impidimp",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV083",
+    "rarity": "Rare Shiny"
+  },
+  "train_349.png": {
+    "name": "Vileplume-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "4",
+    "rarity": "Rare Holo GX"
+  },
+  "train_350.png": {
+    "name": "Centiskorch",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV019",
+    "rarity": "Rare Shiny"
+  },
+  "train_351.png": {
+    "name": "Mimikyu",
+    "set_name": "Cosmic Eclipse",
+    "number": "96",
+    "rarity": "Uncommon"
+  },
+  "train_352.png": {
+    "name": "Ambipom",
+    "set_name": "Cosmic Eclipse",
+    "number": "170",
+    "rarity": "Uncommon"
+  },
+  "train_353.png": {
+    "name": "Venusaur & Snivy-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "249",
+    "rarity": "Rare Rainbow"
+  },
+  "train_354.png": {
+    "name": "Draw Energy",
+    "set_name": "Cosmic Eclipse",
+    "number": "271",
+    "rarity": "Rare Secret"
+  },
+  "train_355.png": {
+    "name": "Hawlucha",
+    "set_name": "Brilliant Stars",
+    "number": "127",
+    "rarity": "Common"
+  },
+  "train_356.png": {
+    "name": "Indeedee V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV114",
+    "rarity": "Rare Holo V"
+  },
+  "train_357.png": {
+    "name": "Indeedee",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV059",
+    "rarity": "Rare Shiny"
+  },
+  "train_358.png": {
+    "name": "Piplup",
+    "set_name": "Cosmic Eclipse",
+    "number": "239",
+    "rarity": "Rare Secret"
+  },
+  "train_359.png": {
+    "name": "Ponyta",
+    "set_name": "Cosmic Eclipse",
+    "number": "23",
+    "rarity": "Common"
+  },
+  "train_360.png": {
+    "name": "Decidueye",
+    "set_name": "Cosmic Eclipse",
+    "number": "20",
+    "rarity": "Rare Holo"
+  },
+  "train_361.png": {
+    "name": "Silicobra",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV070",
+    "rarity": "Rare Shiny"
+  },
+  "train_362.png": {
+    "name": "Alolan Sandshrew",
+    "set_name": "Cosmic Eclipse",
+    "number": "137",
+    "rarity": "Common"
+  },
+  "train_363.png": {
+    "name": "Lana's Fishing Rod",
+    "set_name": "Cosmic Eclipse",
+    "number": "266",
+    "rarity": "Rare Secret"
+  },
+  "train_364.png": {
+    "name": "Rillaboom VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV106",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_365.png": {
+    "name": "Galarian Perrserker",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV087",
+    "rarity": "Rare Shiny"
+  },
+  "train_366.png": {
+    "name": "Pangoro",
+    "set_name": "Cosmic Eclipse",
+    "number": "120",
+    "rarity": "Uncommon"
+  },
+  "train_367.png": {
+    "name": "Glalie",
+    "set_name": "Cosmic Eclipse",
+    "number": "48",
+    "rarity": "Rare"
+  },
+  "train_368.png": {
+    "name": "Draw Energy",
+    "set_name": "Cosmic Eclipse",
+    "number": "209",
+    "rarity": "Uncommon"
+  },
+  "train_369.png": {
+    "name": "Silvally-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "227",
+    "rarity": "Rare Ultra"
+  },
+  "train_370.png": {
+    "name": "Naganadel & Guzzlord-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "260",
+    "rarity": "Rare Rainbow"
+  },
+  "train_371.png": {
+    "name": "Chewtle",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV028",
+    "rarity": "Rare Shiny"
+  },
+  "train_372.png": {
+    "name": "Staryu",
+    "set_name": "Brilliant Stars",
+    "number": "30",
+    "rarity": "Common"
+  },
+  "train_373.png": {
+    "name": "Golett",
+    "set_name": "Cosmic Eclipse",
+    "number": "89",
+    "rarity": "Common"
+  },
+  "train_374.png": {
+    "name": "Galarian Mr. Mime",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV020",
+    "rarity": "Rare Shiny"
+  },
+  "train_375.png": {
+    "name": "Oricorio-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "95",
+    "rarity": "Rare Holo GX"
+  },
+  "train_376.png": {
+    "name": "Electivire",
+    "set_name": "Brilliant Stars",
+    "number": "47",
+    "rarity": "Rare"
+  },
+  "train_377.png": {
+    "name": "Empoleon",
+    "set_name": "Brilliant Stars",
+    "number": "37",
+    "rarity": "Rare Holo"
+  },
+  "train_378.png": {
+    "name": "Shinx",
+    "set_name": "Brilliant Stars",
+    "number": "49",
+    "rarity": "Common"
+  },
+  "train_379.png": {
+    "name": "Galarian Darumaka",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV023",
+    "rarity": "Rare Shiny"
+  },
+  "train_380.png": {
+    "name": "Giant Hearth",
+    "set_name": "Cosmic Eclipse",
+    "number": "263",
+    "rarity": "Rare Secret"
+  },
+  "train_381.png": {
+    "name": "Purrloin",
+    "set_name": "Brilliant Stars",
+    "number": "90",
+    "rarity": "Common"
+  },
+  "train_382.png": {
+    "name": "Lillie's Full Force",
+    "set_name": "Cosmic Eclipse",
+    "number": "196",
+    "rarity": "Uncommon"
+  },
+  "train_383.png": {
+    "name": "Charizard VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV107",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_384.png": {
+    "name": "Flygon-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "110",
+    "rarity": "Rare Holo GX"
+  },
+  "train_385.png": {
+    "name": "Sandygast",
+    "set_name": "Cosmic Eclipse",
+    "number": "126",
+    "rarity": "Common"
+  },
+  "train_386.png": {
+    "name": "Minccino",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV093",
+    "rarity": "Rare Shiny"
+  },
+  "train_387.png": {
+    "name": "Pyroar",
+    "set_name": "Cosmic Eclipse",
+    "number": "37",
+    "rarity": "Uncommon"
+  },
+  "train_388.png": {
+    "name": "Roseanne's Backup",
+    "set_name": "Brilliant Stars",
+    "number": "180",
+    "rarity": "Rare Rainbow"
+  },
+  "train_389.png": {
+    "name": "Golurk",
+    "set_name": "Brilliant Stars",
+    "number": "83",
+    "rarity": "Rare"
+  },
+  "train_390.png": {
+    "name": "Milcery",
+    "set_name": "Brilliant Stars",
+    "number": "70",
+    "rarity": "Common"
+  },
+  "train_391.png": {
+    "name": "Walrein",
+    "set_name": "Cosmic Eclipse",
+    "number": "52",
+    "rarity": "Rare"
+  },
+  "train_392.png": {
+    "name": "Rillaboom V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV105",
+    "rarity": "Rare Holo V"
+  },
+  "train_393.png": {
+    "name": "Guzma & Hala",
+    "set_name": "Cosmic Eclipse",
+    "number": "229",
+    "rarity": "Rare Ultra"
+  },
+  "train_394.png": {
+    "name": "Arceus VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "123",
+    "rarity": "Rare Holo VSTAR"
+  },
+  "train_395.png": {
+    "name": "Ducklett",
+    "set_name": "Cosmic Eclipse",
+    "number": "59",
+    "rarity": "Common"
+  },
+  "train_396.png": {
+    "name": "Lycanroc",
+    "set_name": "Cosmic Eclipse",
+    "number": "124",
+    "rarity": "Rare Holo"
+  },
+  "train_397.png": {
+    "name": "Dracovish V",
+    "set_name": "Brilliant Stars",
+    "number": "114",
+    "rarity": "Rare Holo V"
+  },
+  "train_398.png": {
+    "name": "Dubwool",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV104",
+    "rarity": "Rare Shiny"
+  },
+  "train_399.png": {
+    "name": "Dartrix",
+    "set_name": "Cosmic Eclipse",
+    "number": "19",
+    "rarity": "Uncommon"
+  },
+  "train_400.png": {
+    "name": "Arctovish",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV037",
+    "rarity": "Rare Shiny"
+  },
+  "train_401.png": {
+    "name": "Cramorant",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV030",
+    "rarity": "Rare Shiny"
+  },
+  "train_402.png": {
+    "name": "Karrablast",
+    "set_name": "Brilliant Stars",
+    "number": "15",
+    "rarity": "Common"
+  },
+  "train_403.png": {
+    "name": "Golduck",
+    "set_name": "Cosmic Eclipse",
+    "number": "41",
+    "rarity": "Uncommon"
+  },
+  "train_404.png": {
+    "name": "Dragalge",
+    "set_name": "Cosmic Eclipse",
+    "number": "92",
+    "rarity": "Rare"
+  },
+  "train_405.png": {
+    "name": "Galarian Moltres V",
+    "set_name": "Brilliant Stars",
+    "number": "183",
+    "rarity": "Rare Secret"
+  },
+  "train_406.png": {
+    "name": "Stoutland",
+    "set_name": "Cosmic Eclipse",
+    "number": "248",
+    "rarity": "Rare Secret"
+  },
+  "train_407.png": {
+    "name": "Slugma",
+    "set_name": "Cosmic Eclipse",
+    "number": "26",
+    "rarity": "Common"
+  },
+  "train_408.png": {
+    "name": "Dhelmise",
+    "set_name": "Cosmic Eclipse",
+    "number": "98",
+    "rarity": "Uncommon"
+  },
+  "train_409.png": {
+    "name": "Lileep",
+    "set_name": "Cosmic Eclipse",
+    "number": "10",
+    "rarity": "Uncommon"
+  },
+  "train_410.png": {
+    "name": "Mega Lopunny & Jigglypuff-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "226",
+    "rarity": "Rare Ultra"
+  },
+  "train_411.png": {
+    "name": "Shaymin VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "14",
+    "rarity": "Rare Holo VSTAR"
+  },
+  "train_412.png": {
+    "name": "Grotle",
+    "set_name": "Brilliant Stars",
+    "number": "7",
+    "rarity": "Uncommon"
+  },
+  "train_413.png": {
+    "name": "Tornadus",
+    "set_name": "Brilliant Stars",
+    "number": "126",
+    "rarity": "Rare"
+  },
+  "train_414.png": {
+    "name": "Passimian",
+    "set_name": "Cosmic Eclipse",
+    "number": "125",
+    "rarity": "Common"
+  },
+  "train_415.png": {
+    "name": "Pikachu",
+    "set_name": "Cosmic Eclipse",
+    "number": "241",
+    "rarity": "Rare Secret"
+  },
+  "train_416.png": {
+    "name": "Heliolisk",
+    "set_name": "Cosmic Eclipse",
+    "number": "180",
+    "rarity": "Rare"
+  },
+  "train_417.png": {
+    "name": "Marshadow",
+    "set_name": "Cosmic Eclipse",
+    "number": "103",
+    "rarity": "Rare"
+  },
+  "train_418.png": {
+    "name": "Rosa",
+    "set_name": "Cosmic Eclipse",
+    "number": "204",
+    "rarity": "Rare Holo"
+  },
+  "train_419.png": {
+    "name": "Great Catcher",
+    "set_name": "Cosmic Eclipse",
+    "number": "192",
+    "rarity": "Uncommon"
+  },
+  "train_420.png": {
+    "name": "Granbull V",
+    "set_name": "Brilliant Stars",
+    "number": "57",
+    "rarity": "Rare Holo V"
+  },
+  "train_421.png": {
+    "name": "Galarian Meowth",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV086",
+    "rarity": "Rare Shiny"
+  },
+  "train_422.png": {
+    "name": "Wormadam",
+    "set_name": "Brilliant Stars",
+    "number": "77",
+    "rarity": "Rare"
+  },
+  "train_423.png": {
+    "name": "Trapinch",
+    "set_name": "Cosmic Eclipse",
+    "number": "107",
+    "rarity": "Common"
+  },
+  "train_424.png": {
+    "name": "Sawk",
+    "set_name": "Brilliant Stars",
+    "number": "81",
+    "rarity": "Common"
+  },
+  "train_425.png": {
+    "name": "Throh",
+    "set_name": "Cosmic Eclipse",
+    "number": "118",
+    "rarity": "Uncommon"
+  },
+  "train_426.png": {
+    "name": "Charizard & Braixen-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "251",
+    "rarity": "Rare Rainbow"
+  },
+  "train_427.png": {
+    "name": "Bisharp",
+    "set_name": "Cosmic Eclipse",
+    "number": "135",
+    "rarity": "Uncommon"
+  },
+  "train_428.png": {
+    "name": "Xatu",
+    "set_name": "Cosmic Eclipse",
+    "number": "79",
+    "rarity": "Rare"
+  },
+  "train_429.png": {
+    "name": "Nickit",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV081",
+    "rarity": "Rare Shiny"
+  },
+  "train_430.png": {
+    "name": "Cynthia's Ambition",
+    "set_name": "Brilliant Stars",
+    "number": "138",
+    "rarity": "Uncommon"
+  },
+  "train_431.png": {
+    "name": "Torkoal",
+    "set_name": "Cosmic Eclipse",
+    "number": "29",
+    "rarity": "Uncommon"
+  },
+  "train_432.png": {
+    "name": "Grookey",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV004",
+    "rarity": "Rare Shiny"
+  },
+  "train_433.png": {
+    "name": "Manaphy",
+    "set_name": "Brilliant Stars",
+    "number": "41",
+    "rarity": "Rare"
+  },
+  "train_434.png": {
+    "name": "Frosmoth",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV034",
+    "rarity": "Rare Shiny"
+  },
+  "train_435.png": {
+    "name": "Muk",
+    "set_name": "Brilliant Stars",
+    "number": "85",
+    "rarity": "Rare"
+  },
+  "train_436.png": {
+    "name": "Tangela",
+    "set_name": "Cosmic Eclipse",
+    "number": "5",
+    "rarity": "Common"
+  },
+  "train_437.png": {
+    "name": "Ditto VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV119",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_438.png": {
+    "name": "Misty & Lorelei",
+    "set_name": "Cosmic Eclipse",
+    "number": "199",
+    "rarity": "Uncommon"
+  },
+  "train_439.png": {
+    "name": "Infernape",
+    "set_name": "Brilliant Stars",
+    "number": "26",
+    "rarity": "Rare Holo"
+  },
+  "train_440.png": {
+    "name": "Falinks V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV115",
+    "rarity": "Rare Holo V"
+  },
+  "train_441.png": {
+    "name": "Applin",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV012",
+    "rarity": "Rare Shiny"
+  },
+  "train_442.png": {
+    "name": "Dragapult",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV062",
+    "rarity": "Rare Shiny"
+  },
+  "train_443.png": {
+    "name": "Alolan Ninetales",
+    "set_name": "Cosmic Eclipse",
+    "number": "145",
+    "rarity": "Rare Holo"
+  },
+  "train_444.png": {
+    "name": "Lapras VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV111",
+    "rarity": "Rare Holo VMAX"
+  },
+  "train_445.png": {
+    "name": "Coalossal",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV069",
+    "rarity": "Rare Shiny"
+  },
+  "train_446.png": {
+    "name": "Arceus V",
+    "set_name": "Brilliant Stars",
+    "number": "166",
+    "rarity": "Rare Ultra"
+  },
+  "train_447.png": {
+    "name": "Cosmog",
+    "set_name": "Cosmic Eclipse",
+    "number": "100",
+    "rarity": "Common"
+  },
+  "train_448.png": {
+    "name": "Trapinch",
+    "set_name": "Brilliant Stars",
+    "number": "74",
+    "rarity": "Common"
+  },
+  "train_449.png": {
+    "name": "Kingler V",
+    "set_name": "Brilliant Stars",
+    "number": "28",
+    "rarity": "Rare Holo V"
+  },
+  "train_450.png": {
+    "name": "Skrelp",
+    "set_name": "Cosmic Eclipse",
+    "number": "91",
+    "rarity": "Common"
+  },
+  "train_451.png": {
+    "name": "Vileplume-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "250",
+    "rarity": "Rare Rainbow"
+  },
+  "train_452.png": {
+    "name": "Ursaring",
+    "set_name": "Cosmic Eclipse",
+    "number": "172",
+    "rarity": "Rare"
+  },
+  "train_453.png": {
+    "name": "Chinchou",
+    "set_name": "Cosmic Eclipse",
+    "number": "71",
+    "rarity": "Common"
+  },
+  "train_454.png": {
+    "name": "Minccino",
+    "set_name": "Brilliant Stars",
+    "number": "124",
+    "rarity": "Common"
+  },
+  "train_455.png": {
+    "name": "Groudon",
+    "set_name": "Cosmic Eclipse",
+    "number": "113",
+    "rarity": "Rare"
+  },
+  "train_456.png": {
+    "name": "Spiritomb",
+    "set_name": "Brilliant Stars",
+    "number": "89",
+    "rarity": "Common"
+  },
+  "train_457.png": {
+    "name": "Snom",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV033",
+    "rarity": "Rare Shiny"
+  },
+  "train_458.png": {
+    "name": "Larvesta",
+    "set_name": "Cosmic Eclipse",
+    "number": "34",
+    "rarity": "Uncommon"
+  },
+  "train_459.png": {
+    "name": "Barry",
+    "set_name": "Brilliant Stars",
+    "number": "130",
+    "rarity": "Uncommon"
+  },
+  "train_460.png": {
+    "name": "Nosepass",
+    "set_name": "Cosmic Eclipse",
+    "number": "106",
+    "rarity": "Common"
+  },
+  "train_461.png": {
+    "name": "Aggron V",
+    "set_name": "Brilliant Stars",
+    "number": "96",
+    "rarity": "Rare Holo V"
+  },
+  "train_462.png": {
+    "name": "Eternatus VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV122",
+    "rarity": "Rare Secret"
+  },
+  "train_463.png": {
+    "name": "Cosmoem",
+    "set_name": "Cosmic Eclipse",
+    "number": "101",
+    "rarity": "Uncommon"
+  },
+  "val_0.png": {
+    "name": "Swirlix",
+    "set_name": "Cosmic Eclipse",
+    "number": "153",
+    "rarity": "Common"
+  },
+  "val_1.png": {
+    "name": "Galarian Articuno V",
+    "set_name": "Brilliant Stars",
+    "number": "181",
+    "rarity": "Rare Secret"
+  },
+  "val_2.png": {
+    "name": "Koffing",
+    "set_name": "Cosmic Eclipse",
+    "number": "243",
+    "rarity": "Rare Secret"
+  },
+  "val_3.png": {
+    "name": "Galarian Darmanitan",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV024",
+    "rarity": "Rare Shiny"
+  },
+  "val_4.png": {
+    "name": "Dedenne",
+    "set_name": "Brilliant Stars",
+    "number": "67",
+    "rarity": "Common"
+  },
+  "val_5.png": {
+    "name": "Solgaleo & Lunala-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "216",
+    "rarity": "Rare Ultra"
+  },
+  "val_6.png": {
+    "name": "Alcremie",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV058",
+    "rarity": "Rare Shiny"
+  },
+  "val_7.png": {
+    "name": "Magcargo",
+    "set_name": "Cosmic Eclipse",
+    "number": "27",
+    "rarity": "Rare"
+  },
+  "val_8.png": {
+    "name": "Whimsicott VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "65",
+    "rarity": "Rare Holo VSTAR"
+  },
+  "val_9.png": {
+    "name": "Orbeetle",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV009",
+    "rarity": "Rare Shiny"
+  },
+  "val_10.png": {
+    "name": "Sneasel",
+    "set_name": "Brilliant Stars",
+    "number": "86",
+    "rarity": "Common"
+  },
+  "val_11.png": {
+    "name": "Gabite",
+    "set_name": "Brilliant Stars",
+    "number": "108",
+    "rarity": "Uncommon"
+  },
+  "val_12.png": {
+    "name": "Galarian Rapidash",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV048",
+    "rarity": "Rare Shiny"
+  },
+  "val_13.png": {
+    "name": "Charizard V",
+    "set_name": "Brilliant Stars",
+    "number": "154",
+    "rarity": "Rare Ultra"
+  },
+  "val_14.png": {
+    "name": "Professor's Research",
+    "set_name": "Brilliant Stars",
+    "number": "147",
+    "rarity": "Rare Holo"
+  },
+  "val_15.png": {
+    "name": "Collapsed Stadium",
+    "set_name": "Brilliant Stars",
+    "number": "137",
+    "rarity": "Uncommon"
+  },
+  "val_16.png": {
+    "name": "Ducklett",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV095",
+    "rarity": "Rare Shiny"
+  },
+  "val_17.png": {
+    "name": "Crabrawler",
+    "set_name": "Cosmic Eclipse",
+    "number": "121",
+    "rarity": "Common"
+  },
+  "val_18.png": {
+    "name": "Slurpuff",
+    "set_name": "Cosmic Eclipse",
+    "number": "154",
+    "rarity": "Rare"
+  },
+  "val_19.png": {
+    "name": "Unidentified Fossil",
+    "set_name": "Cosmic Eclipse",
+    "number": "207",
+    "rarity": "Uncommon"
+  },
+  "val_20.png": {
+    "name": "Galarian Weezing",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV077",
+    "rarity": "Rare Shiny"
+  },
+  "val_21.png": {
+    "name": "Pincurchin",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV043",
+    "rarity": "Rare Shiny"
+  },
+  "val_22.png": {
+    "name": "Lumineon V",
+    "set_name": "Brilliant Stars",
+    "number": "40",
+    "rarity": "Rare Holo V"
+  },
+  "val_23.png": {
+    "name": "Araquanid",
+    "set_name": "Cosmic Eclipse",
+    "number": "65",
+    "rarity": "Uncommon"
+  },
+  "val_24.png": {
+    "name": "Zamazenta V",
+    "set_name": "Brilliant Stars",
+    "number": "105",
+    "rarity": "Rare Holo V"
+  },
+  "val_25.png": {
+    "name": "N's Resolve",
+    "set_name": "Cosmic Eclipse",
+    "number": "232",
+    "rarity": "Rare Ultra"
+  },
+  "val_26.png": {
+    "name": "Alolan Vulpix",
+    "set_name": "Cosmic Eclipse",
+    "number": "39",
+    "rarity": "Common"
+  },
+  "val_27.png": {
+    "name": "Martial Arts Dojo",
+    "set_name": "Cosmic Eclipse",
+    "number": "268",
+    "rarity": "Rare Secret"
+  },
+  "val_28.png": {
+    "name": "N's Resolve",
+    "set_name": "Cosmic Eclipse",
+    "number": "200",
+    "rarity": "Uncommon"
+  },
+  "val_29.png": {
+    "name": "Island Challenge Amulet",
+    "set_name": "Cosmic Eclipse",
+    "number": "194",
+    "rarity": "Uncommon"
+  },
+  "val_30.png": {
+    "name": "Hattrem",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV055",
+    "rarity": "Rare Shiny"
+  },
+  "val_31.png": {
+    "name": "Rufflet",
+    "set_name": "Cosmic Eclipse",
+    "number": "177",
+    "rarity": "Common"
+  },
+  "val_32.png": {
+    "name": "Oranguru",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV098",
+    "rarity": "Rare Shiny"
+  },
+  "val_33.png": {
+    "name": "Mallow & Lana",
+    "set_name": "Cosmic Eclipse",
+    "number": "198",
+    "rarity": "Uncommon"
+  },
+  "val_34.png": {
+    "name": "Sizzlipede",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV018",
+    "rarity": "Rare Shiny"
+  },
+  "val_35.png": {
+    "name": "Gallade",
+    "set_name": "Cosmic Eclipse",
+    "number": "244",
+    "rarity": "Rare Secret"
+  },
+  "val_36.png": {
+    "name": "Clefable",
+    "set_name": "Brilliant Stars",
+    "number": "54",
+    "rarity": "Rare"
+  },
+  "val_37.png": {
+    "name": "Copperajah",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV091",
+    "rarity": "Rare Shiny"
+  },
+  "val_38.png": {
+    "name": "Burmy",
+    "set_name": "Brilliant Stars",
+    "number": "9",
+    "rarity": "Common"
+  },
+  "val_39.png": {
+    "name": "Corvisquire",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV102",
+    "rarity": "Rare Shiny"
+  },
+  "val_40.png": {
+    "name": "Entei",
+    "set_name": "Cosmic Eclipse",
+    "number": "28",
+    "rarity": "Rare"
+  },
+  "val_41.png": {
+    "name": "Roseanne's Backup",
+    "set_name": "Brilliant Stars",
+    "number": "148",
+    "rarity": "Uncommon"
+  },
+  "val_42.png": {
+    "name": "Galarian Sirfetch'd",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV064",
+    "rarity": "Rare Shiny"
+  },
+  "val_43.png": {
+    "name": "Clefairy",
+    "set_name": "Cosmic Eclipse",
+    "number": "144",
+    "rarity": "Uncommon"
+  },
+  "val_44.png": {
+    "name": "Kricketot",
+    "set_name": "Cosmic Eclipse",
+    "number": "13",
+    "rarity": "Common"
+  },
+  "val_45.png": {
+    "name": "Rolycoly",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV067",
+    "rarity": "Rare Shiny"
+  },
+  "val_46.png": {
+    "name": "Red & Blue",
+    "set_name": "Cosmic Eclipse",
+    "number": "202",
+    "rarity": "Uncommon"
+  },
+  "val_47.png": {
+    "name": "Cheren's Care",
+    "set_name": "Brilliant Stars",
+    "number": "168",
+    "rarity": "Rare Ultra"
+  },
+  "val_48.png": {
+    "name": "Clefairy",
+    "set_name": "Brilliant Stars",
+    "number": "53",
+    "rarity": "Common"
+  },
+  "val_49.png": {
+    "name": "Escavalier",
+    "set_name": "Brilliant Stars",
+    "number": "101",
+    "rarity": "Rare"
+  },
+  "val_50.png": {
+    "name": "Centiskorch V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV108",
+    "rarity": "Rare Holo V"
+  },
+  "val_51.png": {
+    "name": "Lumineon V",
+    "set_name": "Brilliant Stars",
+    "number": "155",
+    "rarity": "Rare Ultra"
+  },
+  "val_52.png": {
+    "name": "Arceus & Dialga & Palkia-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "221",
+    "rarity": "Rare Ultra"
+  },
+  "val_53.png": {
+    "name": "Raichu",
+    "set_name": "Cosmic Eclipse",
+    "number": "67",
+    "rarity": "Rare"
+  },
+  "val_54.png": {
+    "name": "Stufful",
+    "set_name": "Cosmic Eclipse",
+    "number": "181",
+    "rarity": "Common"
+  },
+  "val_55.png": {
+    "name": "Whimsicott V",
+    "set_name": "Brilliant Stars",
+    "number": "160",
+    "rarity": "Rare Ultra"
+  },
+  "val_56.png": {
+    "name": "Floatzel",
+    "set_name": "Brilliant Stars",
+    "number": "39",
+    "rarity": "Uncommon"
+  },
+  "val_57.png": {
+    "name": "Arceus V",
+    "set_name": "Brilliant Stars",
+    "number": "165",
+    "rarity": "Rare Ultra"
+  },
+  "val_58.png": {
+    "name": "Carkol",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV068",
+    "rarity": "Rare Shiny"
+  },
+  "val_59.png": {
+    "name": "Victini",
+    "set_name": "Cosmic Eclipse",
+    "number": "30",
+    "rarity": "Rare Holo"
+  },
+  "val_60.png": {
+    "name": "Shaymin VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "173",
+    "rarity": "Rare Rainbow"
+  },
+  "val_61.png": {
+    "name": "Whimsicott VSTAR",
+    "set_name": "Brilliant Stars",
+    "number": "175",
+    "rarity": "Rare Rainbow"
+  },
+  "val_62.png": {
+    "name": "Arceus V",
+    "set_name": "Brilliant Stars",
+    "number": "122",
+    "rarity": "Rare Holo V"
+  },
+  "val_63.png": {
+    "name": "Buzzwole",
+    "set_name": "Cosmic Eclipse",
+    "number": "21",
+    "rarity": "Rare Holo"
+  },
+  "val_64.png": {
+    "name": "Stoutland",
+    "set_name": "Cosmic Eclipse",
+    "number": "176",
+    "rarity": "Rare Holo"
+  },
+  "val_65.png": {
+    "name": "Klang",
+    "set_name": "Brilliant Stars",
+    "number": "103",
+    "rarity": "Uncommon"
+  },
+  "val_66.png": {
+    "name": "Cynthia & Caitlin",
+    "set_name": "Cosmic Eclipse",
+    "number": "189",
+    "rarity": "Uncommon"
+  },
+  "val_67.png": {
+    "name": "Gible",
+    "set_name": "Brilliant Stars",
+    "number": "107",
+    "rarity": "Common"
+  },
+  "val_68.png": {
+    "name": "Marnie's Pride",
+    "set_name": "Brilliant Stars",
+    "number": "171",
+    "rarity": "Rare Ultra"
+  },
+  "val_69.png": {
+    "name": "Naganadel & Guzzlord-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "224",
+    "rarity": "Rare Ultra"
+  },
+  "val_70.png": {
+    "name": "Kirlia",
+    "set_name": "Cosmic Eclipse",
+    "number": "81",
+    "rarity": "Uncommon"
+  },
+  "val_71.png": {
+    "name": "Wishiwashi",
+    "set_name": "Cosmic Eclipse",
+    "number": "62",
+    "rarity": "Rare Holo"
+  },
+  "val_72.png": {
+    "name": "Cufant",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV090",
+    "rarity": "Rare Shiny"
+  },
+  "val_73.png": {
+    "name": "Galarian Mr. Rime",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV021",
+    "rarity": "Rare Shiny"
+  },
+  "val_74.png": {
+    "name": "Sylveon",
+    "set_name": "Cosmic Eclipse",
+    "number": "155",
+    "rarity": "Rare"
+  },
+  "val_75.png": {
+    "name": "Toxtricity V",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV112",
+    "rarity": "Rare Holo V"
+  },
+  "val_76.png": {
+    "name": "Roseanne's Backup",
+    "set_name": "Brilliant Stars",
+    "number": "172",
+    "rarity": "Rare Ultra"
+  },
+  "val_77.png": {
+    "name": "Clobbopus",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV072",
+    "rarity": "Rare Shiny"
+  },
+  "val_78.png": {
+    "name": "Eiscue",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV035",
+    "rarity": "Rare Shiny"
+  },
+  "val_79.png": {
+    "name": "Galarian Zigzagoon",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV078",
+    "rarity": "Rare Shiny"
+  },
+  "val_80.png": {
+    "name": "Aipom",
+    "set_name": "Cosmic Eclipse",
+    "number": "169",
+    "rarity": "Common"
+  },
+  "val_81.png": {
+    "name": "Pot Helmet",
+    "set_name": "Brilliant Stars",
+    "number": "146",
+    "rarity": "Uncommon"
+  },
+  "val_82.png": {
+    "name": "Luxray",
+    "set_name": "Brilliant Stars",
+    "number": "51",
+    "rarity": "Rare"
+  },
+  "val_83.png": {
+    "name": "Ultra Ball",
+    "set_name": "Brilliant Stars",
+    "number": "150",
+    "rarity": "Uncommon"
+  },
+  "val_84.png": {
+    "name": "Entei V",
+    "set_name": "Brilliant Stars",
+    "number": "22",
+    "rarity": "Rare Holo V"
+  },
+  "val_85.png": {
+    "name": "Grimmsnarl VMAX",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV117",
+    "rarity": "Rare Holo VMAX"
+  },
+  "val_86.png": {
+    "name": "Torterra",
+    "set_name": "Brilliant Stars",
+    "number": "8",
+    "rarity": "Rare Holo"
+  },
+  "val_87.png": {
+    "name": "Hatenna",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV054",
+    "rarity": "Rare Shiny"
+  },
+  "val_88.png": {
+    "name": "Trapinch",
+    "set_name": "Cosmic Eclipse",
+    "number": "108",
+    "rarity": "Common"
+  },
+  "val_89.png": {
+    "name": "Morgrem",
+    "set_name": "Brilliant Stars",
+    "number": "93",
+    "rarity": "Uncommon"
+  },
+  "val_90.png": {
+    "name": "Raichu V",
+    "set_name": "Brilliant Stars",
+    "number": "158",
+    "rarity": "Rare Ultra"
+  },
+  "val_91.png": {
+    "name": "Braviary",
+    "set_name": "Cosmic Eclipse",
+    "number": "178",
+    "rarity": "Rare"
+  },
+  "val_92.png": {
+    "name": "Rotom",
+    "set_name": "Cosmic Eclipse",
+    "number": "86",
+    "rarity": "Uncommon"
+  },
+  "val_93.png": {
+    "name": "Arceus & Dialga & Palkia-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "156",
+    "rarity": "Rare Holo GX"
+  },
+  "val_94.png": {
+    "name": "Cynthia's Ambition",
+    "set_name": "Brilliant Stars",
+    "number": "169",
+    "rarity": "Rare Ultra"
+  },
+  "val_95.png": {
+    "name": "Exeggcute",
+    "set_name": "Brilliant Stars",
+    "number": "1",
+    "rarity": "Common"
+  },
+  "val_96.png": {
+    "name": "Naganadel & Guzzlord-GX",
+    "set_name": "Cosmic Eclipse",
+    "number": "223",
+    "rarity": "Rare Ultra"
+  },
+  "val_97.png": {
+    "name": "Power Plant",
+    "set_name": "Cosmic Eclipse",
+    "number": "269",
+    "rarity": "Rare Secret"
+  },
+  "val_98.png": {
+    "name": "Mothim",
+    "set_name": "Brilliant Stars",
+    "number": "11",
+    "rarity": "Rare"
+  },
+  "val_99.png": {
+    "name": "Oddish",
+    "set_name": "Cosmic Eclipse",
+    "number": "2",
+    "rarity": "Common"
+  },
+  "val_100.png": {
+    "name": "Corphish",
+    "set_name": "Brilliant Stars",
+    "number": "32",
+    "rarity": "Common"
+  },
+  "val_101.png": {
+    "name": "Great Catcher",
+    "set_name": "Cosmic Eclipse",
+    "number": "264",
+    "rarity": "Rare Secret"
+  },
+  "val_102.png": {
+    "name": "Jangmo-o",
+    "set_name": "Cosmic Eclipse",
+    "number": "160",
+    "rarity": "Common"
+  },
+  "val_103.png": {
+    "name": "Red & Blue",
+    "set_name": "Cosmic Eclipse",
+    "number": "234",
+    "rarity": "Rare Ultra"
+  },
+  "val_104.png": {
+    "name": "Dracovish",
+    "set_name": "Shining Fates Shiny Vault",
+    "number": "SV036",
+    "rarity": "Rare Shiny"
+  },
+  "val_105.png": {
+    "name": "Aggron VMAX",
+    "set_name": "Brilliant Stars",
+    "number": "97",
+    "rarity": "Rare Holo VMAX"
+  },
+  "val_106.png": {
+    "name": "Cosmog",
+    "set_name": "Cosmic Eclipse",
+    "number": "99",
+    "rarity": "Common"
+  },
+  "val_107.png": {
+    "name": "Tympole",
+    "set_name": "Cosmic Eclipse",
+    "number": "58",
+    "rarity": "Common"
+  },
+  "val_108.png": {
+    "name": "Seismitoad",
+    "set_name": "Cosmic Eclipse",
+    "number": "117",
+    "rarity": "Rare"
+  },
+  "val_109.png": {
+    "name": "Marnie's Pride",
+    "set_name": "Brilliant Stars",
+    "number": "145",
+    "rarity": "Uncommon"
+  },
+  "val_110.png": {
+    "name": "Cynthia & Caitlin",
+    "set_name": "Cosmic Eclipse",
+    "number": "228",
+    "rarity": "Rare Ultra"
+  },
+  "val_111.png": {
+    "name": "Anorith",
+    "set_name": "Cosmic Eclipse",
+    "number": "111",
+    "rarity": "Uncommon"
+  },
+  "val_112.png": {
+    "name": "Cradily",
+    "set_name": "Cosmic Eclipse",
+    "number": "11",
+    "rarity": "Rare"
+  },
+  "val_113.png": {
+    "name": "Palossand",
+    "set_name": "Cosmic Eclipse",
+    "number": "127",
+    "rarity": "Rare"
+  },
+  "val_114.png": {
+    "name": "Bewear",
+    "set_name": "Cosmic Eclipse",
+    "number": "182",
+    "rarity": "Rare"
+  },
+  "val_115.png": {
+    "name": "Guzma & Hala",
+    "set_name": "Cosmic Eclipse",
+    "number": "193",
+    "rarity": "Uncommon"
+  }
+}

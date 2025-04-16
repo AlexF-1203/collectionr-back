@@ -1,0 +1,6 @@
+names:
+- pokemon_card
+nc: 1
+path: /Users/enee/code/collectionr_python/backend/api/yolo11/pokemon_dataset
+train: combined_train
+val: val

@@ -67,3 +67,6 @@ redis==5.0.1
 
 # Pokemon TCG SDK
 pokemontcgsdk==3.4.0
+
+# YOLO
+
