@@ -8,21 +8,28 @@ class UserSerializer(serializers.ModelSerializer):
         model = User
         fields = ["id", "first_name", "last_name", "username", "email", "password"]
         extra_kwargs = {
-            "password": {"write_only": True, "required": True},
+            "password": {"write_only": True, "required": False},  # Rendre password facultatif ici
             "email": {"required": True}
         }
 
     def validate_password(self, value):
-        validate_password(value)
+        if value:  # Seulement valider si password est fourni
+            validate_password(value)
         return value
 
     def create(self, validated_data):
-        # Création de l'utilisateur
-        user = User.objects.create_user(
+        password = validated_data.pop('password', None)
+        user = User(
             username=validated_data['username'],
             email=validated_data['email'],
-            password=validated_data['password'],
             first_name=validated_data.get('first_name', ''),
             last_name=validated_data.get('last_name', '')
         )
+
+        if password:
+            user.set_password(password)
+        else:
+            user.set_unusable_password()
+
+        user.save()
         return user

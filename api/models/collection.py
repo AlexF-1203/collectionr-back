@@ -16,14 +16,12 @@ class Collection(models.Model):
         ('PL', 'Played'),
         ('POOR', 'Poor'),
     ]
-    
+
     user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     card = models.ForeignKey(Card, on_delete=models.CASCADE)
     quantity = models.PositiveIntegerField(default=1)
     condition = models.CharField(max_length=20, choices=CONDITION_CHOICES)
     acquired_date = models.DateField(auto_now_add=True)
-    # is_foil = models.BooleanField(default=False)
-    # notes = models.TextField(blank=True)
 
     class Meta:
         ordering = ['-acquired_date']

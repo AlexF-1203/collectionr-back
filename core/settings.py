@@ -31,6 +31,11 @@ SECRET_KEY = "django-insecure-4!$$4fcb^)usq-1d2k1$%cq^=fc6d_p=+&6fmf+-gsgjp$_2yh
 DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
+BASE_APP_URL = "http://localhost:5173"
+BASE_API_URL = "http://localhost:8000"
+GOOGLE_OAUTH2_CLIENT_ID = GOOGLE_AUTH_ID
+GOOGLE_OAUTH2_CLIENT_SECRET = GOOGLE_AUTH_SECRET
+GOOGLE_OAUTH2_REDIRECT_URI = "http://localhost:8000/auth/api/login/google/"
 
 REST_FRAMEWORK = {
     "DEFAULT_AUTHENTICATION_CLASSES": (
@@ -49,7 +54,7 @@ PASSWORD_HASHERS = [
 ]
 
 SIMPLE_JWT = {
-    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15), 
+    "ACCESS_TOKEN_LIFETIME": timedelta(minutes=15),
     "REFRESH_TOKEN_LIFETIME": timedelta(days=1),
     "ROTATE_REFRESH_TOKENS": True,
     "BLACKLIST_AFTER_ROTATION": True,
@@ -66,6 +71,9 @@ SIMPLE_JWT = {
 }
 
 # Application definition
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = BASE_DIR / 'media'
 
 INSTALLED_APPS = [
     "django.contrib.admin",
