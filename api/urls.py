@@ -13,6 +13,7 @@ router.register(r'favorites', FavoritesViewSet, basename='favorites')
 urlpatterns = [
     path('', include(router.urls)),
     path('user/profile/', UserViewSet.as_view({'get': 'profile'}), name='user-profile'),
+    path('user/update/', UserViewSet.as_view({'patch': 'update_profile'}), name='user-profile-update'),
     path('user/profile/data/', UserViewSet.as_view({'get': 'profile_data'}), name='user-profile-data'),
     path('logout/', LogoutView.as_view(), name='logout'),
 ]

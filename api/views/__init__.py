@@ -3,5 +3,6 @@ from .collection import CollectionViewSet
 from .user import UserViewSet
 from .set import SetViewSet
 from .favorites import FavoritesViewSet
+from .user_google import GoogleLoginView
 
-__all__ = ['CardViewSet', 'CollectionViewSet', 'UserViewSet', 'SetViewSet', 'FavoritesViewSet']
+__all__ = ['CardViewSet', 'CollectionViewSet', 'UserViewSet', 'SetViewSet', 'FavoritesViewSet', 'GoogleLoginView']
