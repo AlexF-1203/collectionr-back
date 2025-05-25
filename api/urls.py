@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import CardViewSet, CollectionViewSet, UserViewSet, SetViewSet, FavoritesViewSet
+from .views import CardViewSet, CollectionViewSet, UserViewSet, SetViewSet, FavoritesViewSet, NewsViewSet
 from .views.user import LogoutView
 
 router = DefaultRouter()
@@ -9,6 +9,7 @@ router.register(r'collections', CollectionViewSet, basename='collection')
 router.register(r'users', UserViewSet)
 router.register(r'sets', SetViewSet, basename='set')
 router.register(r'favorites', FavoritesViewSet, basename='favorites')
+router.register(r'news', NewsViewSet, basename='news')
 
 urlpatterns = [
     path('', include(router.urls)),

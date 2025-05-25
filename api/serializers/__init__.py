@@ -3,5 +3,13 @@ from .card import CardSerializer
 from .collection import CollectionSerializer
 from .set import SetSerializer
 from .favorites import FavoritesSerializer
+from .news import NewsSerializer
 
-__all__ = ['UserSerializer', 'CardSerializer', 'CollectionSerializer', 'SetSerializer', 'FavoritesSerializer']
+__all__ = [
+            'UserSerializer',
+            'CardSerializer',
+            'CollectionSerializer',
+            'SetSerializer',
+            'FavoritesSerializer',
+            'NewsSerializer'
+        ]
