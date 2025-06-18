@@ -6,14 +6,14 @@ from api.models import User
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
-        fields = ["id", "first_name", "last_name", "username", "email", "password"]
+        fields = ["id", "first_name", "last_name", "username", "email", "password", "profile_picture"]
         extra_kwargs = {
             "password": {"write_only": True, "required": False},  # Rendre password facultatif ici
             "email": {"required": True}
         }
 
     def validate_password(self, value):
-        if value:  # Seulement valider si password est fourni
+        if value:
             validate_password(value)
         return value
 

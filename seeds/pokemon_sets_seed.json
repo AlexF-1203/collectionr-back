@@ -5,7 +5,8 @@
     "tcg": "pokemon",
     "release_date": "1999/01/09",
     "total_cards": 102,
-    "image_url": "https://images.pokemontcg.io/base1/logo.png"
+    "image_url": "https://images.pokemontcg.io/base1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base1/symbol.png"
   },
   {
     "title": "Jungle",
@@ -13,7 +14,8 @@
     "tcg": "pokemon",
     "release_date": "1999/06/16",
     "total_cards": 64,
-    "image_url": "https://images.pokemontcg.io/base2/logo.png"
+    "image_url": "https://images.pokemontcg.io/base2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base2/symbol.png"
   },
   {
     "title": "Wizards Black Star Promos",
@@ -21,7 +23,8 @@
     "tcg": "pokemon",
     "release_date": "1999/07/01",
     "total_cards": 53,
-    "image_url": "https://images.pokemontcg.io/basep/logo.png"
+    "image_url": "https://images.pokemontcg.io/basep/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/basep/symbol.png"
   },
   {
     "title": "Fossil",
@@ -29,7 +32,8 @@
     "tcg": "pokemon",
     "release_date": "1999/10/10",
     "total_cards": 62,
-    "image_url": "https://images.pokemontcg.io/base3/logo.png"
+    "image_url": "https://images.pokemontcg.io/base3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base3/symbol.png"
   },
   {
     "title": "Base Set 2",
@@ -37,15 +41,17 @@
     "tcg": "pokemon",
     "release_date": "2000/02/24",
     "total_cards": 130,
-    "image_url": "https://images.pokemontcg.io/base4/logo.png"
+    "image_url": "https://images.pokemontcg.io/base4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base4/symbol.png"
   },
   {
     "title": "Team Rocket",
     "code": "base5",
     "tcg": "pokemon",
     "release_date": "2000/04/24",
-    "total_cards": 82,
-    "image_url": "https://images.pokemontcg.io/base5/logo.png"
+    "total_cards": 83,
+    "image_url": "https://images.pokemontcg.io/base5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base5/symbol.png"
   },
   {
     "title": "Gym Heroes",
@@ -53,7 +59,8 @@
     "tcg": "pokemon",
     "release_date": "2000/08/14",
     "total_cards": 132,
-    "image_url": "https://images.pokemontcg.io/gym1/logo.png"
+    "image_url": "https://images.pokemontcg.io/gym1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/gym1/symbol.png"
   },
   {
     "title": "Gym Challenge",
@@ -61,7 +68,8 @@
     "tcg": "pokemon",
     "release_date": "2000/10/16",
     "total_cards": 132,
-    "image_url": "https://images.pokemontcg.io/gym2/logo.png"
+    "image_url": "https://images.pokemontcg.io/gym2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/gym2/symbol.png"
   },
   {
     "title": "Neo Genesis",
@@ -69,7 +77,8 @@
     "tcg": "pokemon",
     "release_date": "2000/12/16",
     "total_cards": 111,
-    "image_url": "https://images.pokemontcg.io/neo1/logo.png"
+    "image_url": "https://images.pokemontcg.io/neo1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/neo1/symbol.png"
   },
   {
     "title": "Neo Discovery",
@@ -77,7 +86,8 @@
     "tcg": "pokemon",
     "release_date": "2001/06/01",
     "total_cards": 75,
-    "image_url": "https://images.pokemontcg.io/neo2/logo.png"
+    "image_url": "https://images.pokemontcg.io/neo2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/neo2/symbol.png"
   },
   {
     "title": "Southern Islands",
@@ -85,23 +95,26 @@
     "tcg": "pokemon",
     "release_date": "2001/07/31",
     "total_cards": 18,
-    "image_url": "https://images.pokemontcg.io/si1/logo.png"
+    "image_url": "https://images.pokemontcg.io/si1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/si1/symbol.png"
   },
   {
     "title": "Neo Revelation",
     "code": "neo3",
     "tcg": "pokemon",
     "release_date": "2001/09/21",
-    "total_cards": 64,
-    "image_url": "https://images.pokemontcg.io/neo3/logo.png"
+    "total_cards": 66,
+    "image_url": "https://images.pokemontcg.io/neo3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/neo3/symbol.png"
   },
   {
     "title": "Neo Destiny",
     "code": "neo4",
     "tcg": "pokemon",
     "release_date": "2002/02/28",
-    "total_cards": 105,
-    "image_url": "https://images.pokemontcg.io/neo4/logo.png"
+    "total_cards": 113,
+    "image_url": "https://images.pokemontcg.io/neo4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/neo4/symbol.png"
   },
   {
     "title": "Legendary Collection",
@@ -109,7 +122,8 @@
     "tcg": "pokemon",
     "release_date": "2002/05/24",
     "total_cards": 110,
-    "image_url": "https://images.pokemontcg.io/base6/logo.png"
+    "image_url": "https://images.pokemontcg.io/base6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/base6/symbol.png"
   },
   {
     "title": "Expedition Base Set",
@@ -117,23 +131,26 @@
     "tcg": "pokemon",
     "release_date": "2002/09/15",
     "total_cards": 165,
-    "image_url": "https://images.pokemontcg.io/ecard1/logo.png"
+    "image_url": "https://images.pokemontcg.io/ecard1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ecard1/symbol.png"
   },
   {
     "title": "Aquapolis",
     "code": "ecard2",
     "tcg": "pokemon",
     "release_date": "2003/01/15",
-    "total_cards": 147,
-    "image_url": "https://images.pokemontcg.io/ecard2/logo.png"
+    "total_cards": 182,
+    "image_url": "https://images.pokemontcg.io/ecard2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ecard2/symbol.png"
   },
   {
     "title": "Skyridge",
     "code": "ecard3",
     "tcg": "pokemon",
     "release_date": "2003/05/12",
-    "total_cards": 144,
-    "image_url": "https://images.pokemontcg.io/ecard3/logo.png"
+    "total_cards": 182,
+    "image_url": "https://images.pokemontcg.io/ecard3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ecard3/symbol.png"
   },
   {
     "title": "Ruby & Sapphire",
@@ -141,7 +158,8 @@
     "tcg": "pokemon",
     "release_date": "2003/07/01",
     "total_cards": 109,
-    "image_url": "https://images.pokemontcg.io/ex1/logo.png"
+    "image_url": "https://images.pokemontcg.io/ex1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex1/symbol.png"
   },
   {
     "title": "Sandstorm",
@@ -149,15 +167,17 @@
     "tcg": "pokemon",
     "release_date": "2003/09/18",
     "total_cards": 100,
-    "image_url": "https://images.pokemontcg.io/ex2/logo.png"
+    "image_url": "https://images.pokemontcg.io/ex2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex2/symbol.png"
   },
   {
     "title": "Dragon",
     "code": "ex3",
     "tcg": "pokemon",
     "release_date": "2003/11/24",
-    "total_cards": 97,
-    "image_url": "https://images.pokemontcg.io/ex3/logo.png"
+    "total_cards": 100,
+    "image_url": "https://images.pokemontcg.io/ex3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex3/symbol.png"
   },
   {
     "title": "Nintendo Black Star Promos",
@@ -165,31 +185,35 @@
     "tcg": "pokemon",
     "release_date": "2003/10/01",
     "total_cards": 40,
-    "image_url": "https://images.pokemontcg.io/np/logo.png"
+    "image_url": "https://images.pokemontcg.io/np/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/np/symbol.png"
   },
   {
     "title": "Team Magma vs Team Aqua",
     "code": "ex4",
     "tcg": "pokemon",
     "release_date": "2004/03/01",
-    "total_cards": 95,
-    "image_url": "https://images.pokemontcg.io/ex4/logo.png"
+    "total_cards": 97,
+    "image_url": "https://images.pokemontcg.io/ex4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex4/symbol.png"
   },
   {
     "title": "Hidden Legends",
     "code": "ex5",
     "tcg": "pokemon",
     "release_date": "2004/06/01",
-    "total_cards": 101,
-    "image_url": "https://images.pokemontcg.io/ex5/logo.png"
+    "total_cards": 102,
+    "image_url": "https://images.pokemontcg.io/ex5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex5/symbol.png"
   },
   {
     "title": "FireRed & LeafGreen",
     "code": "ex6",
     "tcg": "pokemon",
     "release_date": "2004/09/01",
-    "total_cards": 112,
-    "image_url": "https://images.pokemontcg.io/ex6/logo.png"
+    "total_cards": 116,
+    "image_url": "https://images.pokemontcg.io/ex6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex6/symbol.png"
   },
   {
     "title": "POP Series 1",
@@ -197,39 +221,44 @@
     "tcg": "pokemon",
     "release_date": "2004/09/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop1/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop1/symbol.png"
   },
   {
     "title": "Team Rocket Returns",
     "code": "ex7",
     "tcg": "pokemon",
     "release_date": "2004/11/01",
-    "total_cards": 109,
-    "image_url": "https://images.pokemontcg.io/ex7/logo.png"
+    "total_cards": 111,
+    "image_url": "https://images.pokemontcg.io/ex7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex7/symbol.png"
   },
   {
     "title": "Deoxys",
     "code": "ex8",
     "tcg": "pokemon",
     "release_date": "2005/02/01",
-    "total_cards": 107,
-    "image_url": "https://images.pokemontcg.io/ex8/logo.png"
+    "total_cards": 108,
+    "image_url": "https://images.pokemontcg.io/ex8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex8/symbol.png"
   },
   {
     "title": "Emerald",
     "code": "ex9",
     "tcg": "pokemon",
     "release_date": "2005/05/01",
-    "total_cards": 106,
-    "image_url": "https://images.pokemontcg.io/ex9/logo.png"
+    "total_cards": 107,
+    "image_url": "https://images.pokemontcg.io/ex9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex9/symbol.png"
   },
   {
     "title": "Unseen Forces",
     "code": "ex10",
     "tcg": "pokemon",
     "release_date": "2005/08/01",
-    "total_cards": 115,
-    "image_url": "https://images.pokemontcg.io/ex10/logo.png"
+    "total_cards": 145,
+    "image_url": "https://images.pokemontcg.io/ex10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex10/symbol.png"
   },
   {
     "title": "POP Series 2",
@@ -237,23 +266,26 @@
     "tcg": "pokemon",
     "release_date": "2005/08/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop2/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop2/symbol.png"
   },
   {
     "title": "Delta Species",
     "code": "ex11",
     "tcg": "pokemon",
     "release_date": "2005/10/31",
-    "total_cards": 113,
-    "image_url": "https://images.pokemontcg.io/ex11/logo.png"
+    "total_cards": 114,
+    "image_url": "https://images.pokemontcg.io/ex11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex11/symbol.png"
   },
   {
     "title": "Legend Maker",
     "code": "ex12",
     "tcg": "pokemon",
     "release_date": "2006/02/01",
-    "total_cards": 92,
-    "image_url": "https://images.pokemontcg.io/ex12/logo.png"
+    "total_cards": 93,
+    "image_url": "https://images.pokemontcg.io/ex12/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex12/symbol.png"
   },
   {
     "title": "POP Series 3",
@@ -261,15 +293,17 @@
     "tcg": "pokemon",
     "release_date": "2006/04/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop3/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop3/symbol.png"
   },
   {
     "title": "Holon Phantoms",
     "code": "ex13",
     "tcg": "pokemon",
     "release_date": "2006/05/01",
-    "total_cards": 110,
-    "image_url": "https://images.pokemontcg.io/ex13/logo.png"
+    "total_cards": 111,
+    "image_url": "https://images.pokemontcg.io/ex13/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex13/symbol.png"
   },
   {
     "title": "Crystal Guardians",
@@ -277,7 +311,8 @@
     "tcg": "pokemon",
     "release_date": "2006/08/01",
     "total_cards": 100,
-    "image_url": "https://images.pokemontcg.io/ex14/logo.png"
+    "image_url": "https://images.pokemontcg.io/ex14/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex14/symbol.png"
   },
   {
     "title": "POP Series 4",
@@ -285,7 +320,8 @@
     "tcg": "pokemon",
     "release_date": "2006/08/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop4/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop4/symbol.png"
   },
   {
     "title": "Dragon Frontiers",
@@ -293,7 +329,8 @@
     "tcg": "pokemon",
     "release_date": "2006/11/01",
     "total_cards": 101,
-    "image_url": "https://images.pokemontcg.io/ex15/logo.png"
+    "image_url": "https://images.pokemontcg.io/ex15/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex15/symbol.png"
   },
   {
     "title": "POP Series 5",
@@ -301,7 +338,8 @@
     "tcg": "pokemon",
     "release_date": "2007/03/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop5/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop5/symbol.png"
   },
   {
     "title": "Power Keepers",
@@ -309,7 +347,8 @@
     "tcg": "pokemon",
     "release_date": "2007/02/02",
     "total_cards": 108,
-    "image_url": "https://images.pokemontcg.io/ex16/logo.png"
+    "image_url": "https://images.pokemontcg.io/ex16/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ex16/symbol.png"
   },
   {
     "title": "Diamond & Pearl",
@@ -317,7 +356,8 @@
     "tcg": "pokemon",
     "release_date": "2007/05/01",
     "total_cards": 130,
-    "image_url": "https://images.pokemontcg.io/dp1/logo.png"
+    "image_url": "https://images.pokemontcg.io/dp1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp1/symbol.png"
   },
   {
     "title": "DP Black Star Promos",
@@ -325,15 +365,17 @@
     "tcg": "pokemon",
     "release_date": "2007/05/01",
     "total_cards": 56,
-    "image_url": "https://images.pokemontcg.io/dpp/logo.png"
+    "image_url": "https://images.pokemontcg.io/dpp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dpp/symbol.png"
   },
   {
     "title": "Mysterious Treasures",
     "code": "dp2",
     "tcg": "pokemon",
     "release_date": "2007/08/01",
-    "total_cards": 123,
-    "image_url": "https://images.pokemontcg.io/dp2/logo.png"
+    "total_cards": 124,
+    "image_url": "https://images.pokemontcg.io/dp2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp2/symbol.png"
   },
   {
     "title": "POP Series 6",
@@ -341,7 +383,8 @@
     "tcg": "pokemon",
     "release_date": "2007/09/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop6/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop6/symbol.png"
   },
   {
     "title": "Secret Wonders",
@@ -349,7 +392,8 @@
     "tcg": "pokemon",
     "release_date": "2007/11/01",
     "total_cards": 132,
-    "image_url": "https://images.pokemontcg.io/dp3/logo.png"
+    "image_url": "https://images.pokemontcg.io/dp3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp3/symbol.png"
   },
   {
     "title": "Great Encounters",
@@ -357,7 +401,8 @@
     "tcg": "pokemon",
     "release_date": "2008/02/01",
     "total_cards": 106,
-    "image_url": "https://images.pokemontcg.io/dp4/logo.png"
+    "image_url": "https://images.pokemontcg.io/dp4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp4/symbol.png"
   },
   {
     "title": "POP Series 7",
@@ -365,7 +410,8 @@
     "tcg": "pokemon",
     "release_date": "2008/03/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop7/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop7/symbol.png"
   },
   {
     "title": "Majestic Dawn",
@@ -373,7 +419,8 @@
     "tcg": "pokemon",
     "release_date": "2008/05/01",
     "total_cards": 100,
-    "image_url": "https://images.pokemontcg.io/dp5/logo.png"
+    "image_url": "https://images.pokemontcg.io/dp5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp5/symbol.png"
   },
   {
     "title": "Legends Awakened",
@@ -381,7 +428,8 @@
     "tcg": "pokemon",
     "release_date": "2008/08/01",
     "total_cards": 146,
-    "image_url": "https://images.pokemontcg.io/dp6/logo.png"
+    "image_url": "https://images.pokemontcg.io/dp6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp6/symbol.png"
   },
   {
     "title": "POP Series 8",
@@ -389,23 +437,26 @@
     "tcg": "pokemon",
     "release_date": "2008/09/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop8/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop8/symbol.png"
   },
   {
     "title": "Stormfront",
     "code": "dp7",
     "tcg": "pokemon",
     "release_date": "2008/11/01",
-    "total_cards": 100,
-    "image_url": "https://images.pokemontcg.io/dp7/logo.png"
+    "total_cards": 106,
+    "image_url": "https://images.pokemontcg.io/dp7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dp7/symbol.png"
   },
   {
     "title": "Platinum",
     "code": "pl1",
     "tcg": "pokemon",
     "release_date": "2009/02/11",
-    "total_cards": 127,
-    "image_url": "https://images.pokemontcg.io/pl1/logo.png"
+    "total_cards": 133,
+    "image_url": "https://images.pokemontcg.io/pl1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pl1/symbol.png"
   },
   {
     "title": "POP Series 9",
@@ -413,31 +464,35 @@
     "tcg": "pokemon",
     "release_date": "2009/03/01",
     "total_cards": 17,
-    "image_url": "https://images.pokemontcg.io/pop9/logo.png"
+    "image_url": "https://images.pokemontcg.io/pop9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pop9/symbol.png"
   },
   {
     "title": "Rising Rivals",
     "code": "pl2",
     "tcg": "pokemon",
     "release_date": "2009/05/16",
-    "total_cards": 111,
-    "image_url": "https://images.pokemontcg.io/pl2/logo.png"
+    "total_cards": 120,
+    "image_url": "https://images.pokemontcg.io/pl2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pl2/symbol.png"
   },
   {
     "title": "Supreme Victors",
     "code": "pl3",
     "tcg": "pokemon",
     "release_date": "2009/08/19",
-    "total_cards": 147,
-    "image_url": "https://images.pokemontcg.io/pl3/logo.png"
+    "total_cards": 153,
+    "image_url": "https://images.pokemontcg.io/pl3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pl3/symbol.png"
   },
   {
     "title": "Arceus",
     "code": "pl4",
     "tcg": "pokemon",
     "release_date": "2009/11/04",
-    "total_cards": 99,
-    "image_url": "https://images.pokemontcg.io/pl4/logo.png"
+    "total_cards": 111,
+    "image_url": "https://images.pokemontcg.io/pl4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pl4/symbol.png"
   },
   {
     "title": "Pok\u00e9mon Rumble",
@@ -445,15 +500,17 @@
     "tcg": "pokemon",
     "release_date": "2009/12/02",
     "total_cards": 16,
-    "image_url": "https://images.pokemontcg.io/ru1/logo.png"
+    "image_url": "https://images.pokemontcg.io/ru1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/ru1/symbol.png"
   },
   {
     "title": "HeartGold & SoulSilver",
     "code": "hgss1",
     "tcg": "pokemon",
     "release_date": "2010/02/10",
-    "total_cards": 123,
-    "image_url": "https://images.pokemontcg.io/hgss1/logo.png"
+    "total_cards": 124,
+    "image_url": "https://images.pokemontcg.io/hgss1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/hgss1/symbol.png"
   },
   {
     "title": "HGSS Black Star Promos",
@@ -461,39 +518,44 @@
     "tcg": "pokemon",
     "release_date": "2010/02/10",
     "total_cards": 25,
-    "image_url": "https://images.pokemontcg.io/hsp/logo.png"
+    "image_url": "https://images.pokemontcg.io/hsp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/hsp/symbol.png"
   },
   {
     "title": "HS\u2014Unleashed",
     "code": "hgss2",
     "tcg": "pokemon",
     "release_date": "2010/05/12",
-    "total_cards": 95,
-    "image_url": "https://images.pokemontcg.io/hgss2/logo.png"
+    "total_cards": 96,
+    "image_url": "https://images.pokemontcg.io/hgss2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/hgss2/symbol.png"
   },
   {
     "title": "HS\u2014Undaunted",
     "code": "hgss3",
     "tcg": "pokemon",
     "release_date": "2010/08/18",
-    "total_cards": 90,
-    "image_url": "https://images.pokemontcg.io/hgss3/logo.png"
+    "total_cards": 91,
+    "image_url": "https://images.pokemontcg.io/hgss3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/hgss3/symbol.png"
   },
   {
     "title": "HS\u2014Triumphant",
     "code": "hgss4",
     "tcg": "pokemon",
     "release_date": "2010/11/03",
-    "total_cards": 102,
-    "image_url": "https://images.pokemontcg.io/hgss4/logo.png"
+    "total_cards": 103,
+    "image_url": "https://images.pokemontcg.io/hgss4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/hgss4/symbol.png"
   },
   {
     "title": "Call of Legends",
     "code": "col1",
     "tcg": "pokemon",
     "release_date": "2011/02/09",
-    "total_cards": 95,
-    "image_url": "https://images.pokemontcg.io/col1/logo.png"
+    "total_cards": 106,
+    "image_url": "https://images.pokemontcg.io/col1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/col1/symbol.png"
   },
   {
     "title": "BW Black Star Promos",
@@ -501,15 +563,17 @@
     "tcg": "pokemon",
     "release_date": "2011/03/01",
     "total_cards": 101,
-    "image_url": "https://images.pokemontcg.io/bwp/logo.png"
+    "image_url": "https://images.pokemontcg.io/bwp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bwp/symbol.png"
   },
   {
     "title": "Black & White",
     "code": "bw1",
     "tcg": "pokemon",
     "release_date": "2011/04/25",
-    "total_cards": 114,
-    "image_url": "https://images.pokemontcg.io/bw1/logo.png"
+    "total_cards": 115,
+    "image_url": "https://images.pokemontcg.io/bw1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw1/symbol.png"
   },
   {
     "title": "McDonald's Collection 2011",
@@ -517,7 +581,8 @@
     "tcg": "pokemon",
     "release_date": "2011/06/17",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd11/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd11/symbol.png"
   },
   {
     "title": "Emerging Powers",
@@ -525,31 +590,35 @@
     "tcg": "pokemon",
     "release_date": "2011/08/31",
     "total_cards": 98,
-    "image_url": "https://images.pokemontcg.io/bw2/logo.png"
+    "image_url": "https://images.pokemontcg.io/bw2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw2/symbol.png"
   },
   {
     "title": "Noble Victories",
     "code": "bw3",
     "tcg": "pokemon",
     "release_date": "2011/11/16",
-    "total_cards": 101,
-    "image_url": "https://images.pokemontcg.io/bw3/logo.png"
+    "total_cards": 102,
+    "image_url": "https://images.pokemontcg.io/bw3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw3/symbol.png"
   },
   {
     "title": "Next Destinies",
     "code": "bw4",
     "tcg": "pokemon",
     "release_date": "2012/02/08",
-    "total_cards": 99,
-    "image_url": "https://images.pokemontcg.io/bw4/logo.png"
+    "total_cards": 103,
+    "image_url": "https://images.pokemontcg.io/bw4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw4/symbol.png"
   },
   {
     "title": "Dark Explorers",
     "code": "bw5",
     "tcg": "pokemon",
     "release_date": "2012/05/09",
-    "total_cards": 108,
-    "image_url": "https://images.pokemontcg.io/bw5/logo.png"
+    "total_cards": 111,
+    "image_url": "https://images.pokemontcg.io/bw5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw5/symbol.png"
   },
   {
     "title": "McDonald's Collection 2012",
@@ -557,71 +626,80 @@
     "tcg": "pokemon",
     "release_date": "2012/06/15",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd12/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd12/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd12/symbol.png"
   },
   {
     "title": "Dragons Exalted",
     "code": "bw6",
     "tcg": "pokemon",
     "release_date": "2012/08/15",
-    "total_cards": 124,
-    "image_url": "https://images.pokemontcg.io/bw6/logo.png"
+    "total_cards": 128,
+    "image_url": "https://images.pokemontcg.io/bw6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw6/symbol.png"
   },
   {
     "title": "Dragon Vault",
     "code": "dv1",
     "tcg": "pokemon",
     "release_date": "2012/10/05",
-    "total_cards": 20,
-    "image_url": "https://images.pokemontcg.io/dv1/logo.png"
+    "total_cards": 21,
+    "image_url": "https://images.pokemontcg.io/dv1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dv1/symbol.png"
   },
   {
     "title": "Boundaries Crossed",
     "code": "bw7",
     "tcg": "pokemon",
     "release_date": "2012/11/07",
-    "total_cards": 149,
-    "image_url": "https://images.pokemontcg.io/bw7/logo.png"
+    "total_cards": 153,
+    "image_url": "https://images.pokemontcg.io/bw7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw7/symbol.png"
   },
   {
     "title": "Plasma Storm",
     "code": "bw8",
     "tcg": "pokemon",
     "release_date": "2013/02/06",
-    "total_cards": 135,
-    "image_url": "https://images.pokemontcg.io/bw8/logo.png"
+    "total_cards": 138,
+    "image_url": "https://images.pokemontcg.io/bw8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw8/symbol.png"
   },
   {
     "title": "Plasma Freeze",
     "code": "bw9",
     "tcg": "pokemon",
     "release_date": "2013/05/08",
-    "total_cards": 116,
-    "image_url": "https://images.pokemontcg.io/bw9/logo.png"
+    "total_cards": 122,
+    "image_url": "https://images.pokemontcg.io/bw9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw9/symbol.png"
   },
   {
     "title": "Plasma Blast",
     "code": "bw10",
     "tcg": "pokemon",
     "release_date": "2013/08/14",
-    "total_cards": 101,
-    "image_url": "https://images.pokemontcg.io/bw10/logo.png"
+    "total_cards": 105,
+    "image_url": "https://images.pokemontcg.io/bw10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw10/symbol.png"
   },
   {
     "title": "XY Black Star Promos",
     "code": "xyp",
     "tcg": "pokemon",
     "release_date": "2013/10/12",
-    "total_cards": 211,
-    "image_url": "https://images.pokemontcg.io/xyp/logo.png"
+    "total_cards": 216,
+    "image_url": "https://images.pokemontcg.io/xyp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xyp/symbol.png"
   },
   {
     "title": "Legendary Treasures",
     "code": "bw11",
     "tcg": "pokemon",
     "release_date": "2013/11/06",
-    "total_cards": 113,
-    "image_url": "https://images.pokemontcg.io/bw11/logo.png"
+    "total_cards": 140,
+    "image_url": "https://images.pokemontcg.io/bw11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bw11/symbol.png"
   },
   {
     "title": "Kalos Starter Set",
@@ -629,7 +707,8 @@
     "tcg": "pokemon",
     "release_date": "2013/11/08",
     "total_cards": 39,
-    "image_url": "https://images.pokemontcg.io/xy0/logo.png"
+    "image_url": "https://images.pokemontcg.io/xy0/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy0/symbol.png"
   },
   {
     "title": "XY",
@@ -637,39 +716,44 @@
     "tcg": "pokemon",
     "release_date": "2014/02/05",
     "total_cards": 146,
-    "image_url": "https://images.pokemontcg.io/xy1/logo.png"
+    "image_url": "https://images.pokemontcg.io/xy1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy1/symbol.png"
   },
   {
     "title": "Flashfire",
     "code": "xy2",
     "tcg": "pokemon",
     "release_date": "2014/05/07",
-    "total_cards": 106,
-    "image_url": "https://images.pokemontcg.io/xy2/logo.png"
+    "total_cards": 110,
+    "image_url": "https://images.pokemontcg.io/xy2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy2/symbol.png"
   },
   {
     "title": "Furious Fists",
     "code": "xy3",
     "tcg": "pokemon",
     "release_date": "2014/08/13",
-    "total_cards": 111,
-    "image_url": "https://images.pokemontcg.io/xy3/logo.png"
+    "total_cards": 114,
+    "image_url": "https://images.pokemontcg.io/xy3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy3/symbol.png"
   },
   {
     "title": "Phantom Forces",
     "code": "xy4",
     "tcg": "pokemon",
     "release_date": "2014/11/05",
-    "total_cards": 119,
-    "image_url": "https://images.pokemontcg.io/xy4/logo.png"
+    "total_cards": 124,
+    "image_url": "https://images.pokemontcg.io/xy4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy4/symbol.png"
   },
   {
     "title": "Primal Clash",
     "code": "xy5",
     "tcg": "pokemon",
     "release_date": "2015/02/04",
-    "total_cards": 160,
-    "image_url": "https://images.pokemontcg.io/xy5/logo.png"
+    "total_cards": 164,
+    "image_url": "https://images.pokemontcg.io/xy5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy5/symbol.png"
   },
   {
     "title": "Double Crisis",
@@ -677,63 +761,71 @@
     "tcg": "pokemon",
     "release_date": "2015/03/25",
     "total_cards": 34,
-    "image_url": "https://images.pokemontcg.io/dc1/logo.png"
+    "image_url": "https://images.pokemontcg.io/dc1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/dc1/symbol.png"
   },
   {
     "title": "Roaring Skies",
     "code": "xy6",
     "tcg": "pokemon",
     "release_date": "2015/05/06",
-    "total_cards": 108,
-    "image_url": "https://images.pokemontcg.io/xy6/logo.png"
+    "total_cards": 112,
+    "image_url": "https://images.pokemontcg.io/xy6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy6/symbol.png"
   },
   {
     "title": "Ancient Origins",
     "code": "xy7",
     "tcg": "pokemon",
     "release_date": "2015/08/12",
-    "total_cards": 98,
-    "image_url": "https://images.pokemontcg.io/xy7/logo.png"
+    "total_cards": 100,
+    "image_url": "https://images.pokemontcg.io/xy7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy7/symbol.png"
   },
   {
     "title": "BREAKthrough",
     "code": "xy8",
     "tcg": "pokemon",
     "release_date": "2015/11/04",
-    "total_cards": 162,
-    "image_url": "https://images.pokemontcg.io/xy8/logo.png"
+    "total_cards": 165,
+    "image_url": "https://images.pokemontcg.io/xy8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy8/symbol.png"
   },
   {
     "title": "BREAKpoint",
     "code": "xy9",
     "tcg": "pokemon",
     "release_date": "2016/02/03",
-    "total_cards": 122,
-    "image_url": "https://images.pokemontcg.io/xy9/logo.png"
+    "total_cards": 126,
+    "image_url": "https://images.pokemontcg.io/xy9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy9/symbol.png"
   },
   {
     "title": "Generations",
     "code": "g1",
     "tcg": "pokemon",
     "release_date": "2016/02/22",
-    "total_cards": 83,
-    "image_url": "https://images.pokemontcg.io/g1/logo.png"
+    "total_cards": 117,
+    "image_url": "https://images.pokemontcg.io/g1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/g1/symbol.png"
   },
   {
     "title": "Fates Collide",
     "code": "xy10",
     "tcg": "pokemon",
     "release_date": "2016/05/02",
-    "total_cards": 124,
-    "image_url": "https://images.pokemontcg.io/xy10/logo.png"
+    "total_cards": 129,
+    "image_url": "https://images.pokemontcg.io/xy10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy10/symbol.png"
   },
   {
     "title": "Steam Siege",
     "code": "xy11",
     "tcg": "pokemon",
     "release_date": "2016/08/03",
-    "total_cards": 114,
-    "image_url": "https://images.pokemontcg.io/xy11/logo.png"
+    "total_cards": 116,
+    "image_url": "https://images.pokemontcg.io/xy11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy11/symbol.png"
   },
   {
     "title": "McDonald's Collection 2016",
@@ -741,111 +833,125 @@
     "tcg": "pokemon",
     "release_date": "2016/08/19",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd16/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd16/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd16/symbol.png"
   },
   {
     "title": "Evolutions",
     "code": "xy12",
     "tcg": "pokemon",
     "release_date": "2016/11/02",
-    "total_cards": 108,
-    "image_url": "https://images.pokemontcg.io/xy12/logo.png"
+    "total_cards": 113,
+    "image_url": "https://images.pokemontcg.io/xy12/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/xy12/symbol.png"
   },
   {
     "title": "Sun & Moon",
     "code": "sm1",
     "tcg": "pokemon",
     "release_date": "2017/02/03",
-    "total_cards": 149,
-    "image_url": "https://images.pokemontcg.io/sm1/logo.png"
+    "total_cards": 173,
+    "image_url": "https://images.pokemontcg.io/sm1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm1/symbol.png"
   },
   {
     "title": "SM Black Star Promos",
     "code": "smp",
     "tcg": "pokemon",
     "release_date": "2017/02/03",
-    "total_cards": 248,
-    "image_url": "https://images.pokemontcg.io/smp/logo.png"
+    "total_cards": 250,
+    "image_url": "https://images.pokemontcg.io/smp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/smp/symbol.png"
   },
   {
     "title": "Guardians Rising",
     "code": "sm2",
     "tcg": "pokemon",
     "release_date": "2017/05/05",
-    "total_cards": 145,
-    "image_url": "https://images.pokemontcg.io/sm2/logo.png"
+    "total_cards": 180,
+    "image_url": "https://images.pokemontcg.io/sm2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm2/symbol.png"
   },
   {
     "title": "Burning Shadows",
     "code": "sm3",
     "tcg": "pokemon",
     "release_date": "2017/08/05",
-    "total_cards": 147,
-    "image_url": "https://images.pokemontcg.io/sm3/logo.png"
+    "total_cards": 177,
+    "image_url": "https://images.pokemontcg.io/sm3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm3/symbol.png"
   },
   {
     "title": "Shining Legends",
     "code": "sm35",
     "tcg": "pokemon",
     "release_date": "2017/10/06",
-    "total_cards": 73,
-    "image_url": "https://images.pokemontcg.io/sm35/logo.png"
+    "total_cards": 81,
+    "image_url": "https://images.pokemontcg.io/sm35/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm35/symbol.png"
   },
   {
     "title": "Crimson Invasion",
     "code": "sm4",
     "tcg": "pokemon",
     "release_date": "2017/11/03",
-    "total_cards": 111,
-    "image_url": "https://images.pokemontcg.io/sm4/logo.png"
+    "total_cards": 126,
+    "image_url": "https://images.pokemontcg.io/sm4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm4/symbol.png"
   },
   {
     "title": "Ultra Prism",
     "code": "sm5",
     "tcg": "pokemon",
     "release_date": "2018/02/02",
-    "total_cards": 156,
-    "image_url": "https://images.pokemontcg.io/sm5/logo.png"
+    "total_cards": 178,
+    "image_url": "https://images.pokemontcg.io/sm5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm5/symbol.png"
   },
   {
     "title": "Forbidden Light",
     "code": "sm6",
     "tcg": "pokemon",
     "release_date": "2018/05/04",
-    "total_cards": 131,
-    "image_url": "https://images.pokemontcg.io/sm6/logo.png"
+    "total_cards": 150,
+    "image_url": "https://images.pokemontcg.io/sm6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm6/symbol.png"
   },
   {
     "title": "Celestial Storm",
     "code": "sm7",
     "tcg": "pokemon",
     "release_date": "2018/08/03",
-    "total_cards": 168,
-    "image_url": "https://images.pokemontcg.io/sm7/logo.png"
+    "total_cards": 187,
+    "image_url": "https://images.pokemontcg.io/sm7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm7/symbol.png"
   },
   {
     "title": "Dragon Majesty",
     "code": "sm75",
     "tcg": "pokemon",
     "release_date": "2018/09/07",
-    "total_cards": 70,
-    "image_url": "https://images.pokemontcg.io/sm75/logo.png"
+    "total_cards": 80,
+    "image_url": "https://images.pokemontcg.io/sm75/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm75/symbol.png"
   },
   {
     "title": "Lost Thunder",
     "code": "sm8",
     "tcg": "pokemon",
     "release_date": "2018/11/02",
-    "total_cards": 214,
-    "image_url": "https://images.pokemontcg.io/sm8/logo.png"
+    "total_cards": 240,
+    "image_url": "https://images.pokemontcg.io/sm8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm8/symbol.png"
   },
   {
     "title": "Team Up",
     "code": "sm9",
     "tcg": "pokemon",
     "release_date": "2019/02/01",
-    "total_cards": 181,
-    "image_url": "https://images.pokemontcg.io/sm9/logo.png"
+    "total_cards": 198,
+    "image_url": "https://images.pokemontcg.io/sm9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm9/symbol.png"
   },
   {
     "title": "Detective Pikachu",
@@ -853,31 +959,35 @@
     "tcg": "pokemon",
     "release_date": "2019/04/05",
     "total_cards": 18,
-    "image_url": "https://images.pokemontcg.io/det1/logo.png"
+    "image_url": "https://images.pokemontcg.io/det1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/det1/symbol.png"
   },
   {
     "title": "Unbroken Bonds",
     "code": "sm10",
     "tcg": "pokemon",
     "release_date": "2019/05/03",
-    "total_cards": 214,
-    "image_url": "https://images.pokemontcg.io/sm10/logo.png"
+    "total_cards": 234,
+    "image_url": "https://images.pokemontcg.io/sm10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm10/symbol.png"
   },
   {
     "title": "Unified Minds",
     "code": "sm11",
     "tcg": "pokemon",
     "release_date": "2019/08/02",
-    "total_cards": 236,
-    "image_url": "https://images.pokemontcg.io/sm11/logo.png"
+    "total_cards": 260,
+    "image_url": "https://images.pokemontcg.io/sm11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm11/symbol.png"
   },
   {
     "title": "Hidden Fates",
     "code": "sm115",
     "tcg": "pokemon",
     "release_date": "2019/08/23",
-    "total_cards": 68,
-    "image_url": "https://images.pokemontcg.io/sm115/logo.png"
+    "total_cards": 69,
+    "image_url": "https://images.pokemontcg.io/sm115/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm115/symbol.png"
   },
   {
     "title": "Hidden Fates Shiny Vault",
@@ -885,7 +995,8 @@
     "tcg": "pokemon",
     "release_date": "2019/08/23",
     "total_cards": 94,
-    "image_url": "https://images.pokemontcg.io/sma/logo.png"
+    "image_url": "https://images.pokemontcg.io/sma/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sma/symbol.png"
   },
   {
     "title": "McDonald's Collection 2019",
@@ -893,71 +1004,80 @@
     "tcg": "pokemon",
     "release_date": "2019/10/15",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd19/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd19/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd19/symbol.png"
   },
   {
     "title": "Cosmic Eclipse",
     "code": "sm12",
     "tcg": "pokemon",
     "release_date": "2019/11/01",
-    "total_cards": 236,
-    "image_url": "https://images.pokemontcg.io/sm12/logo.png"
+    "total_cards": 272,
+    "image_url": "https://images.pokemontcg.io/sm12/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sm12/symbol.png"
   },
   {
     "title": "SWSH Black Star Promos",
     "code": "swshp",
     "tcg": "pokemon",
     "release_date": "2019/11/15",
-    "total_cards": 307,
-    "image_url": "https://images.pokemontcg.io/swshp/logo.png"
+    "total_cards": 304,
+    "image_url": "https://images.pokemontcg.io/swshp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swshp/symbol.png"
   },
   {
     "title": "Sword & Shield",
     "code": "swsh1",
     "tcg": "pokemon",
     "release_date": "2020/02/07",
-    "total_cards": 202,
-    "image_url": "https://images.pokemontcg.io/swsh1/logo.png"
+    "total_cards": 216,
+    "image_url": "https://images.pokemontcg.io/swsh1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh1/symbol.png"
   },
   {
     "title": "Rebel Clash",
     "code": "swsh2",
     "tcg": "pokemon",
     "release_date": "2020/05/01",
-    "total_cards": 192,
-    "image_url": "https://images.pokemontcg.io/swsh2/logo.png"
+    "total_cards": 209,
+    "image_url": "https://images.pokemontcg.io/swsh2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh2/symbol.png"
   },
   {
     "title": "Darkness Ablaze",
     "code": "swsh3",
     "tcg": "pokemon",
     "release_date": "2020/08/14",
-    "total_cards": 189,
-    "image_url": "https://images.pokemontcg.io/swsh3/logo.png"
+    "total_cards": 201,
+    "image_url": "https://images.pokemontcg.io/swsh3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh3/symbol.png"
   },
   {
     "title": "Champion's Path",
     "code": "swsh35",
     "tcg": "pokemon",
     "release_date": "2020/09/25",
-    "total_cards": 73,
-    "image_url": "https://images.pokemontcg.io/swsh35/logo.png"
+    "total_cards": 80,
+    "image_url": "https://images.pokemontcg.io/swsh35/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh35/symbol.png"
   },
   {
     "title": "Vivid Voltage",
     "code": "swsh4",
     "tcg": "pokemon",
     "release_date": "2020/11/13",
-    "total_cards": 185,
-    "image_url": "https://images.pokemontcg.io/swsh4/logo.png"
+    "total_cards": 203,
+    "image_url": "https://images.pokemontcg.io/swsh4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh4/symbol.png"
   },
   {
     "title": "Shining Fates",
     "code": "swsh45",
     "tcg": "pokemon",
     "release_date": "2021/02/19",
-    "total_cards": 72,
-    "image_url": "https://images.pokemontcg.io/swsh45/logo.png"
+    "total_cards": 73,
+    "image_url": "https://images.pokemontcg.io/swsh45/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh45/symbol.png"
   },
   {
     "title": "Shining Fates Shiny Vault",
@@ -965,31 +1085,35 @@
     "tcg": "pokemon",
     "release_date": "2021/02/19",
     "total_cards": 122,
-    "image_url": "https://images.pokemontcg.io/swsh45sv/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh45sv/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh45sv/symbol.png"
   },
   {
     "title": "Battle Styles",
     "code": "swsh5",
     "tcg": "pokemon",
     "release_date": "2021/03/19",
-    "total_cards": 163,
-    "image_url": "https://images.pokemontcg.io/swsh5/logo.png"
+    "total_cards": 183,
+    "image_url": "https://images.pokemontcg.io/swsh5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh5/symbol.png"
   },
   {
     "title": "Chilling Reign",
     "code": "swsh6",
     "tcg": "pokemon",
     "release_date": "2021/06/18",
-    "total_cards": 198,
-    "image_url": "https://images.pokemontcg.io/swsh6/logo.png"
+    "total_cards": 233,
+    "image_url": "https://images.pokemontcg.io/swsh6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh6/symbol.png"
   },
   {
     "title": "Evolving Skies",
     "code": "swsh7",
     "tcg": "pokemon",
     "release_date": "2021/08/27",
-    "total_cards": 203,
-    "image_url": "https://images.pokemontcg.io/swsh7/logo.png"
+    "total_cards": 237,
+    "image_url": "https://images.pokemontcg.io/swsh7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh7/symbol.png"
   },
   {
     "title": "Celebrations",
@@ -997,7 +1121,8 @@
     "tcg": "pokemon",
     "release_date": "2021/10/08",
     "total_cards": 25,
-    "image_url": "https://images.pokemontcg.io/cel25/logo.png"
+    "image_url": "https://images.pokemontcg.io/cel25/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/cel25/symbol.png"
   },
   {
     "title": "Celebrations: Classic Collection",
@@ -1005,7 +1130,8 @@
     "tcg": "pokemon",
     "release_date": "2021/10/08",
     "total_cards": 25,
-    "image_url": "https://images.pokemontcg.io/cel25c/logo.png"
+    "image_url": "https://images.pokemontcg.io/cel25c/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/cel25c/symbol.png"
   },
   {
     "title": "McDonald's Collection 2014",
@@ -1013,7 +1139,8 @@
     "tcg": "pokemon",
     "release_date": "2014/05/23",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd14/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd14/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd14/symbol.png"
   },
   {
     "title": "McDonald's Collection 2015",
@@ -1021,7 +1148,8 @@
     "tcg": "pokemon",
     "release_date": "2015/11/27",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd15/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd15/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd15/symbol.png"
   },
   {
     "title": "McDonald's Collection 2018",
@@ -1029,7 +1157,8 @@
     "tcg": "pokemon",
     "release_date": "2018/10/16",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd18/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd18/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd18/symbol.png"
   },
   {
     "title": "McDonald's Collection 2017",
@@ -1037,7 +1166,8 @@
     "tcg": "pokemon",
     "release_date": "2017/11/07",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/mcd17/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd17/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd17/symbol.png"
   },
   {
     "title": "McDonald's Collection 2021",
@@ -1045,7 +1175,8 @@
     "tcg": "pokemon",
     "release_date": "2021/02/09",
     "total_cards": 25,
-    "image_url": "https://images.pokemontcg.io/mcd21/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd21/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd21/symbol.png"
   },
   {
     "title": "Best of Game",
@@ -1053,15 +1184,17 @@
     "tcg": "pokemon",
     "release_date": "2002/12/01",
     "total_cards": 9,
-    "image_url": "https://images.pokemontcg.io/bp/logo.png"
+    "image_url": "https://images.pokemontcg.io/bp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/bp/symbol.png"
   },
   {
     "title": "Fusion Strike",
     "code": "swsh8",
     "tcg": "pokemon",
     "release_date": "2021/11/12",
-    "total_cards": 264,
-    "image_url": "https://images.pokemontcg.io/swsh8/logo.png"
+    "total_cards": 284,
+    "image_url": "https://images.pokemontcg.io/swsh8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh8/symbol.png"
   },
   {
     "title": "Pok\u00e9mon Futsal Collection",
@@ -1069,7 +1202,8 @@
     "tcg": "pokemon",
     "release_date": "2020/09/11",
     "total_cards": 5,
-    "image_url": "https://images.pokemontcg.io/fut20/logo.png"
+    "image_url": "https://images.pokemontcg.io/fut20/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/fut20/symbol.png"
   },
   {
     "title": "EX Trainer Kit Latias",
@@ -1077,7 +1211,8 @@
     "tcg": "pokemon",
     "release_date": "2004/06/01",
     "total_cards": 10,
-    "image_url": "https://images.pokemontcg.io/tk1a/logo.png"
+    "image_url": "https://images.pokemontcg.io/tk1a/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/tk1a/symbol.png"
   },
   {
     "title": "EX Trainer Kit Latios",
@@ -1085,7 +1220,8 @@
     "tcg": "pokemon",
     "release_date": "2004/06/01",
     "total_cards": 10,
-    "image_url": "https://images.pokemontcg.io/tk1b/logo.png"
+    "image_url": "https://images.pokemontcg.io/tk1b/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/tk1b/symbol.png"
   },
   {
     "title": "EX Trainer Kit 2 Plusle",
@@ -1093,7 +1229,8 @@
     "tcg": "pokemon",
     "release_date": "2006/03/01",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/tk2a/logo.png"
+    "image_url": "https://images.pokemontcg.io/tk2a/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/tk2a/symbol.png"
   },
   {
     "title": "EX Trainer Kit 2 Minun",
@@ -1101,15 +1238,17 @@
     "tcg": "pokemon",
     "release_date": "2006/03/01",
     "total_cards": 12,
-    "image_url": "https://images.pokemontcg.io/tk2b/logo.png"
+    "image_url": "https://images.pokemontcg.io/tk2b/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/tk2b/symbol.png"
   },
   {
     "title": "Brilliant Stars",
     "code": "swsh9",
     "tcg": "pokemon",
     "release_date": "2022/02/25",
-    "total_cards": 172,
-    "image_url": "https://images.pokemontcg.io/swsh9/logo.png"
+    "total_cards": 186,
+    "image_url": "https://images.pokemontcg.io/swsh9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh9/symbol.png"
   },
   {
     "title": "Brilliant Stars Trainer Gallery",
@@ -1117,15 +1256,17 @@
     "tcg": "pokemon",
     "release_date": "2022/02/25",
     "total_cards": 30,
-    "image_url": "https://images.pokemontcg.io/swsh9tg/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh9tg/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh9tg/symbol.png"
   },
   {
     "title": "Astral Radiance",
     "code": "swsh10",
     "tcg": "pokemon",
     "release_date": "2022/05/27",
-    "total_cards": 189,
-    "image_url": "https://images.pokemontcg.io/swsh10/logo.png"
+    "total_cards": 216,
+    "image_url": "https://images.pokemontcg.io/swsh10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh10/symbol.png"
   },
   {
     "title": "Astral Radiance Trainer Gallery",
@@ -1133,23 +1274,26 @@
     "tcg": "pokemon",
     "release_date": "2022/05/27",
     "total_cards": 30,
-    "image_url": "https://images.pokemontcg.io/swsh10tg/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh10tg/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh10tg/symbol.png"
   },
   {
     "title": "Pok\u00e9mon GO",
     "code": "pgo",
     "tcg": "pokemon",
     "release_date": "2022/07/01",
-    "total_cards": 78,
-    "image_url": "https://images.pokemontcg.io/pgo/logo.png"
+    "total_cards": 88,
+    "image_url": "https://images.pokemontcg.io/pgo/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/pgo/symbol.png"
   },
   {
     "title": "Lost Origin",
     "code": "swsh11",
     "tcg": "pokemon",
     "release_date": "2022/09/09",
-    "total_cards": 196,
-    "image_url": "https://images.pokemontcg.io/swsh11/logo.png"
+    "total_cards": 217,
+    "image_url": "https://images.pokemontcg.io/swsh11/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh11/symbol.png"
   },
   {
     "title": "Lost Origin Trainer Gallery",
@@ -1157,15 +1301,17 @@
     "tcg": "pokemon",
     "release_date": "2022/09/09",
     "total_cards": 30,
-    "image_url": "https://images.pokemontcg.io/swsh11tg/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh11tg/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh11tg/symbol.png"
   },
   {
     "title": "Silver Tempest",
     "code": "swsh12",
     "tcg": "pokemon",
     "release_date": "2022/11/11",
-    "total_cards": 195,
-    "image_url": "https://images.pokemontcg.io/swsh12/logo.png"
+    "total_cards": 215,
+    "image_url": "https://images.pokemontcg.io/swsh12/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh12/symbol.png"
   },
   {
     "title": "Silver Tempest Trainer Gallery",
@@ -1173,7 +1319,8 @@
     "tcg": "pokemon",
     "release_date": "2022/11/11",
     "total_cards": 30,
-    "image_url": "https://images.pokemontcg.io/swsh12tg/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh12tg/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh12tg/symbol.png"
   },
   {
     "title": "McDonald's Collection 2022",
@@ -1181,15 +1328,17 @@
     "tcg": "pokemon",
     "release_date": "2022/08/03",
     "total_cards": 15,
-    "image_url": "https://images.pokemontcg.io/mcd22/logo.png"
+    "image_url": "https://images.pokemontcg.io/mcd22/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/mcd22/symbol.png"
   },
   {
     "title": "Crown Zenith",
     "code": "swsh12pt5",
     "tcg": "pokemon",
     "release_date": "2023/01/20",
-    "total_cards": 159,
-    "image_url": "https://images.pokemontcg.io/swsh12pt5/logo.png"
+    "total_cards": 160,
+    "image_url": "https://images.pokemontcg.io/swsh12pt5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh12pt5/symbol.png"
   },
   {
     "title": "Crown Zenith Galarian Gallery",
@@ -1197,31 +1346,35 @@
     "tcg": "pokemon",
     "release_date": "2023/01/20",
     "total_cards": 70,
-    "image_url": "https://images.pokemontcg.io/swsh12pt5gg/logo.png"
+    "image_url": "https://images.pokemontcg.io/swsh12pt5gg/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/swsh12pt5gg/symbol.png"
   },
   {
     "title": "Scarlet & Violet",
     "code": "sv1",
     "tcg": "pokemon",
     "release_date": "2023/03/31",
-    "total_cards": 198,
-    "image_url": "https://images.pokemontcg.io/sv1/logo.png"
+    "total_cards": 258,
+    "image_url": "https://images.pokemontcg.io/sv1/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv1/symbol.png"
   },
   {
     "title": "Scarlet & Violet Black Star Promos",
     "code": "svp",
     "tcg": "pokemon",
     "release_date": "2023/01/01",
-    "total_cards": 102,
-    "image_url": "https://images.pokemontcg.io/svp/logo.png"
+    "total_cards": 196,
+    "image_url": "https://images.pokemontcg.io/svp/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/svp/symbol.png"
   },
   {
     "title": "Paldea Evolved",
     "code": "sv2",
     "tcg": "pokemon",
     "release_date": "2023/06/09",
-    "total_cards": 193,
-    "image_url": "https://images.pokemontcg.io/sv2/logo.png"
+    "total_cards": 279,
+    "image_url": "https://images.pokemontcg.io/sv2/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv2/symbol.png"
   },
   {
     "title": "Scarlet & Violet Energies",
@@ -1229,86 +1382,115 @@
     "tcg": "pokemon",
     "release_date": "2023/03/31",
     "total_cards": 8,
-    "image_url": "https://images.pokemontcg.io/sve/logo.png"
+    "image_url": "https://images.pokemontcg.io/sve/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sve/symbol.png"
   },
   {
     "title": "Obsidian Flames",
     "code": "sv3",
     "tcg": "pokemon",
     "release_date": "2023/08/11",
-    "total_cards": 197,
-    "image_url": "https://images.pokemontcg.io/sv3/logo.png"
+    "total_cards": 230,
+    "image_url": "https://images.pokemontcg.io/sv3/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv3/symbol.png"
   },
   {
     "title": "151",
     "code": "sv3pt5",
     "tcg": "pokemon",
     "release_date": "2023/09/22",
-    "total_cards": 165,
-    "image_url": "https://images.pokemontcg.io/sv3pt5/logo.png"
+    "total_cards": 207,
+    "image_url": "https://images.pokemontcg.io/sv3pt5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv3pt5/symbol.png"
   },
   {
     "title": "Paradox Rift",
     "code": "sv4",
     "tcg": "pokemon",
     "release_date": "2023/11/03",
-    "total_cards": 182,
-    "image_url": "https://images.pokemontcg.io/sv4/logo.png"
+    "total_cards": 266,
+    "image_url": "https://images.pokemontcg.io/sv4/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv4/symbol.png"
   },
   {
     "title": "Paldean Fates",
     "code": "sv4pt5",
     "tcg": "pokemon",
     "release_date": "2024/01/26",
-    "total_cards": 91,
-    "image_url": "https://images.pokemontcg.io/sv4pt5/logo.png"
+    "total_cards": 245,
+    "image_url": "https://images.pokemontcg.io/sv4pt5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv4pt5/symbol.png"
   },
   {
     "title": "Temporal Forces",
     "code": "sv5",
     "tcg": "pokemon",
     "release_date": "2024/03/22",
-    "total_cards": 162,
-    "image_url": "https://images.pokemontcg.io/sv5/logo.png"
+    "total_cards": 218,
+    "image_url": "https://images.pokemontcg.io/sv5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv5/symbol.png"
   },
   {
     "title": "Twilight Masquerade",
     "code": "sv6",
     "tcg": "pokemon",
     "release_date": "2024/05/24",
-    "total_cards": 167,
-    "image_url": "https://images.pokemontcg.io/sv6/logo.png"
+    "total_cards": 226,
+    "image_url": "https://images.pokemontcg.io/sv6/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv6/symbol.png"
   },
   {
     "title": "Shrouded Fable",
     "code": "sv6pt5",
     "tcg": "pokemon",
     "release_date": "2024/08/02",
-    "total_cards": 64,
-    "image_url": "https://images.pokemontcg.io/sv6pt5/logo.png"
+    "total_cards": 99,
+    "image_url": "https://images.pokemontcg.io/sv6pt5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv6pt5/symbol.png"
   },
   {
     "title": "Stellar Crown",
     "code": "sv7",
     "tcg": "pokemon",
     "release_date": "2024/09/13",
-    "total_cards": 142,
-    "image_url": "https://images.pokemontcg.io/sv7/logo.png"
+    "total_cards": 175,
+    "image_url": "https://images.pokemontcg.io/sv7/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv7/symbol.png"
   },
   {
     "title": "Surging Sparks",
     "code": "sv8",
     "tcg": "pokemon",
     "release_date": "2024/11/08",
-    "total_cards": 191,
-    "image_url": "https://images.pokemontcg.io/sv8/logo.png"
+    "total_cards": 252,
+    "image_url": "https://images.pokemontcg.io/sv8/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv8/symbol.png"
   },
   {
     "title": "Prismatic Evolutions",
     "code": "sv8pt5",
     "tcg": "pokemon",
     "release_date": "2025/01/17",
-    "total_cards": 131,
-    "image_url": "https://images.pokemontcg.io/sv8pt5/logo.png"
+    "total_cards": 180,
+    "image_url": "https://images.pokemontcg.io/sv8pt5/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv8pt5/symbol.png"
+  },
+  {
+    "title": "Journey Together",
+    "code": "sv9",
+    "tcg": "pokemon",
+    "release_date": "2025/03/28",
+    "total_cards": 190,
+    "image_url": "https://images.pokemontcg.io/sv9/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv9/symbol.png"
+  },
+  {
+    "title": "Destined Rivals",
+    "code": "sv10",
+    "tcg": "pokemon",
+    "release_date": "2025/05/30",
+    "total_cards": 244,
+    "image_url": "https://images.pokemontcg.io/sv10/logo.png",
+    "symbol_url": "https://images.pokemontcg.io/sv10/symbol.png"
   }
 ]

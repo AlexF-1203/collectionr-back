@@ -9,17 +9,17 @@ class SetSerializer(serializers.ModelSerializer):
         model = Set
         fields = [
             'id',
-            'user', 
-            'title', 
-            'code', 
-            'tcg', 
-            'release_date', 
-            'total_cards', 
-            'image_url', 
-            'created_at', 
+            'user',
+            'title',
+            'code',
+            'tcg',
+            'release_date',
+            'total_cards',
+            'image_url',
+            'created_at',
             'updated_at'
         ]
-        read_only_fields = ['created_at', 'updated_at']
+        read_only_fields = ['created_at', 'updated_at', 'title']
 
     def create(self, validated_data):
         user = self.context['request'].user

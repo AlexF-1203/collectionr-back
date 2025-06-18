@@ -24,18 +24,18 @@ from django.utils import timezone
 def main():
     parser = argparse.ArgumentParser(description='Importe les cartes Pokémon dans la base de données')
     parser.add_argument('--clear', action='store_true', help='Supprimer les cartes existantes avant l\'import')
-    parser.add_argument('--file', type=str, help='Chemin vers le fichier JSON', 
+    parser.add_argument('--file', type=str, help='Chemin vers le fichier JSON',
                        default=os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'seeds', 'pokemon_cards_seed.json'))
-    
+
     args = parser.parse_args()
-    
+
     # Supprimer les cartes existantes si demandé
     if args.clear:
         print('Suppression des cartes existantes...')
         count = Card.objects.all().count()
         Card.objects.all().delete()
         print(f'✓ {count} cartes supprimées')
-    
+
     # Charger les données depuis le fichier JSON
     print(f'Chargement des données depuis {args.file}...')
     try:
@@ -44,33 +44,54 @@ def main():
     except Exception as e:
         print(f'Erreur lors du chargement du fichier: {str(e)}')
         return
-    
+
     # Mapping de la rareté
     rarity_mapping = {
-        'Common': 'COMMON',
-        'Uncommon': 'UNCOMMON',
-        'Rare': 'RARE',
-        'Rare Holo': 'HOLORARE',
-        'Rare Ultra': 'ULTRARARE',
-        'Rare Secret': 'SECRETRARE',
-        # Ajoutez d'autres mappings si nécessaire
-    }
-    
+    'Common': 'COMMON',
+    'Uncommon': 'UNCOMMON',
+    'Rare': 'RARE',
+    'Rare Holo': 'HOLORARE',
+    'Rare Holo GX': 'HOLORAREGX',
+    'Rare Holo EX': 'HOLORAREEX',
+    'Rare Holo LV.X': 'HOLORARELVX',
+    'Rare Holo Star': 'HOLORARESTARRARE',  # Pour les cartes ★ brillantes (ex: Gold Star)
+    'Rare BREAK': 'BREAKRARE',
+    'Rare Prime': 'PRIMERARE',
+    'Rare Prism Star': 'PRISMRARE',
+    'Rare Rainbow': 'RAINBOWRARE',
+    'Rare Shining': 'SHININGRARE',
+    'Rare Shiny': 'SHINYRARE',
+    'Rare Shiny GX': 'SHINYRAREGX',
+    'Rare Ultra': 'ULTRARARE',
+    'Rare ACE': 'ACERARE',
+    'Rare Secret': 'SECRETRARE',
+    'Rare Holo V': 'HOLORAREV',
+    'Rare Holo VMAX': 'HOLORAREVMAX',
+    'Rare Holo VSTAR': 'HOLORAREVSTAR',
+    'Rare Illustration Rare': 'ILLUSTRATIONRARE',
+    'Rare Special Illustration Rare': 'SPECIALILLUSTRATIONRARE',
+    'Rare Double Rare': 'DOUBLERARE',
+    'Rare Triple Rare': 'TRIPLERAARE',
+    'Promo': 'PROMO',
+    'LEGEND': 'LEGENDRARE',  # Ex: Lugia LEGEND (carte en 2 parties)
+    'None': 'UNKNOWN'
+}
+
     # Date de référence pour les release_date (1 an en arrière)
     base_date = timezone.now() - timedelta(days=365)
-    
+
     # Importation des cartes
     print('Importation des cartes dans la base de données...')
     count = 0
     errors = 0
-    
+
     for card_data in cards_data:
         try:
             # On vérifie si la carte existe déjà (par set et numéro)
             if card_data.get('set') and card_data.get('number'):
                 # Convertir la rareté au format du modèle si possible
                 rarity = rarity_mapping.get(card_data.get('rarity', ''), 'COMMON')
-                
+
                 # Générer une date de sortie aléatoire si elle n'est pas présente
                 if card_data.get('release_date'):
                     try:
@@ -79,7 +100,7 @@ def main():
                         release_date = base_date + timedelta(days=random.randint(0, 365))
                 else:
                     release_date = base_date + timedelta(days=random.randint(0, 365))
-                
+
                 # Générer un prix aléatoire basé sur la rareté
                 price_mapping = {
                     'COMMON': (0.1, 1.0),
@@ -91,7 +112,7 @@ def main():
                 }
                 price_range = price_mapping.get(rarity, (0.1, 1.0))
                 price = round(random.uniform(*price_range), 2)
-                
+
                 # Vérifier si des prix sont disponibles dans les données de la carte
                 if 'prices' in card_data and card_data['prices']:
                     # Utiliser le premier prix disponible
@@ -102,7 +123,7 @@ def main():
                         elif isinstance(price_info, dict) and 'mid' in price_info:
                             price = price_info['mid']
                             break
-                
+
                 # Créer ou mettre à jour la carte
                 set_name = card_data.get('set_name', card_data.get('set', 'Unknown'))
                 card, created = Card.objects.update_or_create(
@@ -117,13 +138,13 @@ def main():
                         'release_date': release_date
                     }
                 )
-                
+
                 if created:
                     count += 1
         except Exception as e:
             print(f'Erreur lors de l\'importation de la carte: {str(e)}')
             errors += 1
-    
+
     print(f'✓ {count} cartes importées dans la base de données')
     if errors > 0:
         print(f'⚠ {errors} erreurs rencontrées')

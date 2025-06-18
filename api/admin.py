@@ -1,5 +1,5 @@
 from django.contrib import admin
-from .models import User, Collection, Card, Set, Favorites, CardPrice, News
+from .models import User, Collection, Card, Set, Favorites, CardPrice, News, UserSet
 
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
@@ -9,8 +9,8 @@ class UserAdmin(admin.ModelAdmin):
 
 @admin.register(Card)
 class CardAdmin(admin.ModelAdmin):
-    list_display = ('name', 'set_name','image_url')
-    search_fields = ('name', 'set_name')
+    list_display = ('name','image_url')
+    search_fields = ('name', 'set__title', 'number')
 
 @admin.register(Collection)
 class CollectionAdmin(admin.ModelAdmin):
@@ -19,8 +19,14 @@ class CollectionAdmin(admin.ModelAdmin):
 
 @admin.register(Set)
 class SetAdmin(admin.ModelAdmin):
-    list_display = ('user', 'title', 'release_date')
-    search_fields = ('user__username', 'title', 'release_date')
+    list_display = ('title', 'release_date')
+    search_fields = ('title', 'release_date')
+
+@admin.register(UserSet)
+class UserSetAdmin(admin.ModelAdmin):
+    list_display = ('user', 'set', 'card_count', 'total_cards', 'completion', 'completed')
+    search_fields = ('user__username', 'set__title')
+    list_filter = ('completed',)
 
 @admin.register(Favorites)
 class FavoritesAdmin(admin.ModelAdmin):

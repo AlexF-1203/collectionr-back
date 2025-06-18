@@ -7,18 +7,40 @@ class Card(models.Model):
     Modèle représentant une carte Pokémon.
     """
     RARITY_CHOICES = [
-        ('COMMON', 'Common'),
-        ('UNCOMMON', 'Uncommon'),
-        ('RARE', 'Rare'),
-        ('HOLORARE', 'Holo Rare'),
-        ('ULTRARARE', 'Ultra Rare'),
-        ('SECRETRARE', 'Secret Rare'),
-    ]
+    ('COMMON', 'Common'),
+    ('UNCOMMON', 'Uncommon'),
+    ('RARE', 'Rare'),
+    ('HOLORARE', 'Holo Rare'),
+    ('HOLORAREGX', 'Holo Rare GX'),
+    ('HOLORAREEX', 'Holo Rare EX'),
+    ('HOLORARELVX', 'Holo Rare LV.X'),
+    ('HOLORARESTARRARE', 'Holo Rare ★'),
+    ('BREAKRARE', 'Rare BREAK'),
+    ('PRIMERARE', 'Rare Prime'),
+    ('PRISMRARE', 'Rare Prism Star'),
+    ('RAINBOWRARE', 'Rare Rainbow'),
+    ('SHININGRARE', 'Rare Shining'),
+    ('SHINYRARE', 'Rare Shiny'),
+    ('SHINYRAREGX', 'Rare Shiny GX'),
+    ('HOLORAREV', 'Holo Rare V'),
+    ('HOLORAREVMAX', 'Holo Rare VMAX'),
+    ('HOLORAREVSTAR', 'Holo Rare VSTAR'),
+    ('ULTRARARE', 'Ultra Rare'),
+    ('ACERARE', 'Rare ACE'),
+    ('SECRETRARE', 'Secret Rare'),
+    ('ILLUSTRATIONRARE', 'Illustration Rare'),
+    ('SPECIALILLUSTRATIONRARE', 'Special Illustration Rare'),
+    ('DOUBLERARE', 'Double Rare'),
+    ('TRIPLERAARE', 'Triple Rare'),
+    ('PROMO', 'Promo'),
+    ('LEGENDRARE', 'Legend Rare'),
+    ('UNKNOWN', 'Unknown'),
+]
 
     name = models.CharField(max_length=100)
-    set_name = models.CharField(max_length=100)
+    set = models.ForeignKey("Set", on_delete=models.CASCADE, null=True, blank=True)
     number = models.CharField(max_length=20)
-    rarity = models.CharField(max_length=20, choices=RARITY_CHOICES)
+    rarity = models.CharField(max_length=50, choices=RARITY_CHOICES)
     image_url = models.URLField()
     price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
     description = models.TextField(blank=True)
@@ -27,11 +49,11 @@ class Card(models.Model):
     updated_at = models.DateTimeField(auto_now=True)
 
     class Meta:
-        unique_together = ['set_name', 'number']
+        unique_together = ['set', 'number']
         ordering = ['-created_at']
 
     def __str__(self):
-        return f"{self.name} ({self.set_name} #{self.number})"
+        return f"{self.name} ({self.set} #{self.number})"
 
 
 class CardPrice(models.Model):

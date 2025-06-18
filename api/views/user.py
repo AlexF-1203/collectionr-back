@@ -2,7 +2,7 @@ from rest_framework import viewsets, permissions, status
 from rest_framework.permissions import IsAdminUser, IsAuthenticated, AllowAny
 from rest_framework.decorators import action
 from rest_framework.response import Response
-from api.models import User, Collection, Card, Favorites, Set
+from api.models import User, Collection, Card, Favorites, Set, UserSet
 from api.serializers import UserSerializer, SetSerializer
 from django.db.models import Sum, Count
 import logging
@@ -63,11 +63,11 @@ class UserViewSet(viewsets.ModelViewSet):
         if request.method == 'GET':
             return Response({
                 'id': user.id,
+                'profilePicture': user.profile_picture.url if user.profile_picture else None,
                 'username': user.username,
                 'email': user.email,
                 'firstName': user.first_name,
                 'lastName': user.last_name,
-                'profilePicture': user.profile_picture.url if user.profile_picture else None
             })
 
         elif request.method == 'PATCH':
@@ -80,6 +80,8 @@ class UserViewSet(viewsets.ModelViewSet):
     @action(detail=False, methods=['patch'], permission_classes=[IsAuthenticated])
     def update_profile(self, request):
         user = request.user
+        print("FILES:", request.FILES)
+        print("DATA:", request.data)
         serializer = UserSerializer(user, data=request.data, partial=True)
         if serializer.is_valid():
             serializer.save()
@@ -98,7 +100,7 @@ class UserViewSet(viewsets.ModelViewSet):
                 Sum('quantity')
             ).get('quantity__sum', 0) or 0
 
-            sets_count = Collection.objects.filter(user=user).values('card__set_name').distinct().count()
+            sets_count = Collection.objects.filter(user=user).values('card__set').distinct().count()
 
             favorite_cards = []
             favorites = Favorites.objects.filter(user=user).order_by('-created_at')
@@ -108,13 +110,16 @@ class UserViewSet(viewsets.ModelViewSet):
                 favorite_cards.append({
                     'id': card.id,
                     'name': card.name,
-                    'set': card.set_name,
+                    'set': {
+                        'code': card.set.code,
+                        'title': card.set.title,
+                    },
                     'image': card.image_url,
                     'tcg': 'pokemon',
                     'currentPrice': float(card.price.amount),
                     'priceChange': 0,
                     'setCompletion': 0,
-                    'collectionName': card.set_name,
+                    'collectionName': card.set.title,
                     'createdAt': favorite.created_at.isoformat(),
                     'favoriteId': favorite.id
                 })
@@ -127,95 +132,60 @@ class UserViewSet(viewsets.ModelViewSet):
                 recent_cards.append({
                     'id': card.id,
                     'name': card.name,
-                    'set': card.set_name,
+                    'set': {
+                        'code': card.set.code,
+                        'title': card.set.title,
+                    },
                     'image': card.image_url,
                     'tcg': 'pokemon',
                     'currentPrice': float(card.price.amount),
                     'priceChange': 0,
                     'isFavorite': Favorites.objects.filter(user=user, card=card).exists(),
                     'setCompletion': 0,
-                    'collectionName': card.set_name,
+                    'collectionName': card.set.title,
                     'acquiredDate': collection.acquired_date.isoformat()
                 })
 
-            collections = {
-                'pokemon': [],
-                'yugioh': []
-            }
+            # Sets via UserSet
+            collections = {'pokemon': []}
+            logger.info(f"Récupération des UserSet pour l'utilisateur {user.username}")
 
-            logger.info(f"Récupération des sets pour l'utilisateur {user.username}")
+            user_sets = UserSet.objects.filter(user=user).select_related('set')
+            logger.info(f"Nombre de UserSet trouvés: {user_sets.count()}")
 
-            user_sets = Set.objects.filter(user=user)
-            logger.info(f"Nombre de sets trouvés dans le modèle Set: {user_sets.count()}")
-
-            for set_obj in user_sets:
-                owned_cards = Collection.objects.filter(
-                    user=user,
-                    card__set_name=set_obj.code
-                ).count()
-
-                total_in_set = Card.objects.filter(set_name=set_obj.code).count()
-
-                progress = int((owned_cards / total_in_set) * 100) if total_in_set > 0 else 0
-
-                logger.info(f"Set trouvé (modèle Set): {set_obj.title}, cartes: {owned_cards}/{total_in_set}")
-
+            for user_set in user_sets:
+                set_obj = user_set.set
                 collections['pokemon'].append({
                     'id': set_obj.id,
                     'title': set_obj.title,
-                    'ownedCards': owned_cards,
-                    'totalCards': total_in_set,
-                    'progress': progress,
+                    'ownedCards': user_set.card_count,
+                    'totalCards': user_set.total_cards,
+                    'progress': int(user_set.completion),
                     'imageUrl': set_obj.image_url,
                     'releaseDate': set_obj.release_date.strftime('%Y-%m-%d') if set_obj.release_date else ''
                 })
 
-            if not collections['pokemon']:
-                logger.info("Aucun set trouvé dans le modèle Set, utilisation de la méthode alternative")
-
-                pokemon_sets = Collection.objects.filter(user=user).values('card__set_name').annotate(
-                    cards_count=Count('card', distinct=True)
-                )
-
-                logger.info(f"Nombre de sets trouvés via collections: {pokemon_sets.count()}")
-
-                for pokemon_set in pokemon_sets:
-                    set_name = pokemon_set['card__set_name']
-                    owned_cards = pokemon_set['cards_count']
-                    total_in_set = Card.objects.filter(set_name=set_name).count()
-                    progress = int((owned_cards / total_in_set) * 100) if total_in_set > 0 else 0
-
-                    set_card = Card.objects.filter(set_name=set_name).first()
-
-                    logger.info(f"Set trouvé via collections: {set_name}, cartes: {owned_cards}/{total_in_set}")
-
-                    collections['pokemon'].append({
-                        'title': set_name,
-                        'ownedCards': owned_cards,
-                        'totalCards': total_in_set,
-                        'progress': progress,
-                        'imageUrl': set_card.image_url if set_card else '',
-                        'releaseDate': set_card.release_date.strftime('%Y-%m-%d') if set_card and set_card.release_date else ''
-                    })
-
+            # Valeur totale de la collection
             collection_value = Collection.objects.filter(user=user).aggregate(
                 value=Sum('card__price')
             ).get('value', 0) or 0
 
+            # Progression de la collection en % sur toutes les cartes
             total_cards_available = Card.objects.count()
             collection_progress = int((total_cards / total_cards_available) * 100) if total_cards_available > 0 else 0
 
-            sets = []
-            for set_obj in user_sets:
-                sets.append({
-                    'id': set_obj.id,
-                    'title': set_obj.title,
-                    'code': set_obj.code,
-                    'tcg': set_obj.tcg,
-                    'releaseDate': set_obj.release_date.strftime('%Y-%m-%d') if set_obj.release_date else '',
-                    'totalCards': set_obj.total_cards,
-                    'imageUrl': set_obj.image_url
-                })
+            # Format simplifié des sets (si nécessaire côté front)
+            sets = [{
+                'id': user_set.set.id,
+                'title': user_set.set.title,
+                'code': user_set.set.code,
+                'tcg': user_set.set.tcg,
+                'releaseDate': user_set.set.release_date.strftime('%Y-%m-%d') if user_set.set.release_date else '',
+                'totalCards': user_set.total_cards,
+                'imageUrl': user_set.set.image_url,
+                'ownedCards': user_set.card_count,
+                'progress': int(user_set.completion),
+            } for user_set in user_sets]
 
             return Response({
                 'totalCards': total_cards,
@@ -239,31 +209,28 @@ class CustomTokenObtainPairView(TokenObtainPairView):
     def post(self, request, *args, **kwargs):
         response = super().post(request, *args, **kwargs)
         if response.status_code == 200:
-            # Définir les cookies sécurisés
             response.set_cookie(
                 'access_token',
                 response.data['access'],
                 httponly=True,
-                secure=False,  # Mettre à True en production avec HTTPS
+                secure=False,
                 samesite='Lax',
-                max_age=60*15  # 15 minutes
+                max_age=60*15
             )
             response.set_cookie(
                 'refresh_token',
                 response.data['refresh'],
                 httponly=True,
-                secure=False,  # Mettre à True en production avec HTTPS
+                secure=False,
                 samesite='Lax',
-                max_age=60*60*24  # 1 jour
+                max_age=60*60*24
             )
-            # Supprimer les tokens de la réponse
             del response.data['access']
             del response.data['refresh']
         return response
 
 class CustomTokenRefreshView(TokenRefreshView):
     def post(self, request, *args, **kwargs):
-        # Obtenir le token de rafraîchissement du cookie
         refresh_token = request.COOKIES.get('refresh_token')
 
         if refresh_token:
@@ -272,17 +239,15 @@ class CustomTokenRefreshView(TokenRefreshView):
         response = super().post(request, *args, **kwargs)
 
         if response.status_code == 200:
-            # Définir le nouveau token d'accès dans un cookie
             response.set_cookie(
                 'access_token',
                 response.data['access'],
                 httponly=True,
-                secure=False,  # Mettre à True en production avec HTTPS
+                secure=False,
                 samesite='Lax',
-                max_age=60*15  # 15 minutes
+                max_age=60*15
             )
 
-            # Supprimer le token de la réponse JSON
             del response.data['access']
 
         return response
