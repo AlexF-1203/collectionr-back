@@ -14,7 +14,7 @@ class CardViewSet(viewsets.ModelViewSet):
     serializer_class = CardSerializer
     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
 
-    @action(detail=False, methods=['get'])
+    @action(detail=False, methods=["get"], url_path="search")
     def search(self, request):
         """
         Point de terminaison pour rechercher des cartes avec des filtres.

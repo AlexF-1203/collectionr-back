@@ -16,6 +16,7 @@ class SetSerializer(serializers.ModelSerializer):
             'release_date',
             'total_cards',
             'image_url',
+            'symbol_url',
             'created_at',
             'updated_at'
         ]
