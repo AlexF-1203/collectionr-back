@@ -107,6 +107,8 @@ class UserViewSet(viewsets.ModelViewSet):
 
             for favorite in favorites:
                 card = favorite.card
+                price_obj = card.prices.first()  # récupère le premier prix comme pour recent_cards
+
                 favorite_cards.append({
                     'id': card.id,
                     'name': card.name,
@@ -116,12 +118,21 @@ class UserViewSet(viewsets.ModelViewSet):
                     },
                     'image': card.image_url,
                     'tcg': 'pokemon',
-                    'currentPrice': float(card.price.amount),
-                    'priceChange': 0,
+                    'currentPrice': float(card.price.amount) if card.price else None,
+                    'price': float(card.price.amount),
+                    'priceChange': 0,  # À mettre à jour plus tard si tu calcules une diff
                     'setCompletion': 0,
                     'collectionName': card.set.title,
                     'createdAt': favorite.created_at.isoformat(),
-                    'favoriteId': favorite.id
+                    'favoriteId': favorite.id,
+
+                    # 👇 On ajoute les mêmes infos de prix que recent_cards
+                    'prices': [{
+                        'avg1': float(price_obj.avg1) if price_obj else None,
+                        'avg7': float(price_obj.avg7) if price_obj else None,
+                        'avg30': float(price_obj.avg30) if price_obj else None,
+                        'daily_price': price_obj.daily_price if price_obj else {}
+                    }] if price_obj else []
                 })
 
             recent_cards = []
@@ -129,6 +140,8 @@ class UserViewSet(viewsets.ModelViewSet):
 
             for collection in recent_collections:
                 card = collection.card
+                price_obj = card.prices.first()  # récupère le premier prix lié à la carte
+
                 recent_cards.append({
                     'id': card.id,
                     'name': card.name,
@@ -138,12 +151,20 @@ class UserViewSet(viewsets.ModelViewSet):
                     },
                     'image': card.image_url,
                     'tcg': 'pokemon',
-                    'currentPrice': float(card.price.amount),
+                    'price': float(card.price.amount),
                     'priceChange': 0,
                     'isFavorite': Favorites.objects.filter(user=user, card=card).exists(),
                     'setCompletion': 0,
                     'collectionName': card.set.title,
-                    'acquiredDate': collection.acquired_date.isoformat()
+                    'acquiredDate': collection.acquired_date.isoformat(),
+
+                    # 👇 On ajoute les données de prix ici :
+                    'prices': [{
+                        'avg1': float(price_obj.avg1) if price_obj else None,
+                        'avg7': float(price_obj.avg7) if price_obj else None,
+                        'avg30': float(price_obj.avg30) if price_obj else None,
+                        'daily_price': price_obj.daily_price if price_obj else {}
+                    }] if price_obj else []
                 })
 
             # Sets via UserSet

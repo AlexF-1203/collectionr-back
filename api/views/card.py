@@ -34,3 +34,17 @@ class CardViewSet(viewsets.ModelViewSet):
 
         serializer = self.get_serializer(queryset, many=True)
         return Response(serializer.data)
+
+# class CardPriceViewSet(viewsets.ViewSet):
+#     """
+#     ViewSet pour obtenir le prix d'une carte spécifique.
+#     """
+#     permission_classes = [permissions.IsAuthenticatedOrReadOnly]
+
+#     @action(detail=True, methods=["get"], url_path="price")
+#     def get_price(self, request, pk=None):
+#         try:
+#             card = Card.objects.get(pk=pk)
+#             return Response({"price": card.price})
+#         except Card.DoesNotExist:
+#             return Response({"error": "Card not found"}, status=404)
