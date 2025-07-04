@@ -1,5 +1,6 @@
 from django.db import models
 from djmoney.models.fields import MoneyField
+from django.contrib.postgres.fields import ArrayField
 
 
 class Card(models.Model):
@@ -44,6 +45,10 @@ class Card(models.Model):
     image_url = models.URLField()
     price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
     description = models.TextField(blank=True)
+    clip_embedding = models.JSONField(blank=True, null=True)  # Liste de floats
+    phash = models.CharField(max_length=64, blank=True, null=True)
+    histogram = models.JSONField(blank=True, null=True)      # Liste de floats
+    descriptors = models.BinaryField(blank=True, null=True)
     release_date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
