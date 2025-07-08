@@ -5,5 +5,6 @@ from .set import SetViewSet
 from .favorites import FavoritesViewSet
 from .user_google import GoogleLoginView
 from .news import NewsViewSet
+from .card_identification import CardIdentificationView
 
-__all__ = ['CardViewSet', 'CollectionViewSet', 'UserViewSet', 'SetViewSet', 'FavoritesViewSet', 'GoogleLoginView', 'NewsViewSet']
+__all__ = ['CardViewSet', 'CollectionViewSet', 'UserViewSet', 'SetViewSet', 'FavoritesViewSet', 'GoogleLoginView', 'NewsViewSet', 'CardIdentificationView']

@@ -1,6 +1,6 @@
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import CardViewSet, CollectionViewSet, UserViewSet, SetViewSet, FavoritesViewSet, NewsViewSet
+from .views import CardViewSet, CardIdentificationView, CollectionViewSet, UserViewSet, SetViewSet, FavoritesViewSet, NewsViewSet
 from .views.user import LogoutView
 
 router = DefaultRouter()
@@ -13,6 +13,7 @@ router.register(r'news', NewsViewSet, basename='news')
 
 urlpatterns = [
     path('', include(router.urls)),
+    path('card-identification/', CardIdentificationView.as_view(), name='card-identification'),
     path('user/profile/', UserViewSet.as_view({'get': 'profile'}), name='user-profile'),
     path('user/update/', UserViewSet.as_view({'patch': 'update_profile'}), name='user-profile-update'),
     path('user/profile/data/', UserViewSet.as_view({'get': 'profile_data'}), name='user-profile-data'),
