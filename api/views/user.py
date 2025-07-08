@@ -14,22 +14,12 @@ from rest_framework.generics import RetrieveUpdateAPIView
 logger = logging.getLogger(__name__)
 
 class UserViewSet(viewsets.ModelViewSet):
-    """
-    ViewSet pour gérer les opérations CRUD sur les utilisateurs.
-    Différentes permissions selon l'action.
-    """
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
     permission_classes = [AllowAny]
 
     def get_permissions(self):
-        """
-        Permissions basées sur l'action:
-        - list, retrieve, destroy: admin seulement
-        - create: tout le monde (inscription)
-        - autres: utilisateur authentifié
-        """
         logger.info(f"Action demandée: {self.action}")
 
         if self.action in ['list', 'retrieve', 'destroy']:
@@ -43,9 +33,6 @@ class UserViewSet(viewsets.ModelViewSet):
         return super().get_permissions()
 
     def create(self, request, *args, **kwargs):
-        """
-        Créer un nouvel utilisateur et journaliser l'opération
-        """
         logger.info(f"Tentative de création d'utilisateur avec les données: {request.data}")
         try:
             return super().create(request, *args, **kwargs)
@@ -90,9 +77,6 @@ class UserViewSet(viewsets.ModelViewSet):
 
     @action(detail=False, methods=['get'], permission_classes=[IsAuthenticated])
     def profile_data(self, request):
-        """
-        Récupère les données détaillées du profil utilisateur (collections, favoris, etc.)
-        """
         user = request.user
 
         try:
@@ -120,13 +104,12 @@ class UserViewSet(viewsets.ModelViewSet):
                     'tcg': 'pokemon',
                     'currentPrice': float(card.price.amount) if card.price else None,
                     'price': float(card.price.amount),
-                    'priceChange': 0,  # À mettre à jour plus tard si tu calcules une diff
+                    'priceChange': 0,
                     'setCompletion': 0,
                     'collectionName': card.set.title,
                     'createdAt': favorite.created_at.isoformat(),
                     'favoriteId': favorite.id,
 
-                    # 👇 On ajoute les mêmes infos de prix que recent_cards
                     'prices': [{
                         'avg1': float(price_obj.avg1) if price_obj else None,
                         'avg7': float(price_obj.avg7) if price_obj else None,
@@ -140,7 +123,7 @@ class UserViewSet(viewsets.ModelViewSet):
 
             for collection in recent_collections:
                 card = collection.card
-                price_obj = card.prices.first()  # récupère le premier prix lié à la carte
+                price_obj = card.prices.first()
 
                 recent_cards.append({
                     'id': card.id,
@@ -158,7 +141,6 @@ class UserViewSet(viewsets.ModelViewSet):
                     'collectionName': card.set.title,
                     'acquiredDate': collection.acquired_date.isoformat(),
 
-                    # 👇 On ajoute les données de prix ici :
                     'prices': [{
                         'avg1': float(price_obj.avg1) if price_obj else None,
                         'avg7': float(price_obj.avg7) if price_obj else None,
@@ -167,7 +149,6 @@ class UserViewSet(viewsets.ModelViewSet):
                     }] if price_obj else []
                 })
 
-            # Sets via UserSet
             collections = {'pokemon': []}
             logger.info(f"Récupération des UserSet pour l'utilisateur {user.username}")
 
@@ -186,16 +167,13 @@ class UserViewSet(viewsets.ModelViewSet):
                     'releaseDate': set_obj.release_date.strftime('%Y-%m-%d') if set_obj.release_date else ''
                 })
 
-            # Valeur totale de la collection
             collection_value = Collection.objects.filter(user=user).aggregate(
                 value=Sum('card__price')
             ).get('value', 0) or 0
 
-            # Progression de la collection en % sur toutes les cartes
             total_cards_available = Card.objects.count()
             collection_progress = int((total_cards / total_cards_available) * 100) if total_cards_available > 0 else 0
 
-            # Format simplifié des sets (si nécessaire côté front)
             sets = [{
                 'id': user_set.set.id,
                 'title': user_set.set.title,

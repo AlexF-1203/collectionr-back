@@ -4,9 +4,6 @@ from django.contrib.postgres.fields import ArrayField
 
 
 class Card(models.Model):
-    """
-    Modèle représentant une carte Pokémon.
-    """
     RARITY_CHOICES = [
     ('COMMON', 'Common'),
     ('UNCOMMON', 'Uncommon'),
@@ -38,16 +35,16 @@ class Card(models.Model):
     ('UNKNOWN', 'Unknown'),
 ]
 
-    name = models.CharField(max_length=100)
+    name = models.CharField(max_length=100, db_index=True)
     set = models.ForeignKey("Set", on_delete=models.CASCADE, null=True, blank=True)
     number = models.CharField(max_length=20)
-    rarity = models.CharField(max_length=50, choices=RARITY_CHOICES)
+    rarity = models.CharField(max_length=50, choices=RARITY_CHOICES, db_index=True)
     image_url = models.URLField()
     price = MoneyField(max_digits=10, decimal_places=2, default_currency='USD')
     description = models.TextField(blank=True)
-    clip_embedding = models.JSONField(blank=True, null=True)  # Liste de floats
+    clip_embedding = models.JSONField(blank=True, null=True)
     phash = models.CharField(max_length=64, blank=True, null=True)
-    histogram = models.JSONField(blank=True, null=True)      # Liste de floats
+    histogram = models.JSONField(blank=True, null=True)
     descriptors = models.BinaryField(blank=True, null=True)
     release_date = models.DateField()
     created_at = models.DateTimeField(auto_now_add=True)

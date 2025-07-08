@@ -8,6 +8,9 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     libpq-dev \
     tesseract-ocr \
     libopencv-dev \
+    libopenblas-dev \
+    libomp-dev \
+    python3-dev \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
 
@@ -26,4 +29,4 @@ COPY . .
 EXPOSE 8000
 
 # Définir le point d'entrée
-ENTRYPOINT ["./docker-entrypoint.sh"] 
+ENTRYPOINT ["./docker-entrypoint.sh"]

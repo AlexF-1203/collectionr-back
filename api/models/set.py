@@ -3,7 +3,7 @@ from django.conf import settings
 
 
 class Set(models.Model):
-    title = models.CharField(max_length=100)
+    title = models.CharField(max_length=100, db_index=True)
     code = models.CharField(max_length=20, unique=True)
     tcg = models.CharField(max_length=100)
     release_date = models.DateField()
