@@ -1,4 +1,3 @@
-# apps.py
 from django.apps import AppConfig
 import logging
 
@@ -9,6 +8,4 @@ class ApiConfig(AppConfig):
     name = 'api'
 
     def ready(self):
-        # Ne pas initialiser le modèle au démarrage
         logger.info("✅ Application API prête (modèle CLIP en attente)")
-        # Pas d'initialize_model()

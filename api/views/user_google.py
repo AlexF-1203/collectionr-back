@@ -80,7 +80,6 @@ class GoogleLoginView(APIView):
 
         response = HttpResponseRedirect(settings.BASE_APP_URL)
 
-        # Placer les cookies
         response.set_cookie(
             key="access_token",
             value=access_token,

@@ -4,9 +4,6 @@ from .card import Card
 
 
 class Collection(models.Model):
-    """
-    Modèle représentant la collection de cartes d'un utilisateur.
-    """
     CONDITION_CHOICES = [
         ('MINT', 'Mint'),
         ('NM', 'Near Mint'),

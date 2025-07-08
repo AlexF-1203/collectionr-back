@@ -5,10 +5,8 @@ import os
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Charger les variables d'environnement
 load_dotenv()
 
-# Configuration de l'API
 API_KEY = os.getenv('POKEMON_TCG_API_KEY')
 if not API_KEY:
     raise ValueError("La clé API Pokémon TCG n'est pas configurée. Veuillez définir POKEMON_TCG_API_KEY dans votre fichier .env")
@@ -18,7 +16,7 @@ RestClient.configure(API_KEY)
 class PokemonCardManager:
     def __init__(self):
         self.cards_data = []
-        
+
     def extract_card_info(self, card_id: str) -> Dict:
         """
         Extrait les informations d'une carte spécifique
@@ -29,17 +27,17 @@ class PokemonCardManager:
         """
         try:
             card = Card.find(card_id)
-            
+
             # Récupération du prix si disponible
             prices = {}
             if hasattr(card, 'tcgplayer') and hasattr(card.tcgplayer, 'prices'):
                 prices = card.tcgplayer.prices
-            
+
             # Récupération de la date de sortie du set
             release_date = None
             if hasattr(card, 'set') and hasattr(card.set, 'releaseDate'):
                 release_date = card.set.releaseDate
-            
+
             return {
                 'id': card.id,
                 'set': card.set.id,
@@ -101,6 +99,6 @@ class PokemonCardManager:
         if filename is None:
             timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
             filename = f'pokemon_cards_seed_{timestamp}.json'
-            
+
         with open(filename, 'w', encoding='utf-8') as f:
             json.dump(self.cards_data, f, indent=2)
