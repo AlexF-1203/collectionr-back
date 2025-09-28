@@ -77,7 +77,8 @@ class CardIdentifierFromDB:
                     "number": card.number,
                     "rarity": card.rarity,
                     "price": str(card.price),
-                    "set_name": card.set.title if card.set else None
+                    "set_name": card.set.title if card.set else None,
+                    "image_url": card.image_url
                 })
             except Exception as e:
                 logger.warning(f"⚠️ Erreur embedding carte ID {card.id}: {e}")
@@ -166,7 +167,8 @@ class ProductQuantizedIdentifier:
                     "number": card.number,
                     "rarity": card.rarity,
                     "price": str(card.price),
-                    "set_name": card.set.title if card.set else None
+                    "set_name": card.set.title if card.set else None,
+                    "image_url": card.image_url
                 })
             except Exception as e:
                 logger.warning(f"⚠️ Erreur embedding carte ID {card.id}: {e}")

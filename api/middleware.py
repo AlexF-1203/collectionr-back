@@ -2,7 +2,6 @@ from django.utils.deprecation import MiddlewareMixin
 from django.conf import settings
 
 class JWTCookieMiddleware(MiddlewareMixin):
-    """Middleware qui extrait les tokens JWT des cookies et les place dans l'entête d'autorisation"""
 
     def __call__(self, request):
         PUBLIC_PATHS = [

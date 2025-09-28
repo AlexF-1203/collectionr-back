@@ -59,6 +59,10 @@ class Card(models.Model):
 
 
 class CardPrice(models.Model):
+    """
+    Modèle pour stocker les prix des cartes Pokémon.
+    Il inclut les prix moyens sur 1, 7 et 30 jours, ainsi qu'une tendance de prix quotidienne.
+    """
     card = models.ForeignKey(Card, on_delete=models.CASCADE, related_name='prices')
     avg1 = models.DecimalField(max_digits=10, decimal_places=2)
     avg7 = models.DecimalField(max_digits=10, decimal_places=2)

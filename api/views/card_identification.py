@@ -1,4 +1,3 @@
-# views/card_identification.py
 import threading
 from django.core.cache import cache
 import time
